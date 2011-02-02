@@ -88,11 +88,11 @@ CLOSED: [2011-02-01 Tue 10:23]
   - [X] E dinamo e j parallel
 
 ** TODO Presentazione workshop sul flow
-** TODO To be read [6/11]
+** TODO To be read [7/11]
   - [X] Piovesan
   - [X] Bonomo
   - [X] Camenen and up-down asymmetry [[file:~/Documents/RFX/Papers/2010/Camenen/CamenenPlasma%20Physics%20and%20Controlled%20Fusion-52-2010-1.pdf][TCV]].--> Non e' interessante penso
-  - [ ] IDA and LHD [[file:~/Documents/RFX/Papers/2008/Ida/IdaJ.%20Phys.%20Conf.%20Ser.-123-2008.pdf][review]]
+  - [X] IDA and LHD [[file:~/Documents/RFX/Papers/2008/Ida/IdaJ.%20Phys.%20Conf.%20Ser.-123-2008.pdf][review]]
   - [ ] Leggi articolo Le haye [[file:~/Documents/RFX/Papers/2010/La%20Haye/La%20HayePhys.%20Plasmas-17-2010.pdf][article]]
   - [ ] Leggi articolo [[file:~/Documents/RFX/Papers/2008/Cole/ColePhys.%20Plasmas-15-2008.pdf][Cole]]
   - [X] Leggi articolo [[file:~/Documents/RFX/Papers/2010/Nave/NavePhys.%20Rev.%20Lett.-105-2010.pdf][Nave]]
