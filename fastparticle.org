@@ -1,0 +1,160 @@
+#+STARTUP: hidestars
+#+STARTUP: logdone
+#+PROPERTY: Effort_ALL  0:10 0:20 0:30 1:00 2:00 4:00 6:00 8:00
+#+COLUMNS: %38ITEM(Details) %TAGS(Context) %7TODO(To Do) %5Effort(Time){:} %6CLOCKSUM{Total}
+#+PROPERTY: Effort_ALL 0 0:10 0:20 0:30 1:00 2:00 3:00 4:00 8:00
+#+LaTeX_CLASS:amsart
+#+LaTeX_CLASS_OPTIONS:11pt
+#+LATEX_HEADER:\usepackage{amssymb} 
+#+LATEX_HEADER:\usepackage{graphicx}
+#+LATEX_HEADER:\usepackage{geometry}
+#+LATEX_HEADER:\geometry{a4paper}
+#+LATEX_HEADER:\usepackage{colorx}    
+
+* Letteratura
+** Lista articoli da leggere
+   [/] Ecco una lista di possibili articoli da Leggere 
+   List 
+   - [ ] Vlad et al. Nucl. Fusion (2009) vol. 49 pp. 07502
+   - [ ] Albergante et al. Phys. Plasmas (2009) vol. 16 (11) pp. 112301-8
+   - [ ] Shinohara et al. Nucl. Fusion (2001) vol. 41 pp. 603
+   - [ ] Briguglio et al. Phys. Plasmas (2007) vol. 14 (5) pp. 055904
+   - [ ] Vlad et al. Riv Nuovo Cimento (1999) vol. 22 (7) pp. 1-97
+   - [ ] Vlad et al. Nucl. Fusion (2006) vol. 46 (1) pp. 1-16
+   - [ ] Vlad et al. AIP Conference Proceedings (2006)
+   - [ ] Zonca et al. Plasma Phys. Control. Fusion (2006) vol. 48 (12B) pp. B15-B28
+   - [ ] Pinches et al. Plasma Phys. Control. Fusion (2004) vol. 46 pp. B187-B200
+   - [ ] Chen & Hasegawa, PoF vol 17 pag 1399 (1974)
+   - [ ] Chen, PoP vol 1 pag 1519 (1994)
+
+
+* Appunti e considerazioni
+** Vlad et al. Riv Nuovo Cimento (1999) vol. 22 (7) pp. 1-97
+*** Teoria Lineare
+**** Plasma infinito ed omogeneo
+    Si parte dalle equazioni dell'MHD ideale con conservazione della massa, equazione del moto, equazione di stato, 
+    legge di Ohm ideale e le equazioni di maxwell. 
+    Nel caso di un plasma infinito omogeneo e linearizzando rispetto ad una perturbazione generica 
+    $f(\mathbf{r},t)=\hat{f}e^{{-(i\omega t \mathbf{k}\cdot \mathbf{r})}}$ is ottiene il set di equazioni che descrivono le 
+    onde in un plasma infinito ed omogeneo. In particolare si hanno due branch particolari.
+    + *Shear Alfven Waves* che soddisfano alla relazione di
+      dispersione \omega^2=\omega_A^2 = k_{\parallel}^2v_A^2. Che non
+      dipendono dal vettore d'onda perpendicolar k_{\perp} e sono
+      un'onda *puramente trasversa* con la perturbazione di campo
+      magnetico parallela alla perturbazione di velocita e
+      perpendicolare al campo magnetico di equilibrio. Dal momento che
+      siamo in MHD ideale dall'equazione di Ohm otteniamo che la
+      componente di velocita perpendicolare e' la velocita di drift
+      E\times B. Conseguentemente il moto e' incomprimibile (\nabla v
+      =0) e non si hanno perturbazioni di densita e pressione. L'onda
+      di shear alfven deriva dal bilancio del termine inerziale
+      \rho\frac{d v}{dt} e dalla /magnetic field line tension/ \mathbf{J}\times\mathbf{B}
+    + *Fast magneto-acoustic wave* con una frequenza \omega_f maggiore
+      della frequenza di alfven. Se vale l'approssimazione di \beta
+      \ll 1 allora la fast-magnetoacoustic-wave ha una relazione di
+      dispersione del tipo \omega_f^2 =
+      (k_\perp^2+k_\parallel^2)v_A^2. Si dimostra che nel limite di
+      \beta<1 il rapporto fra la perturbazione di pressione cinetica e
+      la perturbazione di pressione magnetica e' dell'ordine /O(\beta)/
+    + *Slow magneto-acoustic wave* In questo caso si ha che la
+      frequenza e' minore della frequenza di Alfven ed ancora nel caso
+      \beta \ll 1 la relazione di dispersione e' del tipo \omega_s^2
+      \approx k_\parallel^2 v_s^2. Il fluido e' dominato dal moto
+      parallelo mentre la compressione del campo magnetico e'
+      dell'ordine /O(\beta)/ rispetto a quella cinetica
+    Quella piu' instabile e' quella di *shear alfven* sia perche'
+    incomprimibile che perche' con una velocita di gruppo parallela al
+    campo.
+
+**** Non uniform slab configuration
+    Consideriamo ora un equilibrio 1D con un campo magnetic sheared
+    del tipo \mathbf{B}_0(x)=B_{0y}(x)\mathbf{e}_y +
+    B_{0z}(x)\mathbf{e}_z. L'equazione di equilibrio diventa
+    \frac{d}{dx}\left(P_0+\frac{B_0^2}{8\pi})=0. La trattazione
+    continua in funzione di una generica funzione di *displacement*
+    \delta\mathbf{v}=\frac{\partial \xi}{\partial t}. In questo modo
+    arriva ad una equazione d'onda che prevede le stesse tre branche
+    ma che sono accoppiate fra loro. In particolare esiste una
+    singolarita per \epsilon = \omega\rho_m\mu_0-\k_{\parallel}^2B^2
+    in cui troviamo le due relazioni di dispersione rispettivamente
+    dell'onda di shear alfven ed un'altra relazione. Questa
+    singolarita' e' causa del fenomeno del *phase
+    mixing*. Concettualmente la trattazione continua nell'ipotesi di
+    un B_0=B_0e_z ed una densita dipendente dalla variabile x. In
+    particolare si ipotizza di scrivere ciascuna perturbazione come
+    una somma di perturbazioni locali ciascuna delle quali soddisfa
+    l'equazione D_A \psi_{Al}(z|x) = 0 con D_A operatore di Alfven
+    della forma \partial^2/\partial z^2 + \frac{\omega_2}{v_A^2}. In
+    particolare si ottiene una /local dispersion relation/ della forma
+    $\omega^{2} = \omega_{Al} (x_{Rl})$ che e' soddisfatta alla
+    posizione dove lo spettro continuo delle onde di shear alven
+    risuona. Il concetto di accoppiamento fra le onde shear alfven e
+    le onde compressionali implica che *le onde compressionali che
+    hanno una velocita di gruppo trasversale al campo magnetico
+    accumulano energia nella risonanza delle onde di shear alfven*. Un
+    analisi al limite asintotico $\omega_{Al}t \longrightarrow \infty$
+    rivela una divergenza nel vettore d'onda k_x che deriva dalla non
+    validita' del limite MHD alle scale piccole. Tale non validita' e'
+    dovuta alla dinamica delle piccole scale ad esmpio per la presenza
+    di un campo elettrico parallelo finito ($\delta E_{\parallel}$) ad
+    esempio indotto da effetti di raggio di larmor finito o da una
+    piccola ma non trascurabile inerzia elettronica. Includendole si
+    puo' tener conto di una propagazione finita di energia attraverso
+    le superfici risonanti. Nell'ipotesi di $m_e/M_i \ll \beta_{e} \ll
+    1$ otteniamo una equazione per le onde KAW. In particolare si
+    arriva ad una equazione della forma
+
+    \begin{equation}
+    [4\omega^{2}\nabla_{\perp}^{2}\rho_{K}\nabla_{\perl}^{2}+\nabla_{\perp}\cdot\epsilon_{Al}\nabla_{\perp}]\hat{\xi_{xl}}=0
+    \end{equation}
+    dove $\rho_{K}$ tiene conto del *Landau damping* ionico ed
+    elettronico. Si forma un *boundary layer* attorno alla risonanza
+    dell'onda di shear Alfven. L'equazione descrive il *mode
+    conversion* da un'onda MHD ad una instabilita a piccola scala. La
+    relazione di dispersione si puo' anche scrivere nella forma $\omega^{2}=(1+4k_{\perp}^{2}\rho_{K})\omega_{Al}^{2}$.
+
+**** Onde in un equilibrio assial simmetrico non uniforme generico.
+    Consideriamo ora le equazioni che governano le onde di Shear Alfven
+    in un equilibrio generale con un grado di simmetria rispetto alle
+    rotazioni ipotizziamo rispetto all'asse z. Si concentra sul caso
+    ad alto numero toroidale alto n con lunghezze caratteristice della
+    forma $\lambda_{\per}=a/n$ $\lambda_{\parallel}=R_0$ ed $n \ll
+    1$. L'equazione di base da cui si parte e' l'equazione di
+    continuita' di carica per la perturbazione di corrente
+    $\nabla\cdot \delta\mathbf{J} = 0$ che si distingue in parte
+    perpendicolare e parte parallela. La componente di corrente
+    parallela si scrive in funzione del potenziale vettore 
+
+    \begin{equation}
+    \delta J_{\parallel} = -\frac{c}{4\pi}\nabla_{\perp}^{2}\delta
+    A_{\parallel} (1+O (\frac{a}{nR_{0}}))
+    \end{equation}
+    Inoltre il potenziale vettore puo' essere legato al potenziale
+    scalare qualora si consideri la legge di Ohm parallela (ideal)
+    $\delta E_{\parallel} = 0$. La componente perpendicolare di
+    corrente viene invece calcolata a partire dall'equazione di
+    bilancio delle forze in cui si tiene conto che il potenziale
+    scalare si ricava sempre dalla legge di Ohm ($B_0\times\delta
+    v_{\perp} = -c\nabla_{\perp}\delta\phi)$ e la perturbazione di
+    pressione si ottiene come $\delta P \approx \left(
+    \frac{ck_{\perp}}{\omega B_{0}}\frac{\partial P_{0}}{\partial
+    r}\delta \phi\right)$ vale a dire perturbazione di pressione e di
+    potenziale sono legate fra di loro. Si nota che dal momento che
+    siamo con $n \ll 1$ e con una localizzazione radiale del modo, e
+    che i modi sono caratterizzati da tempi dell'ordine dello shear
+    Alfven time, piu' lungo rispetto al caso comprimibile. Questo
+    implica che il plasma sia incomprimibile $4\pi \delta P =
+    B_{0}\delta B_{\parallel}=0$. Si arriva ad una equazione per la
+    vorticita totalmente generale
+
+    \begin{equation}
+    B_{0}\hat{\mathbf{b}}\cdot\nabla\left[\frac{1}{B_{0}}\nabla_{\perp}^{2}\hat{\mathbf{b}}\cdot\nabla\delta\phi\right] + 
+    \nabla\cdot\left[\frac{4\pi\rho_{0}}{B_{0}^{2}}\omega^{2}\nabla_{\perp}\delta\phi\right]-
+    8\pi\mathbf{k}\times\frac{\mathbf{B}_{0}}{B_{0}^{2}}\cdot\nabla_{\perp}\left[\left(\frac{\mathbf{B}_{0}\times\nabla
+    P_{0}}{B_{0^{2}}}\right)\cdot\nabla_{\perp}\delta\phi\right]=0
+    \end{equation}
+
+**** Waves in a cylinder
+    
+
+

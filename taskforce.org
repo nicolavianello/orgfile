@@ -1,0 +1,129 @@
+#+STARTUP: hidestars
+#+STARTUP: logdone
+#+PROPERTY: Effort_ALL  0:10 0:20 0:30 1:00 2:00 4:00 6:00 8:00
+#+COLUMNS: %38ITEM(Details) %TAGS(Context) %7TODO(To Do) %5Effort(Time){:} %6CLOCKSUM{Total}
+#+PROPERTY: Effort_ALL 0 0:10 0:20 0:30 1:00 2:00 3:00 4:00 8:00
+
+* STARTED Crea pagina web task force III rieditata 
+** SOMEDAY Insert typical example of internal and external transport barrier
+** STARTED [#B] Insert possible bibliography on Edge Transport Barrier and Pedestal 
+** DONE Include presentation on Barriers on TF3 site
+   CLOSED: [2010-02-25 Thu 15:37]
+** DONE Include list of proposals at TF3 on TF3 site
+   CLOSED: [2010-02-25 Thu 15:37]
+* Minute and notes from TFL meeting
+** Meeting <2010-01-19 Tue>
+   :PROPERTIES:
+   :at:       Aula Riunioni II Piano
+   :with:     Piero MariaEster David Rita Gianluca PaoloP PaoloF Monica Roberto Loris Samuele
+   :END:
+   Discussion on program for week 4 18-23 January.
+   + P. Martin: do not agree in performing 50 kA F scan on a freshed
+     boronized wall. Could be dangerous also because no control scheme
+     for deep F at such high current
+   + R. Cavazzana: agree with PM. Better to perform discharges up to
+     45 kA of I_m which are more likely to be obtained. Only at the
+     very end attempt to move towards 50 kA. Also propose to use He
+     discharges for physics studies
+   + M.E.Puiatti: agree to communicate to P.Innocente changes for the
+     current week. Together with P.Martin and all the TFL propose to
+     use He discharge just to implant Li into the wall. Any /strange/ behavior
+
+** DONE Meeting <2010-01-25 Mon>
+   CLOSED: [2010-02-25 Thu 14:53]
+   :PROPERTIES:
+   :on:       <2010-01-25 Mon 12:39>
+   :at:       I floor meeting room
+   :with:     Novello Cavazzana Piovesan Zanotto Franz Lorenzini Puiatti Marchiori Terranova Spizzo Vianello Spolaore
+   :END:
+   Discussion on programme for week 5 02.02.2010-05.02.2010. Decisions taken
+   + high performance RFP discharge after  Lithization
+   + I_m up to 45 kA. 50 kA avoided for remaining problems on short-circuiting
+   + Control scheme to be adopted: 2010 (modified version of 2009
+     according to P.Zanca)
+   + No H Pellet available
+   + F \approx -0.04
+   For the current week two additional proposal on decoupling matrices
+   and imposed rotazion (#137 by Martines). R.Cavazzana proposes to
+   perform tests on I_p controller. It must be checked the
+   compatibility with proposal #137 (not compatible with decoupling matrices)
+   G. Spizzo will made a presentation on the aims of next week
+   campaign at the forthcoming RFX Sci&Op meeting.
+** Meeting TFL
+   :PROPERTIES:
+   :on:       <2010-03-02 Tue 12:22>
+   :at:       Aula I Piano
+   :with:     PaoloP Gianluca Giuseppe ME Puiatti Roberto Loris LorisA Monica Piero
+   :END:
+   + Settimana 23-26 Febbraio Sperimentazione a 50 kA con corrente Ip
+     fino a 1.9 MA ma con problemi di sforzi elettromeccanici su
+     bobine F
+   + G.Marchiori comunica che gli sforzi sono essenzialmente su bobine
+     F7-F8 dove c'e' la maggiore corrente per il controllo dello
+     shift. Si puo' intervenire in due modi
+     * Intervenire sulla rete anticipatrice (introdotta per tenere
+       conto del ritardo della scocca). Poco utile e forse dannoso
+     * Redistribuzione delle correnti (poche % dovrebbero essere
+       sufficienti). Strada che si e' deciso di intraprendere
+   + Riconfigurazione alimentazioni.
+     * R.Cavazzana: la riconfigurazione rende piu' robusta la salita
+       fino a 2 MA oltre a rendere la dIp/dt minore alla fine della
+       rampa facilitando anche gli sforzi. E' poi una modifica che
+       permette esperimenti OFCD piu' agevoli
+     * L.Zanotto: la modifica prevede
+       1.Riconfigurazione di SIGMA: 1 week/Modesto
+       2.Modifica Hardware circa 2week/Ditta Pillon/ 10kEuro
+       3.Facile da tornare indietro 
+
+** Meeting
+  :PROPERTIES:
+   :on:       <2010-05-10 Mon 15:28>
+   :at:       Aula Riunioni II Piano
+   :with:     NV RL MEP MS PF
+   :END: 
+
+** Meeting
+   :PROPERTIES:
+   :on:       <2010-05-21 Fri 14:53>
+   :at:       Aula Riunioni II Piano
+   :with:     Rita MariaEster Piero
+   :END: 
+   Strategie per campagna sperimentale di Luglio. Si opta per una
+   nuova proposta sperimentale a nome TFL ed allargarla con le
+   proposte per la riunione di Mercoledi 26/05
+   - Si decide per scariche con F = -0.02, I_p \approx 1.8 MA,
+     sostenimento al minimo e leggermente decadente
+   - Si decide per pellet o puffing alla Martini per operare ad alta corrente
+   - Piero propone di pensare ad esperimenti tipo PPCD/OPCD
+     eventualmente chiedendo fattibilita di impianto durante impulsi Giugno
+   - Boundary Elicoidale
+   
+* Campagna sperimentale Luglio 2010
+** DONE Scrittura programma sperimentale
+   DEADLINE: <2010-06-29 Tue> CLOSED: [2010-07-13 Tue 19:46]
+   - State "DONE"       from "STARTED"    [2010-07-13 Tue 19:46]
+   Proposte associate [/]
+   - [X] Bonomo # 14
+   - [ ] Gazza # 17
+   - [X] Cavazzana # 24
+   - [X] # 92
+   - [ ] Lorenzini # 82
+   - [ ] Zuin # 51
+   - [ ] Spolaore # 49
+   - [ ] Bonfiglio # 26
+   - [ ] Carraro # 12
+   - [ ] Bonomo # 15
+   - [ ] Cavazzana # 27
+   - [X] Terranova # 29
+   - [ ] Momo # 58
+
+** Impulsi e riferimenti
+   <2010-07-07 Wed>
+   - Shot 28660 riferimento per I_m = 45 kA senza rampa di corrente
+   - Impulso 28656 con SHAx Elevate
+   - 28676 a corrente piu' alta
+
+* IAEA2010
+** DONE Referaggio IAEA M.E.Puiatti 
+   DEADLINE: <2010-02-23 Tue> CLOSED: [2010-02-25 Thu 14:53]
+   - State "DONE"       from "STARTED"    [2010-02-25 Thu 14:53]

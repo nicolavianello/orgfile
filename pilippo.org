@@ -1,0 +1,13 @@
+#+TAGS: WORK(w) PHONE(p) MAIL(M) MEETING(m) READING(r) 
+#+TYP_TODO: TODO MAYBE WAITING NEXT DONE
+#+STARTUP: showall
+#+STARTUP: hidestars
+
+* DONE Pediatra: Tomorrow at 9.00				       :MEETING:
+  SCHEDULED: <2007-11-29 Thu> CLOSED: [2007-11-29 Thu 11:43]
+
+* DONE Passare Farmacia Poggi					       :MEETING:
+  SCHEDULED: <2007-11-28 Wed> CLOSED: [2007-11-29 Thu 11:42]
+
+* DONE Visita Erica						       :MEETING:
+  SCHEDULED: <2007-12-12 Wed> CLOSED: [2007-12-17 Mon 10:36]

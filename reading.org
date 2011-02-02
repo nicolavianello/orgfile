@@ -1,0 +1,25 @@
+#+TAGS: WORK(w) PHONE(p) MAIL(M) MEETING(m) READING(r) 
+#+TYP_TODO: TODO MAYBE WAITING NEXT INPROGRESS DONE 
+#+STARTUP: showall
+#+STARTUP: hidestars
+
+
+* Article to read on Momentum Transport
+** DONE [#B] Diamond PoP January 2008 [[http://scitation.aip.org/getabs/servlet/GetabsServlet%3Fprog%3Dnormal&id%3DPHPAEN000015000001012303000001&idtype%3Dcvips&gifs%3DYes][PAPER]]			    :READING:
+   CLOSED: [2009-12-28 Mon 11:35]
+
+* Article on Blobs
+** DONE Krasheninikov Preprint Review				    :READING:
+   CLOSED: [2009-12-28 Mon 11:34]
+** DONE Furno Preprint						    :READING:
+   CLOSED: [2009-12-28 Mon 11:34]
+** DONE Myra							    :READING:
+   CLOSED: [2009-12-28 Mon 11:34]
+
+* Article on Alfvenicity
+
+* Papers
+** DONE Current-sheets						    :READING:
+   CLOSED: [2009-12-28 Mon 11:35]
+** DONE Statistical GPI						    :READING:
+   CLOSED: [2009-12-28 Mon 11:35]

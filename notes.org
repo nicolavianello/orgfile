@@ -1,0 +1,18 @@
+##     C-c C-c  "~/elisp/org/notes.org" -> "* Notes"
+## C-u C-c C-c  like C-c C-c, and immediately visit note at target location
+## C-0 C-c C-c  "???" -> "* ???"
+## C-1 C-c C-c  to select file and header location interactively.
+## C-2 C-c C-c  as child of the currently clocked item
+## To switch templates, use `M-x org-remember'.  To abort use `C-c C-k'.
+
+* prova a vedere se funziona
+  CLOCK: [2010-01-05 Tue 14:24]--[2010-01-05 Tue 14:27] =>  0:03
+
+  Date: [2010-01-05 Tue]
+* Notes
+** TODO prova 
+
+   Date: [2010-01-05 Tue]
+** Prova a chiamare Federica per aggiornamenti Luca Tornatore
+
+   Date: [2010-01-07 Thu]

@@ -1,0 +1,75 @@
+#+STARTUP: hidestars
+#+STARTUP: logdone
+* Acquisto Citroen C4						    :PROJECT:
+** DONE Phone @ Assicurazione Erica per passaggio		      :PHONE:
+   CLOSED: [2010-02-19 Fri 16:31]
+   - State "DONE"       from "STARTED"    [2010-02-19 Fri 16:31]
+   + 2 gg prima richiesta preventivo per trasferimento
+   + Preventivo spedito via fax, firmato e rispedito
+   + Contestualmente spedire libretto dell'auto nuova, atto di vendita
+     del vecchio veicolo 24 h prima del ritiro
+*** DONE Spedire documentazione e pagamento			   :HOME:PAY:
+    DEADLINE: <2010-02-19 Fri> CLOSED: [2010-02-19 Fri 16:31]
+
+** c/o Boldring
+   + Visione macchina e controllo
+   + Pagamento con bonifico in data/valuta giorno ritiro e distinta di pagamento
+   + Portare vecchia automobile con libretto/atto proprieta/attestato
+     pagamento bollo/libretto manutenzione. Viene rilasciato la presa
+     possesso. L'atto formale una decina di giorni dopo
+
+** DONE Cerca Atto di proprieta Nissan Micra			     :SEARCH:
+   CLOSED: [2010-02-09 Tue 15:42]
+** DONE Spedire Documenti assicurazione furto/incendio		       :HOME:
+   CLOSED: [2010-03-09 Tue 12:28]
+** WAITING Phone @ Boldrin per atto vendita Nissan		 :HOME:PHONE:
+* Conto Corrente Maintainance
+** TODO Riallinea spese effettuate a conto corrente  
+  SCHEDULED: <2010-10-01 Fri .+7d>
+  - State "DONE"       from "TODO"       [2010-09-24 Fri 14:49]
+  - State "DONE"       from "TODO"       [2010-09-10 Fri 10:41]
+  - State "DONE"       from "TODO"       [2010-08-27 Fri 08:56]
+  - State "DONE"       from "TODO"       [2010-07-14 Wed 09:11]
+  - State "DONE"       from "TODO"       [2010-06-29 Tue 09:22]
+  - State "DONE"       from "TODO"       [2010-06-15 Tue 13:49]
+  - State "DONE"       from "TODO"       [2010-06-03 Thu 11:14]
+  - State "DONE"       from "TODO"       [2010-05-24 Mon 11:37]
+  - State "DONE"       from "TODO"       [2010-05-21 Fri 14:52]
+  - State "DONE"       from "TODO"       [2010-05-18 Tue 14:24]
+  - State "DONE"       from "TODO"       [2010-05-05 Wed 19:03]
+  - State "DONE"       from "TODO"       [2010-04-30 Fri 10:35]
+  - State "DONE"       from "TODO"       [2010-03-31 Wed 11:36]
+  - State "DONE"       from "TODO"       [2010-03-23 Tue 11:08]
+  - State "DONE"       from "TODO"       [2010-03-22 Mon 10:22]
+  - State "DONE"       from "TODO"       [2010-03-03 Wed 17:19]
+  - State "DONE"       from "TODO"       [2010-02-26 Fri 14:24]
+  - State "DONE"       from "TODO"       [2010-02-02 Tue 11:18]
+  - State "DONE"       from "TODO"       [2010-01-25 Mon 10:04]
+  - State "DONE"       from "TODO"       [2010-01-18 Mon 13:57]
+   - State "DONE"       from "TODO"       [2010-01-15 Fri 10:46]
+   - State "DONE"       from "TODO"       [2010-01-08 Fri 11:59]
+ :PROPERTIES:
+   :STYLE: habit
+ :LAST_REPEAT: [2010-09-24 Fri 14:49]
+   :END:
+** DONE Trasferisci soldi da BNL a ING 
+   DEADLINE: <2010-09-07 Tue> CLOSED: [2010-09-10 Fri 10:41]
+* Condominio La Fornace
+** DONE Pagamento I rata Condominio 302.96 
+   DEADLINE: <2010-03-01 Mon> CLOSED: [2010-02-26 Fri 14:15]
+** DONE Pagamento II Rata Condominio 198.55				:PAY:
+   DEADLINE: <2010-05-01 Sat> CLOSED: [2010-05-05 Wed 19:03]
+** DONE Pagamento III Rata Condominio 198.55				:PAY:
+   DEADLINE: <2010-09-01 Wed> CLOSED: [2010-09-24 Fri 11:55]
+* Home
+** Francesca Pollastrini
+*** DONE Pagamento 200 Euro						:PAY:
+    DEADLINE: <2010-07-14 Wed> CLOSED: [2010-07-14 Wed 09:11]
+** Tasse 
+DEADLINE: <2011-01-31 Mon>
+  - [ ] Canone RAI 
+* Regalia
+** DONE Bonifico Italo
+   CLOSED: [2010-09-24 Fri 11:51]
+   IBAN: IT17K0316501600000110483876
+   euro 190 per regalo Matteo Morgantin

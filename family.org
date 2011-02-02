@@ -1,0 +1,244 @@
+#+STARTUP: hidestars
+#+STARTUP: logdone
+#+PROPERTY: Effort_ALL  0:10 0:20 0:30 1:00 2:00 4:00 6:00 8:00
+#+COLUMNS: %38ITEM(Details) %TAGS(Context) %7TODO(To Do) %5Effort(Time){:} %6CLOCKSUM{Total}
+#+PROPERTY: Effort_ALL 0 0:10 0:20 0:30 1:00 2:00 3:00 4:00 8:00
+
+  
+* Iscrizione Filippo ad Asilo
+** DONE Iscrivere Filippo ad asilo Collodi
+   DEADLINE: <2010-05-07 Fri> CLOSED: [2010-05-07 Fri 14:19]
+
+** DONE Riunione Asilo 
+   SCHEDULED: <2010-09-08 Wed> CLOSED: [2010-09-24 Fri 14:50]
+* Home Maintainance
+** DONE Chiamare 187 per restituzione Alice Home TV		      :PHONE:
+   DEADLINE: <2010-05-04 Tue> CLOSED: [2010-05-07 Fri 14:19]
+
+* Testi Canzoni
+** Ma l'amore no di Gigliola Cinquetti
+   Ma l'amore no,
+   l'amore mio non può
+   disperdersi nel vento con le rose
+   tanto è forte che non cederà,
+   non sfiorirà.
+   Io lo veglierò,
+   io lo difenderò
+   da tutte quelle insidie velenose
+   che vorrebbero strapparlo al cuor,
+   povero amor.
+
+   Forse te ne andrai
+   da altre donne le carezze cercherai
+   - ahimè! -
+   e se tornerai
+   già sfiorita ogni bellezza troverai
+   in me.
+
+   Ma l'amore no,
+   l'amore mio non può
+   dissolversi con l'oro dei capelli
+   finch'io vivo sarà vivo in me,
+   solo per te.
+
+   Forse te ne andrai
+   da altre donne le carezze cercherai
+   - ahimè! -
+   e se tornerai
+   già sfiorita ogni bellezza troverai
+   in me.
+
+   Ma l'amore no,
+   l'amore mio non può
+   dissolversi con l'oro dei capelli
+   finch'io vivo sarà vivo in me,
+   solo per te
+
+** Seconda Stella a Destra E.Bennato
+   Seconda stella a destra
+   questo è il cammino,
+   e poi dritto fino al mattino
+   poi la strada la trovi da te,
+   porta all'isola che non c'è.
+
+   Forse questo ti sembrerà un strano,
+   ma la ragione ti ha un po' preso la mano.
+   Ed ora sei quasi convinto che
+   non può esistere un'isola che non c'è.
+
+   E a pensarci, che pazzia,
+   è una favola, è solo fantasia
+   e chi è saggio, chi è maturo lo sa:
+   non può esistere nella realtà!
+
+   Son d'accordo con voi,
+   non esiste una terra
+   dove non ci son santi né eroi
+   e se non ci son ladri,
+   e se non c'è mai la guerra,
+   forse è proprio l'isola che non c'è
+   ... che non c'è.
+
+   E non è un'invenzione
+   e neanche un gioco di parole
+   se ci credi ti basta perché
+   poi la strada la trovi da te.
+
+   Son d'accordo con voi,
+   niente ladri e gendarmi,
+   ma che razza di isola è?
+   Niente odio e violenza,
+   né soldati, né armi,
+   forse è proprio l'isola che non c'è
+   ... che non c'è.
+
+   Seconda stella a destra
+   questo è il cammino,
+   e poi dritto fino al mattino
+   non ti puoi sbagliare perché
+   quella è l'isola che non c'è!
+   E ti prendono in giro
+   se continui a cercarla,
+   ma non darti per vinto perché
+   chi ci ha già rinunciato
+   e ti ride alle spalle
+   forse è ancora più pazzo di te!
+* Compravendita casa
+** DONE Tecnocasa --> assegno					    :MEETING:
+
+   CLOSED: [2010-07-13 Tue 19:43]
+** Preliminare
+*** DONE [3/3]
+    CLOSED: [2010-09-24 Fri 12:02]
+    - [X] Chiamare Paolo G per verificare disponibilita 1 Settembre
+    - [X] Chiamare Tecnocasa per fissare per 02/09/2010
+    - [X] Verificare effettivamente casa libera
+** Ricerca mutuo [3/3]
+   - [X] Prenota incontro BNL
+   - [X] Prenota incontro UNICredit
+   - [X] Prenota incontro BancaIntesa/Cassa di Risparmio del Veneto
+* Film
+** Da scaricare [0/6]
+   - [ ] L'uomo che verra' di G. Diritti
+   - [ ] Gli amori folli di Alain Resnais
+   - [ ] Copia Conforme di A. Kiarostami
+   - [ ] Il tempo che ci rimane di Elia Suleiman
+   - [ ] Bambi
+   - [ ] 
+* Concorso ENEA 2010
+** Impact factor
+   - Nuclear Fusion 4.27
+   - Plasma phys. Contr. Fusion 2.409
+   - New Journal of Phys. 3.312
+   - PRL
+   - RSI 1.521
+   - PoP 2.475
+   - Nature Physics 15.491
+   - FED 1.122
+** TODO [13/14]
+   - [X] Chiedere a Gianluigi per IPAC 2010 copia degli abstract
+   - [X] Aggiungi alle pubblicazioni ed alla copia conformita
+   - [X] Ricerca Copia del certificato di laurea
+   - [X] CD-ROM con pubblicazioni
+   - [X] Concorso IGI. Scarica risultati definitivi
+   - [X] Ricerca titolo poster INFM 
+   - [X] Vedi NBI modelling Meeting Novembre 2009 --> Gianluigi
+   - [X] Lavoro database per Meeting Modelling
+   - [X] Aggiunte presentazioni poster-orali alla sezione conferenze
+   - [ ] Allineare CV con-senza pubblicazioni
+   - [X] Autocertificazione Unica art. 46 e 47
+   - [X] Copiare ultima versione RSI-Erica da sottomettere in cartella CD-rom
+   - [X] Controllare pubblicazione Elsevier di Pasqualotto
+   - [X] Stampare Fotocopia Carta Identita
+
+** Da spedire [6/6]
+   - [X] Domanda con lista allegati
+   - [X] Copia del certificato di Laurea
+   - [X] Copia della Carta di Identita
+   - [X] Dichiarazione sostitutiva copia conforme originali titoli
+   - [X] Dichiarazione sostitutiva 
+   - [X] CD-Rom con pubblicazioni
+
+** DONE Prenotare albergo CASACCIA				     :SEARCH:
+   DEADLINE: <2010-11-16 Tue> CLOSED: [2010-11-18 Thu 13:47]
+* Babysitting
+** Silvia
+   Cell.:349/6351795 -  Email: mellaz36@yahoo.it
+   Signora 39enne automunita,referenziata,non fumatrice, 
+   esperienza come collaboratrice presso asilo privato offresi come
+   baby sitter al mattino o al pomeriggio dal lunedi al venerdi zona
+   Padova ovest. Disponibile da subito. Richiedesi ed offresi max
+   serietà. Preferibilmente per rapporto continuativo. 
+   Sono alla ricerca di un impegno giornaliero per almeno 3 - 4 ore al
+   giorno. 
+*** <2010-09-26 Sun> Appuntamento Lunedi ore 9.00. Silvia
+    
+** Marta
+   Cell.:3457986697 -  Email: mgmarta80@gmail.com
+   Salve a tutte le mamme che sono alla ricerca di una baby sitter
+   seria e affidabile e magari che vi aiuti anche con qualche piccolo
+   lavoretto domestico. 
+   Mi chiamo Marta, ho 30 anni e sono mamma di una bimba di 4 anni, 
+   sono automunita e ho molta esperienza coi bambini, specie coi
+   neonati. Sono disponibile da subito, meglio se full-time dal lun al
+   ven, zona Casalserugo e limitrofi. Se interessati contattatemi
+   presto. Grazie!
+*** Appuntamento Marta lunedi ore 10.45 <2010-09-26 Sun>
+** Offresi baby-sitter - zona Ponte San Nicolò	20/09/2010
+   Tel.:0498967070 - Cell.:3201832697 -  Email:
+   Giovane signora con comprovata esperienza come baby-sitter, 
+   si rende disponibile a qualsiasi orario e giorno della settimana 
+   (compresi serali e festivi). Zona Ponte San Nicolò e limitrofi. 
+   Massima serietà e referenze.
+*** Appuntamento Chiara lunedi ore 18.00 <2010-09-26 Sun>
+
+*** Tendenzialmente no
+** Alina
+   Cell.:3207117896 -  Email: alina.gasper@gmail.com
+   Signora 30enne,seria,referenziata,amante dei bambini,
+   non fumatrice offresi come colf,baby sitter,aiuto
+   compiti,pulizie,stiro.
+   Richiedesi ed offresi max serietà.
+   Disponibile da subito.Se interessati contattatemi.
+*** NO, mezzi pubblici posto lontanto
+** Anna Maria
+   Cell.:3405439549 -  Email: namycav@libero.it
+   41enne italiana con esperienza e referenze cerca lavoro come 
+   baby sitter disponibile ad un piccolo aiuto domestico automunita 
+   chiedo e offro massima serietà per info:3405439549
+*** Solo Mattina. Ma richiama per far sapere per se o per ltre
+** Catia
+   Cell.:3404846055 -  Email: catia.j5e5@alice.it
+   Ragazza 28enne seria e amante dei bambini CERCO LAVORO 
+   come baby-sitter,aiuto compiti,aiuto domestico e stiro.
+   Ho esperienza con bambini di tutte le età,sono stata 
+   anche animatrice per il mio comune.Zona Padova Sud.
+*** Solo mattina 8.30-12. No
+** Masiero Martina
+   PLURIREFERENZIATA, e con anni di esperienza per dimbi da 
+   10 mesi ai 9 anni, automunita, italiana, educata, solare, 
+   svolgo anche LAVORETTI DOMESTICI zone PD sud
+*** Appuntamento Martina Masiero <2010-09-28 Tue>
+*** Buona impressione forse non le va bene il prezzo
+** Donatella
+   Cell.:338-9087650 -  Email: donazeta69@yahoo.it
+   Offro ventennale esperienza con bambini di tutte le età, anche
+   molto piccoli, referenziata, 
+   affidabile e allo stesso tempo solare e motivata nel rapporto con i
+   bimbi. Attenta alle ESIGENZE EDUCATIVE DEI GENITORI, esperta nel
+   fronteggiare 
+   MOMENTI PROBLEMATICI DELLO SVILUPPO (sonno, alimentazione, etc), 
+   nel SOSTEGNO SCOLASTICO e nelle ANIMAZIONI PER LE FESTE ANCHE DEI
+   PIù PICCOLI. 
+   Disponibile a piccolo aiuto domestico. Per ulteriori informazioni tel Donatella.
+*** Impressione discreta. Un po' strana  
+* Marie Curie Fellowship & Other
+** List of eligible calls
+- [ ] Marie Curie Intra-European Fellowships for Career Development
+  (IEF) [[http:http://cordis.europa.eu/fp7/mariecurieactions/ief_en.html][call]]. Publication expected for 16 Marzo 2011
+- [ ] MARIE CURIE CO-FUNDING OF REGIONAL, NATIONAL AND INTERNATIONAL
+  PROGRAMMES (COFUND) [[http:http://cordis.europa.eu/fp7/dc/index.cfm?fuseaction%3DUserSite.PeopleDetailsCallPage&call_id%3D381][call]]
+- [ ] MARIE CURIE INTERNATIONAL OUTGOING FELLOWSHIPS FOR CAREER
+  DEVELOPMENT (IOF) expected publication 16 marzo 2011 [[http://cordis.europa.eu/fp7/mariecurieactions/iof_en.html][website]]
+- [ ] Culham Fusion Research Fellowship Deadline 28 Febbraio 2011 [[http://www.ccfe.ac.uk/Fellowships.aspx#Culham][Call]]
+

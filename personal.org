@@ -1,0 +1,28 @@
+#+STARTUP: showall
+#+STARTUP: hidestars
+
+* Computer mantainance
+** TODO Back-up on time machine 
+   SCHEDULED: <2010-08-07 Sat .+30d>
+   - State "DONE"       from "TODO"       [2010-07-08 Thu 11:41]
+   - State "DONE"       from "TODO"       [2010-05-05 Wed 19:03]
+   - State "DONE"       from "TODO"       [2010-03-23 Tue 11:08]
+   - State "DONE"       from "TODO"       [2010-01-11 Mon 15:12]
+  :PROPERTIES:
+   :STYLE: habit
+  :LAST_REPEAT: [2010-07-08 Thu 11:41]
+   :END:
+
+* Ricerca casa
+** Da agenzia Pianeta Casa 049 8766222
+   + Link [[http://www.casapadova.it/Padova__Centro/Prato_della_Valle/Vendita/Appartamento-25881.html][casa]] Prato della Valle: Si trova in via Manzoni angolo via Crescini
+   + Link [[http://www.casapadova.it/Padova__Centro/Santa_Croce/Vendita/Bi_Trifamiliare-24222.html][Bifamiliare]] santa Croce: si trova in via Capodilista angolo
+     via Giornano Bruno
+
+** Da Agenzia Promo Padova 049 723075
+   + Link [[http://www.casapadova.it/Padova/SGiuseppe/Vendita/Bi_Trifamiliare-26604.html][Bifamiliare]] laterale di via Sorio. Mercoledi 20 ore 13.00
+     ag. con sig. Fulvio 3297775197
+
+
+* Acquisto casa via Tivaroni
+

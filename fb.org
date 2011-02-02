@@ -1,0 +1,187 @@
+#+STARTUP: hidestars
+#+STARTUP: logdone
+#+PROPERTY: Effort_ALL  0:10 0:20 0:30 1:00 2:00 4:00 6:00 8:00
+#+COLUMNS: %38ITEM(Details) %TAGS(Context) %7TODO(To Do) %5Effort(Time){:} %6CLOCKSUM{Total}
+#+PROPERTY: Effort_ALL 0 0:10 0:20 0:30 1:00 2:00 3:00 4:00 8:00
+
+* Minutes riunioni FB
+** Meeting <2010-01-20 Wed>
+   :PROPERTIES:
+   :on:       <2010-01-20 Wed 11:57>
+   :with:     Monica Gianluca Barbara Emanuele Silvia Emilio Roberto
+   :at:       Aula Riunione Primo Piano
+   :END:
+
+   1) Proposte attivita' per dottorato
+      * Realizzazione ed utilizzo tesa di misura per manipolatore veloce con inclusione della misura di corrente media
+      * Una attivita sul Litio (con LLL e misura di modifica bordo)
+   2) Suggerita una attivita sulle ETB da coordinare con Riflettometro
+   3) Proposte per IAEA 2010: Suggerito un lavoro di edge che include flow & isole m=0, g-modes & drift-modes da eventualmente includere con RFP-Tyr, profili esterni
+
+* Manipolatori
+** STARTED [6/6] Modifica sistema di movimentazione manipolatori
+   - [X] Leggere nota di Andrea 
+   - [X] Piccola ricerca di mercato su sistema di movimentazione
+   - [X] Rispondere ad Andrea
+   - [X] Indagare possibilita di spesa
+   - [X] Chiedere a Marco Boldrin per ~ 9000 euro spesa in conto
+     aperto RS + Electroingross
+   - [X] Centro-stella per variazione velocita motore0
+** TODO Verifica chiusura valvola Gate per we
+   SCHEDULED: <2010-10-01 Fri .+7d>
+   - State "DONE"       from "TODO"       [2010-09-24 Fri 14:51]
+   - State "DONE"       from "TODO"       [2010-07-13 Tue 19:46]
+   :PROPERTIES:
+   :LAST_REPEAT: [2010-09-24 Fri 14:51]
+   :END:
+
+** TODO Check List
+  - [X] Check list di attivazione per <2010-05-27 Thu> 
+  - [ ] Modifica check list con attivazione scatola sonda tripla anche
+	con solo manipolatore portacampioni
+** Shutdown Ottobre 2010
+*** DONE Smontaggio Manipolatori
+DEADLINE: <2010-09-23 Thu> CLOSED: [2010-10-18 Mon 12:58]
+   - [X] Talk @ Andrea 
+   - [X] Determina giorni per smontaggio
+* Call for proposal Tokamaks
+** DONE TCV
+   DEADLINE: <2010-09-15 Wed> CLOSED: [2010-09-15 Wed 16:59]
+
+* Rapporto attivita 2010
+** DONE [3/3] Paragrafi da fare
+   CLOSED: [2010-11-29 Mon 14:10]
+  - [X] 2.5.3 Turbulence and momentum (2p)
+  - [X] 4.7.1 Asdex (1p)
+  - [X] 6.7 Arcless (1/2 pagina)
+** Paragrafo 2.5.3: Turbulence and edge momentum transport studies (2p)
+*** Da contributo IAEA introdurre:
+   - [X] Flow: Gundestrup + ISIS (helical flow + dynamo estimate)
+   - [X] Helical plasma wall interaction from Vf + and HFS/LFS
+     H_alpha. Dipendenza da Delta e dDelta/dPhi
+   - [X] 
+** Paragrafo 4.7.1 Asdex
+*** TODO [0/3] da inserire
+  - [ ] Confronto fra mono-dipolo simulato esperimento
+  - [ ] Nuova figura con la stima della corrente
+  - [ ] Statistica
+** Pargrafo 6.7 Arcless
+* Tesi
+** DONE Mail @ eugenio.calabrese@yahoo.it			       :MAIL:
+   CLOSED: [2010-11-29 Mon 14:23]
+
+** Vedi Mail [[message://auto-000005565640@igi.cnr.it][Fwd: Studente triennale interessato ad una tesi proposta]] per laurea triennale su distribuzione toroidale di velocita e limite di densita
+*** DONE mail @ alberto.mazzi					       :MAIL:
+CLOSED: [2011-01-20 Thu 14:01]
+
+* Call for proposals 2011 & Workshop di programma
+DEADLINE: <2011-02-01 Tue>
+:PROPERTIES:
+:dowith: Me
+:END:
+** DONE Proposte da fare [5/6]
+CLOSED: [2011-02-01 Tue 10:23]
+  - [X] Riferimenti non nulli a bassa corrente e misura di j//
+  - [X] Campo elettrico di dynamo in QSH
+  - [X] RFX-tok: zonal flows
+  - [X] RFX-tok: filamenti
+  - [X] E dinamo e j parallel
+
+** TODO Presentazione workshop sul flow
+** TODO To be read [6/11]
+  - [X] Piovesan
+  - [X] Bonomo
+  - [X] Camenen and up-down asymmetry [[file:~/Documents/RFX/Papers/2010/Camenen/CamenenPlasma%20Physics%20and%20Controlled%20Fusion-52-2010-1.pdf][TCV]].--> Non e' interessante penso
+  - [ ] IDA and LHD [[file:~/Documents/RFX/Papers/2008/Ida/IdaJ.%20Phys.%20Conf.%20Ser.-123-2008.pdf][review]]
+  - [ ] Leggi articolo Le haye [[file:~/Documents/RFX/Papers/2010/La%20Haye/La%20HayePhys.%20Plasmas-17-2010.pdf][article]]
+  - [ ] Leggi articolo [[file:~/Documents/RFX/Papers/2008/Cole/ColePhys.%20Plasmas-15-2008.pdf][Cole]]
+  - [X] Leggi articolo [[file:~/Documents/RFX/Papers/2010/Nave/NavePhys.%20Rev.%20Lett.-105-2010.pdf][Nave]]
+  - [ ] Leggi IAEA [[file:~/LN/rhome/Fisica/RFX/RFX-mod-Programme-WS-2011/to%20be%20read/ov_4-3.pdf][Callen]]
+  - [ ] Leggi IAEA [[file:~/LN/rhome/Fisica/RFX/RFX-mod-Programme-WS-2011/to%20be%20read/ov_5-4.pdf][Peeters]]
+  - [X] Leggi articolo Garofalo PRL 1010
+  - [X] Leggi articolo [[file:~/Documents/RFX/Papers/2007/Spong/SpongNuclear%20Fusion-47-2007.pdf][Spong]]. Troppo specifico su DKES e PENTA per la
+    determinazione del flow
+*** Nave
+ The presence of a magnetic ripple breaks the toroidal symmetry so
+ that the motion of individual particles may lead to nonambipolar
+ transport that can affect the plasma rotation through the
+ neoclassical toroidal viscosity. During NBI magnetic ripple has an
+ effect as the ripple transport of fast ions induces edge
+ counterrotation in plasmas. Experiment in JET performed in Ohmic
+ plasmas where CXRS angular frequency consistent with MHD propagation
+ (*different from our cases*). Results is that in the core in the core
+ where is naturally countercorrent, toroidal rotation becomes more
+ negative whereas at the edge corotation decreases and for ripple of 1
+ % it becomes counter-current. Theory suggest that toroidal field
+ ripple, by breacking toroidal simmetry, induces radial particle
+ diffusion which could be different for ions and electrons. This
+ non-ambipolar transport gives rise to a charge separation that
+ relaxes the radial electric field and the toroidal rotation toward a
+ steady state where particle flux is ambipolar. In TORE SUPRA
+ analogous experiment reveal the consequence of too high ripple in
+ term of magnetic well.
+*** Garofalo
+- Esiste un neoclassical offset toroidal rotation associated with a
+  Torque T_{NR}\propto (V_{\phi}-V_{\phi}^0) driven by static
+  nonresonant fields. Comparable to ion diamagnetic drift but opposite direction
+- Existence of offset toroidal rotation proven by looking the
+  \omega_{\phi} vs torque density (zero torque --> 50 km/s)
+- Modification of flow profile modifies \omega_E = E_r/RB_{\theta} and
+  lead to confinement improvement consistent with microturbulence stabilization
+- V_{\phi}^{0,NC} \approx (k_c/Z_ieB_{\theta})(\partial
+  T_i/\partial_r) with k_c depending on collisionality
+*** Callen IAEA
+- Si scrive una equazione di trasporto del toroidal angular momentum
+  density con diversi contributi 
+  \frac{\partial L}{\partial t} = NTV + resonant FE + cl,neo,pal +
+  Reynolds + momentum source
+  - *Collision-induced toroidal torque* Proporzionale alla
+    perturbazione normalizzata ed alla differenza fra flow toroidale e NC toroidal
+    rotation offset (quest'ultimo proporzionale al gradiente di
+    temperatura ionica). C'e' una costante chiamata toroidal viscosity
+    frequency che dipende dal regime collisionale. The presence of 3D
+    fields introduce radial drifts of the center of trapped-ion banana
+    orbits with a drift velocity proportional to the normalized perturbation.
+
+*** Spong
+Troppo specifico. Tratta di DKES e PENTA. Interessante secondo me e'
+la frase per cui in stellarator ions and electron loss rates are not
+automatically ambipolar leading to electric field formation.
+** TODO Presentation outline
+1. Motivation and outline
+2. Core measurements: passive from BV and CV (figura del 1D impurity
+   transport model). Toroidal and Poloidal rotation profile. Hints we
+   have intrinsic toroidal rotation
+3. Core measurements: Helical pattern determined through the
+   application of non-zero reference for most internal mode with
+   convective cell (fig poloidal cross section)
+4. Shearing rate (location around the barrier with \omega_E \approx \gamma_{MT}) dependence on amplitude of the perturbation. Confronto
+   con Nave PRL fig 2(b) (although in that case NR perturbation are
+   applied and we are dealing with toroidal rotation). Different behavior core (naturally counter-current and
+   becomes more negative) to edge (naturally co-rotation decreases and
+   becomes even counter-current). Simmetry breaking cause non-ambipolar
+   electron-ion diffusion and consequently E_r builds up to 
+5. Comparison with theory MHD (but not always inconsistent) we should
+   consider some other things
+6. How we locate in the general momentum framework which is now aware
+   of 3D effect. Angular toroidal momentum model with 3D field from Callen
+   1. low n non-resonant \delta b torques (fig. garofalo)
+   2. medium n ripple (richiama Nave)
+   3. low n resonant \delta b torque --> plasma breaking (fig 8
+      Callen) or in general Tsang (PoF 19 1976) magnetic field ripple
+      lead to a non ambipolar ion flux (--> E_r)
+   4. effects which comes from reynolds stress: which is divided in
+      toroidal reynolds stress, convective flux and residual stress
+      which convect part of the heat flux into toroidal flow (Diamond,
+      Gurcan)
+   5. Toroidal and poloidal rotation are linked together (see Callen)
+   6. Beware this is done from a perturbed 2D equilibrium of a
+      tokamak.
+7. Stellarator (Spong & Helander & Ida --> we should deal with
+   turbuelence and zonal flow). Rimanda al talk di Marco Gobbin
+8. Edge: parallel flow inversion (rifare figura) and toroidal flow ripple
+9. Edge: estimate of the dynamo pattern--> estimate of the dynamo
+   field ( hints on the possibility to infer j_{\parallel} )
+10. Comparison with theory: pure MHD (with no pressure and zero-velocity
+    at the edge) consistent in the core but not at the edge
+11. 
