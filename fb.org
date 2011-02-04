@@ -87,7 +87,8 @@ CLOSED: [2011-02-01 Tue 10:23]
   - [X] RFX-tok: filamenti
   - [X] E dinamo e j parallel
 
-** TODO Presentazione workshop sul flow
+** DONE Presentazione workshop sul flow
+CLOSED: [2011-02-04 Fri 14:50]
 ** TODO To be read [7/11]
   - [X] Piovesan
   - [X] Bonomo
@@ -147,7 +148,8 @@ CLOSED: [2011-02-01 Tue 10:23]
 Troppo specifico. Tratta di DKES e PENTA. Interessante secondo me e'
 la frase per cui in stellarator ions and electron loss rates are not
 automatically ambipolar leading to electric field formation.
-** TODO Presentation outline
+** DONE Presentation outline
+CLOSED: [2011-02-04 Fri 14:50]
 1. Motivation and outline
 2. Core measurements: passive from BV and CV (figura del 1D impurity
    transport model). Toroidal and Poloidal rotation profile. Hints we
