@@ -89,7 +89,7 @@ CLOSED: [2011-02-01 Tue 10:23]
 
 ** DONE Presentazione workshop sul flow
 CLOSED: [2011-02-04 Fri 14:50]
-** TODO To be read [7/11]
+** TODO To be read [8/11]
   - [X] Piovesan
   - [X] Bonomo
   - [X] Camenen and up-down asymmetry [[file:~/Documents/RFX/Papers/2010/Camenen/CamenenPlasma%20Physics%20and%20Controlled%20Fusion-52-2010-1.pdf][TCV]].--> Non e' interessante penso
@@ -97,7 +97,7 @@ CLOSED: [2011-02-04 Fri 14:50]
   - [ ] Leggi articolo Le haye [[file:~/Documents/RFX/Papers/2010/La%20Haye/La%20HayePhys.%20Plasmas-17-2010.pdf][article]]
   - [ ] Leggi articolo [[file:~/Documents/RFX/Papers/2008/Cole/ColePhys.%20Plasmas-15-2008.pdf][Cole]]
   - [X] Leggi articolo [[file:~/Documents/RFX/Papers/2010/Nave/NavePhys.%20Rev.%20Lett.-105-2010.pdf][Nave]]
-  - [ ] Leggi IAEA [[file:~/LN/rhome/Fisica/RFX/RFX-mod-Programme-WS-2011/to%20be%20read/ov_4-3.pdf][Callen]]
+  - [X] Leggi IAEA [[file:~/LN/rhome/Fisica/RFX/RFX-mod-Programme-WS-2011/to%20be%20read/ov_4-3.pdf][Callen]]
   - [ ] Leggi IAEA [[file:~/LN/rhome/Fisica/RFX/RFX-mod-Programme-WS-2011/to%20be%20read/ov_5-4.pdf][Peeters]]
   - [X] Leggi articolo Garofalo PRL 1010
   - [X] Leggi articolo [[file:~/Documents/RFX/Papers/2007/Spong/SpongNuclear%20Fusion-47-2007.pdf][Spong]]. Troppo specifico su DKES e PENTA per la
