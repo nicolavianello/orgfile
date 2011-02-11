@@ -155,6 +155,12 @@
     \end{equation}
 
 **** Waves in a cylinder
-    
-
+** L. Chen, Phys. Plasmas 1, 1519 (1994) + ST Tsai and L Chen PoF B 5, 3284 (1993)
+Quasi incomprensibile :-(.
+Due cose importanti. Nel shear Alfven continuum esistono due gap:
+1. Kinetic Balloning Modes (KBM) con 0\leq \omega \leq \omega_{*pic}
+   where \omega_{*pic} is the core ion diamagnetic drift frequency
+2. Toroidal Alfven Mode (TAM) con \omega_l^2\leq\omega\leq\omega_u^2
+   where \omega_{l,u}^2 = (\omega_A^2/4)(1\mp\epsilon_0) and \epsilon_0=2(r/R_0+\Delta^{'})
+Generally KBM gap is at lower frequency
 
