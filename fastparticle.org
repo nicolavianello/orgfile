@@ -3,13 +3,7 @@
 #+PROPERTY: Effort_ALL  0:10 0:20 0:30 1:00 2:00 4:00 6:00 8:00
 #+COLUMNS: %38ITEM(Details) %TAGS(Context) %7TODO(To Do) %5Effort(Time){:} %6CLOCKSUM{Total}
 #+PROPERTY: Effort_ALL 0 0:10 0:20 0:30 1:00 2:00 3:00 4:00 8:00
-#+LaTeX_CLASS:amsart
-#+LaTeX_CLASS_OPTIONS:11pt
-#+LATEX_HEADER:\usepackage{amssymb} 
-#+LATEX_HEADER:\usepackage{graphicx}
-#+LATEX_HEADER:\usepackage{geometry}
-#+LATEX_HEADER:\geometry{a4paper}
-#+LATEX_HEADER:\usepackage{colorx}    
+
 
 * Letteratura
 ** Lista articoli da leggere
@@ -26,6 +20,7 @@
    - [ ] Pinches et al. Plasma Phys. Control. Fusion (2004) vol. 46 pp. B187-B200
    - [ ] Chen & Hasegawa, PoF vol 17 pag 1399 (1974)
    - [ ] Chen, PoP vol 1 pag 1519 (1994)
+   - [ ] Fasoli, Nucl. Fusion 47 S264 (2007)
 
 
 * Appunti e considerazioni
@@ -163,4 +158,7 @@ Due cose importanti. Nel shear Alfven continuum esistono due gap:
 2. Toroidal Alfven Mode (TAM) con \omega_l^2\leq\omega\leq\omega_u^2
    where \omega_{l,u}^2 = (\omega_A^2/4)(1\mp\epsilon_0) and \epsilon_0=2(r/R_0+\Delta^{'})
 Generally KBM gap is at lower frequency
+
+
+** A. Fasoli, Nucl. Fusion 47
 

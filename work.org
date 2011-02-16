@@ -1071,15 +1071,18 @@
   2. Manipolatore con comando a manovella terminato con 2 connettori a D da 25 e da 15
   3. Cavo di uscita con RG174 lunghezza ~ 2 mt terminato con BNC
 
-** Materiale mancante e/o da spedire
-  - [ ] Sistema di acquisizione: esistente in casa uno yokogawa 16 canali (R51P) ed uno oscilloscopio Yokogawa 16 canali
-  - [ ] PC portatile con MDSPLUS per controllare gli yokogawa (eventualmente driver per il controllo dell'oscilloscopio)
-  - [ ] Fibre Ottiche: disponibili eventualmente 2 modulo teseo (totale 16 canali) da spedire --> necessario estrarre fibre dagli armadi
-  - [ ] Per sonde magnetiche possibilita di utilizzare direttamente il cavo, bilanciandolo opportunamente --> necessari di ~ 40 mt * 6 cavo RG58
-  - [ ] Altri moduli di acquisizione esistenti tipo Joerger a stoccolma ?
-  - [ ] Altri moduli in fibra esistenti ?
-  - [ ] Partitori di tensione (esistenti in casa)
-  - [ ] Sistema per alimentazione sonde Isat (HVPS + LVD + HVT + Cavetteria) + scatola metallica esistente in casa
+** Materiale da spedire. Segnato quello che non richede ulteriore lavoro
+  - [ ] Sistema di acquisizione: 2 yokogawa (16 canali, 8 canali) esistente in casa uno yokogawa 16 canali (R51P) 
+  - [ ] PC con MDSPLUS per controllare gli yokogawa e controllo via GPIB. Verificare la necessita di due schede di rete ed eventualmente installarla
+  - [ ] 16 Fibre ottiche
+  - [X] 16 Trasmettitori ottici teseo con relativi alimentatori
+  - [ ] 2 moduli Teseo ricevitori ottici
+  - [ ] 6 Cavi lunghezza approssimativa 40 mt RX58 + 6 terminazioni 50 Ohm per entrare negli yokogawa
+  - [ ] Partitori di tensione da verificare rapporto di partizione e massa
+  - [ ] Sistema per alimentazione sonde Isat (HVPS + LVD + HVT + CR5+ Cavetteria)
+  - [ ] Scatola in metallo
+  - [ ] Tester
+  - [ ] Cavo in uscita dal manipolatore. Schema recuperato.
 * TCV								    :PROJECT:
 ** U-Probe for TCV
 *** Fixed Probe da movimentare inter-shot
