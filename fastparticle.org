@@ -158,7 +158,18 @@ Due cose importanti. Nel shear Alfven continuum esistono due gap:
 2. Toroidal Alfven Mode (TAM) con \omega_l^2\leq\omega\leq\omega_u^2
    where \omega_{l,u}^2 = (\omega_A^2/4)(1\mp\epsilon_0) and \epsilon_0=2(r/R_0+\Delta^{'})
 Generally KBM gap is at lower frequency
-
-
 ** A. Fasoli, Nucl. Fusion 47
-
+- Is it crucial to understand the behavior of fast ion and fast
+  particle as these are expected to play a major role in achieving and
+  controlling optimal burning plasma scenario with external heating
+  and/or current drive
+- BPI (Beam Plasma Interaction) studies resembles alpha particle
+  behaviour in burning plasmas although contrary to fusion alphas
+  stron anisotropy in the phase space distribution of injected or
+  externaly induced fast ions are expected.
+- One foundamental issue is the understanding of the interaction of
+  alpha particles/energetic ions with plasma waves and instabilities
+  possibly leading to their redistribution/losses.
+- *\tau_{Beam Slowing Down}/\tau_E* determines the time scale for the
+  response of the plasma temperature to the plasma self-heating
+- Existing experiment/theoretical work with N-NBI performed in JT-60 Upgrade
