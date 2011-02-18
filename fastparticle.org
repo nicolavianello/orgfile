@@ -3,7 +3,19 @@
 #+PROPERTY: Effort_ALL  0:10 0:20 0:30 1:00 2:00 4:00 6:00 8:00
 #+COLUMNS: %38ITEM(Details) %TAGS(Context) %7TODO(To Do) %5Effort(Time){:} %6CLOCKSUM{Total}
 #+PROPERTY: Effort_ALL 0 0:10 0:20 0:30 1:00 2:00 3:00 4:00 8:00
-
+#+LaTeX_CLASS: article
+#+LaTeX_HEADER: \usepackage{geometry}  
+#+LaTeX_HEADER: \geometry{a4paper}   
+#+LaTeX_HEADER: \usepackage{graphicx}
+#+LaTeX_HEADER: \usepackage{amssymb}
+#+LaTeX_HEADER:\usepackage{fontspec,lipsum}
+#+LaTeX_HEADER:\defaultfontfeatures{Ligatures=TeX}
+#+LaTeX_HEADER:\setromanfont{Minion Pro}
+#+LaTeX_HEADER:\setsansfont{Myriad Pro}
+#+OPTIONS: toc:nil num:nil
+#+TITLE:     Notes on fast particle and beam plasma interaction
+#+AUTHOR:    N. Vianello
+#+EMAIL:     nicola.vianello@igi.cnr.it
 
 * Letteratura
 ** Lista articoli da leggere
@@ -43,17 +55,17 @@
       E\times B. Conseguentemente il moto e' incomprimibile (\nabla v
       =0) e non si hanno perturbazioni di densita e pressione. L'onda
       di shear alfven deriva dal bilancio del termine inerziale
-      \rho\frac{d v}{dt} e dalla /magnetic field line tension/ \mathbf{J}\times\mathbf{B}
+      $\rho dv/dt$ e dalla /magnetic field line tension/ $\mathbf{J}\times\mathbf{B}$
     + *Fast magneto-acoustic wave* con una frequenza \omega_f maggiore
-      della frequenza di alfven. Se vale l'approssimazione di \beta
-      \ll 1 allora la fast-magnetoacoustic-wave ha una relazione di
+      della frequenza di alfven. Se vale l'approssimazione di $\beta
+      \ll 1$ allora la fast-magnetoacoustic-wave ha una relazione di
       dispersione del tipo \omega_f^2 =
       (k_\perp^2+k_\parallel^2)v_A^2. Si dimostra che nel limite di
       \beta<1 il rapporto fra la perturbazione di pressione cinetica e
       la perturbazione di pressione magnetica e' dell'ordine /O(\beta)/
     + *Slow magneto-acoustic wave* In questo caso si ha che la
       frequenza e' minore della frequenza di Alfven ed ancora nel caso
-      \beta \ll 1 la relazione di dispersione e' del tipo \omega_s^2
+      $\beta \ll 1$ la relazione di dispersione e' del tipo \omega_s^2
       \approx k_\parallel^2 v_s^2. Il fluido e' dominato dal moto
       parallelo mentre la compressione del campo magnetico e'
       dell'ordine /O(\beta)/ rispetto a quella cinetica
@@ -63,14 +75,14 @@
 
 **** Non uniform slab configuration
     Consideriamo ora un equilibrio 1D con un campo magnetic sheared
-    del tipo \mathbf{B}_0(x)=B_{0y}(x)\mathbf{e}_y +
-    B_{0z}(x)\mathbf{e}_z. L'equazione di equilibrio diventa
-    \frac{d}{dx}\left(P_0+\frac{B_0^2}{8\pi})=0. La trattazione
+    del tipo $\mathbf{B}_0(x)=B_{0y}(x)\mathbf{e}_y +
+    B_{0z}(x)\mathbf{e}_z$. L'equazione di equilibrio diventa
+    $d_{x}\left(P_0+\frac{B_0^2}{8\pi}\right)=0$. La trattazione
     continua in funzione di una generica funzione di *displacement*
-    \delta\mathbf{v}=\frac{\partial \xi}{\partial t}. In questo modo
+    \delta\mathbf{v}=\partial_t \xi. In questo modo
     arriva ad una equazione d'onda che prevede le stesse tre branche
     ma che sono accoppiate fra loro. In particolare esiste una
-    singolarita per \epsilon = \omega\rho_m\mu_0-\k_{\parallel}^2B^2
+    singolarita per $\epsilon = \omega\rho_m\mu_0-\k_{\parallel}^2B^2$
     in cui troviamo le due relazioni di dispersione rispettivamente
     dell'onda di shear alfven ed un'altra relazione. Questa
     singolarita' e' causa del fenomeno del *phase
@@ -79,7 +91,7 @@
     particolare si ipotizza di scrivere ciascuna perturbazione come
     una somma di perturbazioni locali ciascuna delle quali soddisfa
     l'equazione D_A \psi_{Al}(z|x) = 0 con D_A operatore di Alfven
-    della forma \partial^2/\partial z^2 + \frac{\omega_2}{v_A^2}. In
+    della forma \partial^2/\partial z^2 + \omega2/v_A^2. In
     particolare si ottiene una /local dispersion relation/ della forma
     $\omega^{2} = \omega_{Al} (x_{Rl})$ che e' soddisfatta alla
     posizione dove lo spettro continuo delle onde di shear alven
@@ -173,3 +185,24 @@ Generally KBM gap is at lower frequency
 - *\tau_{Beam Slowing Down}/\tau_E* determines the time scale for the
   response of the plasma temperature to the plasma self-heating
 - Existing experiment/theoretical work with N-NBI performed in JT-60 Upgrade
+  + Kusama PPCF 41 (1999). Ellipticity Induced AE modes excited at q=1
+    surface via ICRF (derived by the coupling of two shear Alfven
+    waves with poloidal mode number m and m+\Delta m con \Delta m = 2
+    (sono Ellipticity induced)). These high frequency modes are stabilized via
+    NNBI injection which enhance the damping of EAE. Indeed the net
+    contribution of NNB injection is damping as the injection energy
+    of the NNB is not high enough compared to v_A and the angular
+    frequency of observed EAE modes is relatively large compared to
+    the calculated diamagnetic drift frequency of NNB ions. Further
+    stabilization is due to the addition of beam ion landau damping
+  + Kusama NF 38 1837 (1999): Excitation and stabilization of AE modes
+    via NNBI injection. In weak shear plasma TAE observed to be
+    distabilized with <\beta_h> \approx 0.1\%. At higher $\beta$ of
+    $\langle\beta_{h}\rangle 0.2$ \% a burst mode occurs in the range
+    $\omega \leq \omega_{TAE}$ and the mode frequency changes rapidly
+    by $\sim$ 20 kHz. The chirping modes appear in an arly phase of
+    the NNB injection and the mode frequency starts to chirp from
+    inside the Alfven continuum and increases to the TAE
+    frequency. The chirping modes are excited only in a duration as
+    long as the slowing down time of NNB ions after the start of NNB injection.
+  + Kramer NF 40 1383 (2000):
