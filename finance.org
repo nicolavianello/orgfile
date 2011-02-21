@@ -1,6 +1,10 @@
+# -*- coding: utf-8; -*-
 #+STARTUP: hidestars
 #+STARTUP: logdone
 * Acquisto Citroen C4						    :PROJECT:
+:PROPERTIES:
+:ID: 0885DE1A-3A18-4B8C-A5FC-E102AB38A0F0
+:END:
 ** DONE Phone @ Assicurazione Erica per passaggio		      :PHONE:
    CLOSED: [2010-02-19 Fri 16:31]
    - State "DONE"       from "STARTED"    [2010-02-19 Fri 16:31]
@@ -23,6 +27,9 @@
 ** DONE Spedire Documenti assicurazione furto/incendio		       :HOME:
    CLOSED: [2010-03-09 Tue 12:28]
 ** WAITING Phone @ Boldrin per atto vendita Nissan		 :HOME:PHONE:
+:PROPERTIES:
+:ID: 56B72AD8-6D22-4353-ACB2-E6C6456D946E
+:END:
 * Conto Corrente Maintainance
 ** TODO Riallinea spese effettuate a conto corrente  
   SCHEDULED: <2010-10-01 Fri .+7d>
@@ -51,6 +58,7 @@
  :PROPERTIES:
    :STYLE: habit
  :LAST_REPEAT: [2010-09-24 Fri 14:49]
+ :ID:       D4A3AFFB-A7B5-4FC2-8286-3A07F01BDD85
    :END:
 ** DONE Trasferisci soldi da BNL a ING 
    DEADLINE: <2010-09-07 Tue> CLOSED: [2010-09-10 Fri 10:41]
@@ -67,6 +75,9 @@
     DEADLINE: <2010-07-14 Wed> CLOSED: [2010-07-14 Wed 09:11]
 ** Tasse 
 DEADLINE: <2011-01-31 Mon>
+:PROPERTIES:
+:ID: D6ECA928-36AB-426E-8DF9-98B78EBC3CA2
+:END:
   - [X] Canone RAI 
 * Regalia
 ** DONE Bonifico Italo

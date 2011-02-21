@@ -1,3 +1,4 @@
+# -*- coding: utf-8; -*-
 #+STARTUP: hidestars
 #+STARTUP: logdone
 #+PROPERTY: Effort_ALL  0:10 0:20 0:30 1:00 2:00 4:00 6:00 8:00
@@ -7,9 +8,13 @@
 * WAITING RFP-Tyr comparison 					    :PROJECT:
 :PROPERTIES:
 :CATEGORY: Projects
+:ID: C6844C87-5163-4231-B6D0-1B51279305D4
 :END:
 
 ** WAITING Inclusion of magnetic perturbation		  :ANALYSIS:DELEGATE:
+:PROPERTIES:
+:ID: 2A04BCAA-4361-4D8E-B248-25E50AD37A0A
+:END:
    Includi la perturbazione del potenziale vettore che simuli la
    presenza di modi m=0 ed m=1 con la periodicita tipica di RFX
 *** CANCELLED [#C] MEETING WITH A Scaggion 
@@ -21,19 +26,29 @@
     :END:
     
 ** WAITING Nuova Geometria a tubo di Flusso	  :READING:ANALYSIS:DELEGATE:
+:PROPERTIES:
+:ID: FB0C3FD4-59E5-42FB-941A-F7A3F2199F59
+:END:
    Leggi il [[file:~/LN/rhome/Fisica/RFX/RFX-RFP-Tyr/Lectures/predebonITG.pdf][lavoro]] di Italo Predebon per il tubo di Flusso su GS2
    Delegate --> A.Scaggion
 
 ** WAITING Crea geometrica tipica per GPI		      :MAIL:ANALYSIS:
+:PROPERTIES:
+:ID: AED2B2EF-8483-4C8B-AB77-BBD1C9F48448
+:END:
    Tipica geometria delle linee di vista della GPI
    
 ** DONE Meeting with S.Polato for MPI cluster development      :WORK:MEETING:
    SCHEDULED: <2010-01-05 Tue 10:30> CLOSED: [2010-01-14 Thu 09:03]
    
 ** WAITING ITB & RFP-Tyr in tube-flux geometry with \nabla T :WORK:ANALYSIS:SEARCH:
+:PROPERTIES:
+:ID: 26CA86B2-9EBF-47DF-8526-E3AD03340D14
+:END:
 * WAITING CuFieT3D HPC						    :PROJECT:
 :PROPERTIES:
 :CATEGORY: Projects
+:ID: 47DDEDBE-420E-4420-8E77-E1BAA18460A6
 :END:
   Vedi [[file:~/LN/rhome/Fisica/HPC-FF%20Project2010-CuFieT3D/Application_nivi.doc][applicazione]] fatta per utilizzare risorse HPC
   
@@ -41,6 +56,7 @@
 
 :PROPERTIES:
 :CATEGORY: Projects
+:ID: FDAE6771-A922-4382-B3DC-E3B0C1867262
 :END:  
 ** CANCELLED Realizzazione I-Probe
    DEADLINE: <2010-01-28 Thu> CLOSED: [2010-09-24 Fri 14:52]
@@ -311,16 +327,36 @@
   DEADLINE: <2011-03-01 Tue>
 :PROPERTIES:    
 :CATEGORY: Projects
+:ID: 44F409AE-F841-43A8-A65D-65636572EBDC
 :END:
 ** WAITING Test a Banco scheda prototipo con condensatori
+:PROPERTIES:
+:ID: EEDD0D99-0C99-4D5C-85E2-CFAF5A4BC1FF
+:END:
 ** WAITING Test della scheda prototipo sulla sonda tripla Fissa
+:PROPERTIES:
+:ID: 2C4D4228-3CF4-4269-A66C-1D3CF16DA8BD
+:END:
 ** WAITING Definizione interfacce in/out per rack alimentatori
+:PROPERTIES:
+:ID: 6DB04950-B55A-4736-9D9C-0F4B32B214C6
+:END:
 ** STARTED Definizione ingombri e componenti	<2009-12-28 Mon 13:37>			:BUY:
-** WAITING Disegno CAD del rack di alimentazione 
+:PROPERTIES:
+:ID: CAC68135-2B18-4EA3-9B21-85F646B82DC5
+:END:
+** WAITING Disegno CAD del rack di alimentazione
+:PROPERTIES:
+:ID: 304BC054-0775-4616-8302-5C2504632712
+:END: 
 ** WAITING Definizione specifiche e richiesta d'offerta
+:PROPERTIES:
+:ID: 27E47E80-1289-4CAF-B370-B0DB1E96A0BD
+:END:
 * STARTED Elm Filaments Article 				    :PROJECT:
 :PROPERTIES:
 :CATEGORY: Projects
+:ID: 59897993-4DEB-4D29-A27D-D5247CFEB691
 :END:
 ** DONE Answer to Referee Comments			:MAIL:ANALYSIS:WRITE:
    CLOSED: [2010-01-14 Thu 11:19]
@@ -409,6 +445,9 @@
 *** DONE Riscrivi testo con velocita poloidale
     CLOSED: [2010-12-28 Tue 16:04]
 * STARTED High Frequency Timing board for edge measurements 	    :PROJECT:
+:PROPERTIES:
+:ID: B48CBDA1-0174-44E3-AC5A-60E68D1DD6D9
+:END:
 ** Scheda di timing
    Creazione di una scheda di timing ad alta frequenza (up to 20 MHz)
    da utilizzare per sonde di bordo e per ISIS, sincronizzata rispetto
@@ -425,6 +464,9 @@
    
 ** Richiesta realizzazione pannelli
 * STARTED EDGE TRANSPORT BARRIER				    :PROJECT:
+:PROPERTIES:
+:ID: A0F1662F-55B8-4FDD-A343-2143CC7E725E
+:END:
 <2010-01-04 Mon 10:04>
 ** DONE ANALISI CON ISIS ELETTROSTATICO				   :ANALYSIS:
    CLOSED: [2010-01-05 Tue 18:40]
@@ -453,8 +495,14 @@
    che frequenza eventualmente questi flow zonali si verificano
    Risultati finali nel file [[file:~/LN/rIsIs/EdgeBarrier/PropagationOrRest.pdf][PropagationOrRest]] 
 *** TODO Ask @ F. Sattin if k=0 oscillation are evident on his programs and eventually at which frequency :MAIL:ANALYSIS:
+:PROPERTIES:
+:ID: 1BEC8564-EB7B-49DC-9FC6-E2D49BABCD85
+:END:
 
 *** TODO Make the same analysis using bt arrays and searching for fast propagation or n=0 map :WORK:ANALYSIS:
+:PROPERTIES:
+:ID: 32EDE2C6-ADAD-442C-A377-977586F7428C
+:END:
 ** CANCELLED Ask @ M.Agostini of eventual variation of GPI fluctuating velocity :MAIL:DELEGATE:
    CLOSED: [2010-01-29 Fri 12:05]
    - State "DELEGATED"  from "DONE"       [2010-01-29 Fri 12:05]
@@ -692,6 +740,9 @@
     CLOSED: [2010-07-02 Fri 13:19]
 ** Li Effects
 *** TODO Database S.Munaretto da MAgostini
+:PROPERTIES:
+:ID: 18A25DA2-1890-439A-A4F8-66E62E56B352
+:END:
 ** Scaling [0/5]
    - [ ] Scaling variazione flusso toroidale vs \nabla T_e
    - [ ] Scaling \partial_t F vs \nabla T_e con F locale 
@@ -700,6 +751,9 @@
    - [ ] Scaling dominante velocita con S.
 
 * STARTED Compass Filaments Probe				    :PROJECT:
+:PROPERTIES:
+:ID: 558C9B5B-2E0D-4F58-A725-046F462076BE
+:END:
 ** DONE Bozza sonda
    CLOSED: [2010-02-25 Thu 14:50]
    Spedita la prima bozza cosi come discussa con J.Brotankova.
@@ -714,6 +768,9 @@
    Vd [[file:~/LN/fbOnR/COMPASS/vorticity%20prediction.doc][File]]
 * WAITING FIDA (Fast Ions D alfa Diagnostic)			    :PROJECT:
   - State "WAITING"    from "CANCELLED"  [2010-11-13 Sat 17:57]
+:PROPERTIES:
+:ID: F4EE341D-E2D2-47CE-965E-1F26CF836101
+:END:
 ** [2/4] TODO Reading articles on Fida Diagnostic 		  :WORK:READ:
    Article List
     - [X] [[file:~/LN/rhome/Fisica/RFX/bibliography/HeidbrinkPlasma%20Physics%20and%20Controlled%20Fusion-46-2004.pdf][PPCF2004]] Sostanzialmente si propone di misurare con una
@@ -739,7 +796,13 @@
    parlare con M.Gobbin per capire come dovrebbero essere le orbite
    degli ioni veloci e con Erica per setup sperimentale
 ** TODO Preparare Nota Tecnica
+:PROPERTIES:
+:ID: EDAE69CA-D8FE-430A-9432-74B6C68D13C3
+:END:
 * STARTED High Frequency Alfven Activity			    :PROJECT:
+:PROPERTIES:
+:ID: 9F0DB476-C1C5-42AA-8AA6-BA21C4194D40
+:END:
 
 ** Presentazione da S.Spagnolo 					  :WORK:READ:
    Presentata l'evidenza di attivita alfvenica con k parallelo basso ~
@@ -783,7 +846,13 @@
    bordo). Dubito pero'
 
 ** TODO Leggi letteratura Global Alfven Eigenmodes	   :WORK:READ:SEARCH:
+:PROPERTIES:
+:ID: 75FD9CDC-C10A-4879-8DAA-129987A69467
+:END:
 * STARTED TJII Probe						    :PROJECT:
+:PROPERTIES:
+:ID: 3546C6EE-4B0A-41F8-8A93-9FA5A5F4683C
+:END:
 ** VideoConference Meeting
    :PROPERTIES:
    :on:       <2010-02-08 Mon 11:59>
@@ -847,6 +916,9 @@
      + Campaign: february 2011
 * WAITING EAST-HT7 Electromagnetic measurements			    :PROJECT:
   - State "SOMEDAY"    from "STARTED"    [2010-10-18 Mon 12:59]
+:PROPERTIES:
+:ID: ABA6E48C-A0F0-4A7D-9D95-800BAD7B85CF
+:END:
 ** Guo Sheng presentazione
    Vedi Mail [[message://20100302025529.16830.qmail@ms.hfcas.ac.cn][EAST, Guosheng Xu]]. Commenti su risposta
    + With the present arrangment you are unable to estimate directly the current. Any plan to upgrade with 3 different coils?
@@ -860,10 +932,16 @@
    CLOSED: [2010-03-23 Tue 16:08]
 
 ** STARTED Download of data from HT7
+:PROPERTIES:
+:ID: C7AA92A9-18C2-4B6D-A3FE-6A5ECECAEEF5
+:END:
    Vedi mail [[message://20100323143106.24181.qmail@ms.hfcas.ac.cn][Re: Re: current filaments in HT7 and East Tomaka]] per come fare
 
 * WAITING Inter-ELM article					    :PROJECT:
   - State "SOMEDAY"    from "STARTED"    [2011-01-20 Thu 11:50]
+:PROPERTIES:
+:ID: 1B8C9258-79C4-465B-A4DF-2A6F34501A81
+:END:
 ** Schema articolo
 *** Introduction
     + Generalita su intermittenza/blob/universalita dell'intermittenza. Citare Carreras PoP 7 3278 (2000), poi Ben Ayed PPCF 51 035016 poi Budaev Plasma Physics Reports 34, 799 (2008) e TCBAR. Dire che si cerca di caratterizzare eventuali differenze in termini di intermittenza fra L-Mode & Inter-ELM
@@ -881,6 +959,9 @@
 * STARTED IAEA2010 						    :PROJECT:
   - State "STARTED"    from "DONE"       [2010-10-27 Wed 14:45]
   - State "DONE"       from "STARTED"    [2010-10-18 Mon 12:59]
+:PROPERTIES:
+:ID: DEDD25D9-00FF-4E80-AD34-74793B8D8E0D
+:END:
 ** IAEA2010 RFX-Edge
 *** Kick-Off Meeting
     :PROPERTIES:
@@ -1007,7 +1088,13 @@
     |       |         |                                                                                                  |
     Su questi prova ad applicare la routine di Emilio per stabilire se stiamo o meno intercettando isole e confrontati con Bt locale di ISIS. Aspettare un database piu ampio contando cosa si determina sulla pressione
 *** STARTED Analisi temperatura di Bordo in spari con barriera
+:PROPERTIES:
+:ID: FDDBF55F-944F-42AB-805E-17462DBAE2A3
+:END:
 *** SOMEDAY Leggere ITPA results
+:PROPERTIES:
+:ID: 1FE15295-F1CF-4A76-A81E-17116367055B
+:END:
     Vedi mail [[message://auto-000004913952@igi.cnr.it][ITPA/Transort  Culham Session on ITB's march 22-25 2010 ]]
  
 *** DONE Analisi poincare
@@ -1066,6 +1153,9 @@
     - Pag 3 e seguenti RFX-mode
     - 
 * STARTED Stoccolma 2010					    :PROJECT:
+:PROPERTIES:
+:ID: BD2D6A04-0385-4484-866B-1B12AF1F8A2D
+:END:
 ** Materiale Esistente
   1. Sonda di Alfven con 16 pin elettrostatici e 2 sonde magnetiche triassiali
   2. Manipolatore con comando a manovella terminato con 2 connettori a D da 25 e da 15
@@ -1084,6 +1174,9 @@
   - [ ] Tester
   - [ ] Cavo in uscita dal manipolatore. Schema recuperato.
 * TCV								    :PROJECT:
+:PROPERTIES:
+:ID: 295CF240-32FE-48F0-9275-43D2DBA8CFBC
+:END:
 ** U-Probe for TCV
 *** Fixed Probe da movimentare inter-shot
    - Ask @ M.Valisa
@@ -1091,7 +1184,13 @@
      
 *** Long-term: reciprocating
 * STARTED Lundquist scaling					    :PROJECT:
+:PROPERTIES:
+:ID: A1DD2982-779B-4FE8-8E65-BF337046609C
+:END:
 ** TODO [0/5] Analysis to be done
+:PROPERTIES:
+:ID: 10A6E7C1-528C-4A96-81AB-9690D335F2CB
+:END:
   - [ ] Creazione database velocita
   - [ ] Analisi modale del campo di velocita e determinazione di lundquist negli intervalli QSH
   - [ ] Analisi modale e calcolo del campo elettrico di dynamo con il Br e calcolo negli intervalli QSH

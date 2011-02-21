@@ -1,3 +1,4 @@
+# -*- coding: utf-8; -*-
 #+STARTUP: showall
 #+STARTUP: hidestars
 
@@ -11,6 +12,7 @@
   :PROPERTIES:
    :STYLE: habit
   :LAST_REPEAT: [2010-07-08 Thu 11:41]
+  :ID:       E394C6D5-44B6-4421-877F-5F90A6C97207
    :END:
 
 * Ricerca casa

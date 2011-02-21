@@ -1,3 +1,4 @@
+# -*- coding: utf-8; -*-
 #+STARTUP: hidestars
 #+STARTUP: logdone
 #+PROPERTY: Effort_ALL  0:10 0:20 0:30 1:00 2:00 4:00 6:00 8:00
@@ -136,6 +137,9 @@
    - Nature Physics 15.491
    - FED 1.122
 ** TODO [13/14]
+:PROPERTIES:
+:ID: 03E7112D-8A1E-4230-BA5C-422EA3E3615C
+:END:
    - [X] Chiedere a Gianluigi per IPAC 2010 copia degli abstract
    - [X] Aggiungi alle pubblicazioni ed alla copia conformita
    - [X] Ricerca Copia del certificato di laurea
