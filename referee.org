@@ -40,3 +40,28 @@
      comment the issue, also considering their last comment on
      reconnection in the late stage of ELM eruption. 
 
+* PPCF/383014/PAP. F.Sommer et al.
+** The authors reports on various experimental evidences which help in characterizing MHD modes arising during Elmy H-mode named Edge Snakes.
+The paper is well written and complete in describing the experimental
+evidences although a few open issues exhisits on the theoretical
+interpretation: but the authors correctly point out this part leaving
+space for further investigation. The paper basically deserves
+publications although before final acceptance the authors must add/clarify the following points
+1. Paragraph 2.1. The authors refer to a spectrogram which might be
+   included for a better understanding of the rich harmonic spectrum described
+2. The authors might included a better explanation of the way they
+   deduce the current as Biot-savart law might include a radial
+   distance between the measurements and the current layer and
+   furthermore it should be based on the total magnetic field (I
+   presume they combine information coming from the balloning coils
+   with information coming from the Mirnov coil)
+3. It is not clear to me why a flattening of the density might occur
+   inside the current layer or even better it should be discussed in
+   term of particles sources (if magnetic islands exhist associated to
+   edge snakes as ECE seems to suggest). Furthermore it should be
+   better, if possible, if plot 3(b) and 3(c) should refer to the same time instants
+   so that one could image what pressure perturbation should do
+4. It could be interesting to know if the distribution of current in
+   the Edge Snakes is co or counter current. Is there a way to
+   determine it?
+

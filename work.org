@@ -1,4 +1,5 @@
 # -*- coding: utf-8; -*-
+#+LAST_MOBILE_CHANGE: 2011-02-25 10:12:59
 #+STARTUP: hidestars
 #+STARTUP: logdone
 #+PROPERTY: Effort_ALL  0:10 0:20 0:30 1:00 2:00 4:00 6:00 8:00
@@ -353,7 +354,9 @@
 :PROPERTIES:
 :ID: 27E47E80-1289-4CAF-B370-B0DB1E96A0BD
 :END:
-* STARTED Elm Filaments Article 				    :PROJECT:
+* DONE Elm Filaments Article                                        :PROJECT:
+CLOSED: [2011-02-25 Fri 10:12] 
+- State "DONE"       from "STARTED"    [2011-02-25 Fri 10:13]
 :PROPERTIES:
 :CATEGORY: Projects
 :ID: 59897993-4DEB-4D29-A27D-D5247CFEB691
@@ -416,7 +419,8 @@
     - [X] Figura 3 PRL con 0 line 
     - [X] Figura 4 PRL rotated in the other way around
     - [X] Combine figure 3 and figure 4
-** Includi i commenti per il lavoro [2/2]
+** DONE Includi i commenti per il lavoro [2/2]
+CLOSED: [2011-02-25 Fri 10:12]
    - [X] Commenti Jens [[message://CA703655D571CF49A2E6DAED3FF5A4930CE93F@EXCHG-VS1.risoe.dk][RE: PRL]]
    - [X] Commenti Volker [[message://CA703655D571CF49A2E6DAED3FF5A49303D983ED@EXCHG-VS1.risoe.dk][RE: PRL]]
 
@@ -1172,7 +1176,32 @@
   - [ ] Sistema per alimentazione sonde Isat (HVPS + LVD + HVT + CR5+ Cavetteria)
   - [ ] Scatola in metallo
   - [ ] Tester
-  - [ ] Cavo in uscita dal manipolatore. Schema recuperato.
+  - [ ] Cavo in uscita dal manipolatore. Schema recuperato
+
+** Lista materiale
+*** Cassa di legno. Prezzo Stimato 55 kEuro
+- Computer + cavo alimentazione
+- 3 Cavi di rete
+- 2 Cavi GPIB
+- 2 Ricevitori Teseo
+- 16 trasmettitori Teseo
+- 16 Caricabatterie Teseo
+- 2 Basi Metalliche per caricabatterie
+- Fascette
+- 16 Fibre Teseo
+- Cavi Alimentazioni teseo
+- 1 Alimentatori HVPS
+- 1 Alimentatore HVT
+- 1 Alimentatore LVD
+- 1 Scatola CR5
+- Cavi di alimentazione per misura Isat e di controllo
+- 16 Cavi BNC-BNC nominati come i teseo
+- 6 Cavi lunghezza 25 mt RX58 BNC-BNC
+- 1 Cavo DIN 25 poli + 1 Cavo DIN 15 poli RG174
+- Cavi Lemo BNC
+- Connettori LEMO 0S da cavo N. 4
+- Tester 
+*** 2 Casse Yokogawa (16 kEuro ciascuno)
 * TCV								    :PROJECT:
 :PROPERTIES:
 :ID: 295CF240-32FE-48F0-9275-43D2DBA8CFBC

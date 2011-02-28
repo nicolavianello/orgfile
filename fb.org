@@ -1,4 +1,5 @@
 # -*- coding: utf-8; -*-
+#+LAST_MOBILE_CHANGE: 2011-02-25 10:18:33
 #+STARTUP: hidestars
 #+STARTUP: logdone
 #+PROPERTY: Effort_ALL  0:10 0:20 0:30 1:00 2:00 4:00 6:00 8:00
@@ -21,6 +22,9 @@
 
 * Manipolatori
 ** STARTED [6/6] Modifica sistema di movimentazione manipolatori
+:PROPERTIES:
+:ID: 22FC3F79-A839-4C05-A15C-D8A365DE96F0
+:END:
    - [X] Leggere nota di Andrea 
    - [X] Piccola ricerca di mercato su sistema di movimentazione
    - [X] Rispondere ad Andrea
@@ -34,9 +38,13 @@
    - State "DONE"       from "TODO"       [2010-07-13 Tue 19:46]
    :PROPERTIES:
    :LAST_REPEAT: [2010-09-24 Fri 14:51]
+   :ID:       EC6F9D86-350A-4993-8837-69BAEAD398C0
    :END:
 
 ** TODO Check List
+:PROPERTIES:
+:ID: 59E25C80-E983-4179-B5D7-93A901AED590
+:END:
   - [X] Check list di attivazione per <2010-05-27 Thu> 
   - [ ] Modifica check list con attivazione scatola sonda tripla anche
 	con solo manipolatore portacampioni
@@ -49,7 +57,8 @@ DEADLINE: <2010-09-23 Thu> CLOSED: [2010-10-18 Mon 12:58]
 ** DONE TCV
    DEADLINE: <2010-09-15 Wed> CLOSED: [2010-09-15 Wed 16:59]
 
-* Rapporto attivita 2010
+* DONE Rapporto attivita 2010
+CLOSED: [2011-02-25 Fri 10:18]
 ** DONE [3/3] Paragrafi da fare
    CLOSED: [2010-11-29 Mon 14:10]
   - [X] 2.5.3 Turbulence and momentum (2p)
@@ -63,6 +72,9 @@ DEADLINE: <2010-09-23 Thu> CLOSED: [2010-10-18 Mon 12:58]
    - [X] 
 ** Paragrafo 4.7.1 Asdex
 *** TODO [0/3] da inserire
+:PROPERTIES:
+:ID: 6DD35D82-EFCD-4890-8681-8E6092F32598
+:END:
   - [ ] Confronto fra mono-dipolo simulato esperimento
   - [ ] Nuova figura con la stima della corrente
   - [ ] Statistica
@@ -75,10 +87,11 @@ DEADLINE: <2010-09-23 Thu> CLOSED: [2010-10-18 Mon 12:58]
 *** DONE mail @ alberto.mazzi					       :MAIL:
 CLOSED: [2011-01-20 Thu 14:01]
 
-* Call for proposals 2011 & Workshop di programma
-DEADLINE: <2011-02-01 Tue>
+* DONE Call for proposals 2011 & Workshop di programma
+DEADLINE: <2011-02-01 Tue> CLOSED: [2011-02-25 Fri 10:18]
 :PROPERTIES:
 :dowith: Me
+:ID: 7DD53246-5C49-422A-8B9F-59CD0A66C7AC
 :END:
 ** DONE Proposte da fare [5/6]
 CLOSED: [2011-02-01 Tue 10:23]
@@ -90,7 +103,11 @@ CLOSED: [2011-02-01 Tue 10:23]
 
 ** DONE Presentazione workshop sul flow
 CLOSED: [2011-02-04 Fri 14:50]
-** TODO To be read [8/11]
+** DONE To be read [8/11]
+CLOSED: [2011-02-25 Fri 10:18]
+:PROPERTIES:
+:ID: 27230575-9B23-4EB4-89A5-BA698B83D1C9
+:END:
   - [X] Piovesan
   - [X] Bonomo
   - [X] Camenen and up-down asymmetry [[file:~/Documents/RFX/Papers/2010/Camenen/CamenenPlasma%20Physics%20and%20Controlled%20Fusion-52-2010-1.pdf][TCV]].--> Non e' interessante penso
