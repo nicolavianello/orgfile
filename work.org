@@ -1,5 +1,5 @@
 # -*- coding: utf-8; -*-
-#+LAST_MOBILE_CHANGE: 2011-02-25 10:12:59
+#+LAST_MOBILE_CHANGE: 2011-03-01 13:21:18
 #+STARTUP: hidestars
 #+STARTUP: logdone
 #+PROPERTY: Effort_ALL  0:10 0:20 0:30 1:00 2:00 4:00 6:00 8:00
@@ -1091,11 +1091,14 @@ CLOSED: [2011-02-25 Fri 10:12]
     | 25669 |   48.98 |                                                                                                  |
     |       |         |                                                                                                  |
     Su questi prova ad applicare la routine di Emilio per stabilire se stiamo o meno intercettando isole e confrontati con Bt locale di ISIS. Aspettare un database piu ampio contando cosa si determina sulla pressione
-*** STARTED Analisi temperatura di Bordo in spari con barriera
+*** DONE Analisi temperatura di Bordo in spari con barriera
+CLOSED: [2011-03-01 Tue 13:21]
+- State "DONE"       from "STARTED"    [2011-03-01 Tue 13:21]
 :PROPERTIES:
 :ID: FDDBF55F-944F-42AB-805E-17462DBAE2A3
 :END:
-*** SOMEDAY Leggere ITPA results
+*** DONE Leggere ITPA results
+CLOSED: [2011-03-01 Tue 13:21]
 :PROPERTIES:
 :ID: 1FE15295-F1CF-4A76-A81E-17116367055B
 :END:
@@ -1160,12 +1163,14 @@ CLOSED: [2011-02-25 Fri 10:12]
 :PROPERTIES:
 :ID: BD2D6A04-0385-4484-866B-1B12AF1F8A2D
 :END:
-** Materiale Esistente
+** DONE Materiale Esistente
+CLOSED: [2011-03-01 Tue 13:21]
   1. Sonda di Alfven con 16 pin elettrostatici e 2 sonde magnetiche triassiali
   2. Manipolatore con comando a manovella terminato con 2 connettori a D da 25 e da 15
   3. Cavo di uscita con RG174 lunghezza ~ 2 mt terminato con BNC
 
-** Materiale da spedire. Segnato quello che non richede ulteriore lavoro
+** DONE Materiale da spedire. Segnato quello che non richede ulteriore lavoro
+CLOSED: [2011-03-01 Tue 13:21]
   - [ ] Sistema di acquisizione: 2 yokogawa (16 canali, 8 canali) esistente in casa uno yokogawa 16 canali (R51P) 
   - [ ] PC con MDSPLUS per controllare gli yokogawa e controllo via GPIB. Verificare la necessita di due schede di rete ed eventualmente installarla
   - [ ] 16 Fibre ottiche

@@ -14,8 +14,6 @@
 #+LaTeX_HEADER:\setromanfont{Minion Pro}
 #+LaTeX_HEADER:\setsansfont{Myriad Pro}
 #+OPTIONS: toc:nil num:nil
-#\bibliographystyle{plain}
-#\bibliography{~/.emacs.d/orgfile/fast/biblio.bib}
 #+TITLE:     Notes on fast particle and beam plasma interaction
 #+AUTHOR:    N. Vianello
 #+EMAIL:     nicola.vianello@igi.cnr.it
@@ -36,7 +34,6 @@
    - [ ] Chen & Hasegawa, PoF vol 17 pag 1399 (1974)
    - [ ] Chen, PoP vol 1 pag 1519 (1994)
    - [ ] Fasoli, Nucl. Fusion 47 S264 (2007)
-
 
 * Appunti e considerazioni
 ** Vlad et al. Riv Nuovo Cimento (1999) vol. 22 (7) pp. 1-97
@@ -208,4 +205,33 @@ Generally KBM gap is at lower frequency
     inside the Alfven continuum and increases to the TAE
     frequency. The chirping modes are excited only in a duration as
     long as the slowing down time of NNB ions after the start of NNB injection.
-  + Kramer NF 40 1383 (2000):
+  + Kramer NF 40 1383 (2000):They create fast particles via ICRF
+    heating and NNBI. Injection of an N-NBI into a sawtoothing plasma
+    significantly increase the sawtooth period. The experiment has
+    been performed to check the possibility of sawtooth oscillations
+    through a population of passing energetic particles. The time
+    period of sawtooth were increased of a factor 2.5 through a
+    modification of the q profile. It has been recognized that fast
+    particle population were deposited inside the q=1 surface. It is
+    important to note that N-NBI fast particle experiment are
+    foundamental as \alpha-particles are expected in ITER to be
+    isotropic in distribution and N-NBI can provide information on
+    passing particles, complementary to ICRF which is well suited for
+    trapped particles
+- Concerning sawtooth stabilization/destabilization stabilization
+  through NBI obtaedin on DIII-D (Heidbrink NF 39) and JT-60 as
+  reported above with N-NBI.
+- It has been proposed that EPMs are leading cause of monster sawtooth crashes.
+- *Progress in understanding some aspects of the MHD instability that
+  leads to sawtooth has been sufficiently progreded to allow scenarios
+  for controlling the sawtooth period to be designed theoretically and
+  experimentally implemented*
+- However as fast particles strongly stabilize sawteeth, long sawtooth
+  periods are expected to lead to large crashes that can trigger NTMs
+  also at relatively small beta.
+- Large fast particle pressure in the plasma core can directly lead to
+  fishbones instabilities. The fishbones are observed to trigger
+  sawteeth, to eject different types of fast ions or are observed to
+  trigger NTM.
+- To be explored the effect of background turbulence on fast ions
+
