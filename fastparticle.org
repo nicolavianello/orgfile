@@ -8,7 +8,7 @@
 #+LaTeX_HEADER: \usepackage{geometry}  
 #+LaTeX_HEADER: \geometry{a4paper}   
 #+LaTeX_HEADER: \usepackage{graphicx}
-#+LaTeX_HEADER: \usepackage{amssymb}
+#+LaTeX_HEADER:\usepackage{amssymb}
 #+LaTeX_HEADER:\usepackage{fontspec,lipsum}
 #+LaTeX_HEADER:\defaultfontfeatures{Ligatures=TeX}
 #+LaTeX_HEADER:\setromanfont{Minion Pro}
@@ -230,8 +230,59 @@ Generally KBM gap is at lower frequency
   periods are expected to lead to large crashes that can trigger NTMs
   also at relatively small beta.
 - Large fast particle pressure in the plasma core can directly lead to
-  fishbones instabilities. The fishbones are observed to trigger
+  *fishbones instabilities*. The fishbones are observed to trigger
   sawteeth, to eject different types of fast ions or are observed to
   trigger NTM.
 - To be explored the effect of background turbulence on fast ions
+- The presence of energetic ions in tokamak can results in various
+  instabilities with frequency ranging from almost zero to harmonics
+  of ion ion cyclotron frequency
+- Typically instabilities in the Alfven frequency range are driven by
+  fast-ion pressure gradient and may lead to the spatial
+  redistribution or losses of fast ions whereas instabilites at higher
+  current are generally driven by velocity space gradients.
+- *AE instabilites are th most efficient in transporting energetic ions*
+- To become unstable the drive from energetic ions has to exceed the
+  global damping from background thermal plasma and the fast ions themeseves.
+  \begin{equation*}
+  \gamma =
+  (\omega_{*}-\omega)F(v_{fast}/v_{Alfven})G(\Delta_{b}/\Delta_{m})
+  \end{equation*}
+  where \omega_{*} is the fast-ion diamagnetic frequency. The function
+  $F$ depends on the shape of fast-ion distribution and the function
+  $G$ on the value of the orbit width parameter \Delta_b \simeq
+  q\rho_{fast} with respect to the radail scale of the mode with
+  poloidal harmonic $m$. The function G assumes different values
+  according to
+  + $G=1$ if \Delta_b < (r/R)\Delta_m
+  + $G = \mathcal{O}(m^{-1})$ if r/R\Delta_m < \Delta_b <
+    \Delta_m. This is the regimes which gives the most unstable
+    toroidal mode number and determines the maximum grow rate  for
+    $k_{\perp}\rho_{fast}\approx 1$
+  + $G=\mathcal{O}(m^{-2})$ if \Delta_b > \Delta_m
+- First condition for AE to be unstable is \omega < \omega_{*} which
+  is general not realized for backgroun thermal ion in ITER relevant
+  condition. Thus ion Landau damping is the main damping mechanism for
+  low frequency AE in burning plasma with relatively high \beta_i. But
+  for hihger frequency electron Landau damping becomes effective with 
+  \begin{equation*}
+  \gamma/\omega \sim (k_{\perp}\rho_{s})^{2} \exp(-[v_{A}/v_{e}]^{2})
+  \end{equation*}
+  The electron Landau damping becomes effective because of parallel
+  electric field as large wave vector k_{\perp} account for a parallel
+  electric field via Faraday's (k_{\perp}\times B \sim E_{\parallel})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
