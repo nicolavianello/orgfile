@@ -23,9 +23,9 @@
    [/] Ecco una lista di possibili articoli da Leggere 
    List 
    - [ ] Vlad et al. Nucl. Fusion (2009) vol. 49 pp. 07502
-   - [ ] Albergante et al. Phys. Plasmas (2009) vol. 16 (11) pp. 112301-8
-   - [ ] Shinohara et al. Nucl. Fusion (2001) vol. 41 pp. 603
-   - [ ] Briguglio et al. Phys. Plasmas (2007) vol. 14 (5) pp. 055904
+   - [X] Albergante et al. Phys. Plasmas (2009) vol. 16 (11) pp. 112301-8
+   - [X] Shinohara et al. Nucl. Fusion (2001) vol. 41 pp. 603
+   - [X] Briguglio et al. Phys. Plasmas (2007) vol. 14 (5) pp. 055904
    - [ ] Vlad et al. Riv Nuovo Cimento (1999) vol. 22 (7) pp. 1-97
    - [ ] Vlad et al. Nucl. Fusion (2006) vol. 46 (1) pp. 1-16
    - [ ] Vlad et al. AIP Conference Proceedings (2006)
@@ -33,7 +33,7 @@
    - [ ] Pinches et al. Plasma Phys. Control. Fusion (2004) vol. 46 pp. B187-B200
    - [ ] Chen & Hasegawa, PoF vol 17 pag 1399 (1974)
    - [ ] Chen, PoP vol 1 pag 1519 (1994)
-   - [ ] Fasoli, Nucl. Fusion 47 S264 (2007)
+   - [X] Fasoli, Nucl. Fusion 47 S264 (2007)
 
 * Appunti e considerazioni
 ** Vlad et al. Riv Nuovo Cimento (1999) vol. 22 (7) pp. 1-97
@@ -291,6 +291,18 @@ Generally KBM gap is at lower frequency
   f_{RSAE}\simeq ((m+1)/q-n)v_{A}/(2\pi R) \\
   f_{TAE} \simeq v_{A}/(4\pi q_{TAE}R) \qquad q_{TAE}=(m-1/2)/n
   \end{align*}
+  RSAEs appears in advanced tokamak scenario driven by high-energy
+  hydrogen minority ions and developes with a large spectrum of n numbers
+- Stability of the mode determined by the balance between driving and
+  damping mechanism which should be determined indipendently. This
+  motivates dedicated active diagnostic system for the excitation and
+  detection of MHD modes in the Alfven frequency range
+- Collective effects are primarily due to modes pertaining to Alfven
+  branch as these waves have group velocity in the parallel direction
+  with velocities of the order of v_A and can thus resonantly
+  interacts with MeV ions
+- Excitation mechanism for these modes are provided by transit and
+  precession-bounce resonances
 
 
 
@@ -304,9 +316,26 @@ Generally KBM gap is at lower frequency
 
 
 
-
+** Schema generale nota
+Beam-Plasma interaction and generally fast ion dynamics in burning
+plasma condition should concentrate on different topics:
+1. Interaction with low frequency MHD modes (kink, tearing, fishbones
+   and sawteeth)
+2. Kinetic balloning & localized interchange
+3. High frequency AE modes in the linear phase
+4. High frequency AE modes and EPM modes in the non-linear regimes
+   which is generally accompained by fast particle convective
+   transport and redistribution on fast time scales. Very important
+   accessing the role of these instabilities in the fast particle
+   redistribution is essential for using fast-particle-wave
+   interaction as a tool for plasma control
+5. Accessing the role of background turbulence in fast particle
+   redistribution is one topics to be addresses
 
 ** Codici Utilizzati nei vari lavori
 - [ ] Gyro-kinetic PENN (A.Fasoli NF 47)
 - [ ] TASK/WM
-- [ ] NOVA-K
+- [ ] NOVA-K (global wave field)
+- [ ] PENN (global wave field)
+- [ ] CASTOR-K (global wave field, based on reduced kinetic mode)
+- [ ] LIGKA Code (gyrokinetic)

@@ -4,14 +4,15 @@
 
 * Computer mantainance
 ** TODO Back-up on time machine 
-   SCHEDULED: <2010-08-07 Sat .+30d>
+   SCHEDULED: <2011-05-14 Sat .+30d>
+   - State "DONE"       from "TODO"       [2011-04-14 Thu 23:19]
    - State "DONE"       from "TODO"       [2010-07-08 Thu 11:41]
    - State "DONE"       from "TODO"       [2010-05-05 Wed 19:03]
    - State "DONE"       from "TODO"       [2010-03-23 Tue 11:08]
    - State "DONE"       from "TODO"       [2010-01-11 Mon 15:12]
   :PROPERTIES:
    :STYLE: habit
-  :LAST_REPEAT: [2010-07-08 Thu 11:41]
+  :LAST_REPEAT: [2011-04-14 Thu 23:19]
   :ID:       E394C6D5-44B6-4421-877F-5F90A6C97207
    :END:
 
@@ -25,6 +26,12 @@
    + Link [[http://www.casapadova.it/Padova/SGiuseppe/Vendita/Bi_Trifamiliare-26604.html][Bifamiliare]] laterale di via Sorio. Mercoledi 20 ore 13.00
      ag. con sig. Fulvio 3297775197
 
-
 * Acquisto casa via Tivaroni
 
+* TODO [0/3] Torrent to download:
+:PROPERTIES:
+:ID: 2142D380-F0FD-49B8-BBBC-E2C9E24CC091
+:END:
+- [ ] Adobe Acrobat X. SN 1118-0497-5921-8734-9742-0242
+- [ ] Autocad 2011
+- [ ] 

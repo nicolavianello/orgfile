@@ -33,7 +33,8 @@
 :END:
 * Conto Corrente Maintainance
 ** TODO Riallinea spese effettuate a conto corrente  
-  SCHEDULED: <2010-10-01 Fri .+7d>
+  SCHEDULED: <2011-03-29 Tue .+7d>
+  - State "DONE"       from "TODO"       [2011-03-22 Tue 16:45]
   - State "DONE"       from "TODO"       [2010-09-24 Fri 14:49]
   - State "DONE"       from "TODO"       [2010-09-10 Fri 10:41]
   - State "DONE"       from "TODO"       [2010-08-27 Fri 08:56]
@@ -58,7 +59,7 @@
    - State "DONE"       from "TODO"       [2010-01-08 Fri 11:59]
  :PROPERTIES:
    :STYLE: habit
- :LAST_REPEAT: [2010-09-24 Fri 14:49]
+ :LAST_REPEAT: [2011-03-22 Tue 16:45]
  :ID:       D4A3AFFB-A7B5-4FC2-8286-3A07F01BDD85
    :END:
 ** DONE Trasferisci soldi da BNL a ING 

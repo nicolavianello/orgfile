@@ -121,11 +121,11 @@ CLOSED: [2011-02-25 Fri 10:18]
    - [X] Prenota incontro UNICredit
    - [X] Prenota incontro BancaIntesa/Cassa di Risparmio del Veneto
 * Film
-** Da scaricare [0/6]
+** Da scaricare [2/6]
    - [ ] L'uomo che verra' di G. Diritti
-   - [ ] Gli amori folli di Alain Resnais
+   - [X] Gli amori folli di Alain Resnais
    - [ ] Copia Conforme di A. Kiarostami
-   - [ ] Il tempo che ci rimane di Elia Suleiman
+   - [X] Il tempo che ci rimane di Elia Suleiman
    - [ ] Bambi
    - [ ] 
 * DONE Concorso ENEA 2010
@@ -168,77 +168,76 @@ CLOSED: [2011-02-25 Fri 10:18]
 
 ** DONE Prenotare albergo CASACCIA				     :SEARCH:
    DEADLINE: <2010-11-16 Tue> CLOSED: [2010-11-18 Thu 13:47]
-* Babysitting
-** Silvia
-   Cell.:349/6351795 -  Email: mellaz36@yahoo.it
-   Signora 39enne automunita,referenziata,non fumatrice, 
-   esperienza come collaboratrice presso asilo privato offresi come
-   baby sitter al mattino o al pomeriggio dal lunedi al venerdi zona
-   Padova ovest. Disponibile da subito. Richiedesi ed offresi max
-   serietà. Preferibilmente per rapporto continuativo. 
-   Sono alla ricerca di un impegno giornaliero per almeno 3 - 4 ore al
-   giorno. 
-*** <2010-09-26 Sun> Appuntamento Lunedi ore 9.00. Silvia
-    
-** Marta
-   Cell.:3457986697 -  Email: mgmarta80@gmail.com
-   Salve a tutte le mamme che sono alla ricerca di una baby sitter
-   seria e affidabile e magari che vi aiuti anche con qualche piccolo
-   lavoretto domestico. 
-   Mi chiamo Marta, ho 30 anni e sono mamma di una bimba di 4 anni, 
-   sono automunita e ho molta esperienza coi bambini, specie coi
-   neonati. Sono disponibile da subito, meglio se full-time dal lun al
-   ven, zona Casalserugo e limitrofi. Se interessati contattatemi
-   presto. Grazie!
-*** Appuntamento Marta lunedi ore 10.45 <2010-09-26 Sun>
-** Offresi baby-sitter - zona Ponte San Nicolò	20/09/2010
-   Tel.:0498967070 - Cell.:3201832697 -  Email:
-   Giovane signora con comprovata esperienza come baby-sitter, 
-   si rende disponibile a qualsiasi orario e giorno della settimana 
-   (compresi serali e festivi). Zona Ponte San Nicolò e limitrofi. 
-   Massima serietà e referenze.
-*** Appuntamento Chiara lunedi ore 18.00 <2010-09-26 Sun>
+* Baby sitting
+** 3471590470
+Signora referenziata 48 anni mamma cerca lavoro part time come baby Sitter. 
+Amore per i bambini esperienza, anche per bimbi primi mesi. 
+Tariffa ottima. 
+*** TODO Antonella. Oggi 04/04/2011 ore 17.45
+:PROPERTIES:
+:ID: 3FE60DAC-6DA3-4E2B-9CBA-6AED29C2E36D
+:END:
 
-*** Tendenzialmente no
-** Alina
-   Cell.:3207117896 -  Email: alina.gasper@gmail.com
-   Signora 30enne,seria,referenziata,amante dei bambini,
-   non fumatrice offresi come colf,baby sitter,aiuto
-   compiti,pulizie,stiro.
-   Richiedesi ed offresi max serietà.
-   Disponibile da subito.Se interessati contattatemi.
-*** NO, mezzi pubblici posto lontanto
-** Anna Maria
-   Cell.:3405439549 -  Email: namycav@libero.it
-   41enne italiana con esperienza e referenze cerca lavoro come 
-   baby sitter disponibile ad un piccolo aiuto domestico automunita 
-   chiedo e offro massima serietà per info:3405439549
-*** Solo Mattina. Ma richiama per far sapere per se o per ltre
-** Catia
-   Cell.:3404846055 -  Email: catia.j5e5@alice.it
-   Ragazza 28enne seria e amante dei bambini CERCO LAVORO 
-   come baby-sitter,aiuto compiti,aiuto domestico e stiro.
-   Ho esperienza con bambini di tutte le età,sono stata 
-   anche animatrice per il mio comune.Zona Padova Sud.
-*** Solo mattina 8.30-12. No
-** Masiero Martina
-   PLURIREFERENZIATA, e con anni di esperienza per dimbi da 
-   10 mesi ai 9 anni, automunita, italiana, educata, solare, 
-   svolgo anche LAVORETTI DOMESTICI zone PD sud
-*** Appuntamento Martina Masiero <2010-09-28 Tue>
-*** Buona impressione forse non le va bene il prezzo
-** Donatella
-   Cell.:338-9087650 -  Email: donazeta69@yahoo.it
-   Offro ventennale esperienza con bambini di tutte le età, anche
-   molto piccoli, referenziata, 
-   affidabile e allo stesso tempo solare e motivata nel rapporto con i
-   bimbi. Attenta alle ESIGENZE EDUCATIVE DEI GENITORI, esperta nel
-   fronteggiare 
-   MOMENTI PROBLEMATICI DELLO SVILUPPO (sonno, alimentazione, etc), 
-   nel SOSTEGNO SCOLASTICO e nelle ANIMAZIONI PER LE FESTE ANCHE DEI
-   PIù PICCOLI. 
-   Disponibile a piccolo aiuto domestico. Per ulteriori informazioni tel Donatella.
-*** Impressione discreta. Un po' strana  
+*** ANCORA DISPONIBILE <2011-05-04 Wed>
+:PROPERTIES:
+:ID: 5A2BAC9D-DFD1-4D96-92D9-6CC24E8FC5FD
+:END:
+** Anna 0492023716/3391912068
+Italiana, referenziata, 45 anni, automunita, con esperienza 
+di lavoro con bambini, buon contatto umano e serie capacità 
+professionali cerca lavoro come baby - sitter, preferibilmente al 
+mattino ma disponibile a trovare soluzioni secondo necessità. Anna
+*** TODO Appuntamento 08/04/2011 ore 19.30
+:PROPERTIES:
+:ID: AB1BBA15-BC05-4887-96DF-1B63E2E977D2
+:END:
+
+*** ANCORA DISPONIBILE <2011-05-04 Wed>
+:PROPERTIES:
+:ID: F7E91909-85AD-4F29-AD25-54845CA238B4
+:END:
+** Concetta 3476033962
+37enne italiana laureata ma pratica e concreta offre la propria
+disponibilita' come baby sitter colf assistenza a persone non
+autosufficienti. Esperienza con comunita'.
+*** TODO Appuntamento oggi 05/04 ore 18.30
+:PROPERTIES:
+:ID: 4FEBF2C3-9B72-4A02-8D60-618CCE0BF75C
+:END: 
+** 3283330392
+Salve a tutti, sono una baby sitter con molta esperienza con i
+bambini, ho 41 anni e 
+vivo a Padova sono automunita,e referenziata. cerco lavoro durante i
+pomeriggi, 
+anche tutto il giorno,come baby-sitter,pulizie ,stiro ecc.
+** Lisa 3467420732
+Cerco lavoro come Baby sitter! Sono italiana,ottima capacità da
+dimostrare con 
+i bambini,20 anni di esperienza lavorativa,disponibile da subito,
+disponibile nelle zone di Padova e dintorni.Lisa
+** Camilla 3317743816
+Babysitter diplomata, con lunga esperienza di lavoro in ambito
+educativo e sociale, 
+svolte a stretto contatto con i bambini, nelle scuole, nelle
+ludoteche, animazioni estive. 
+Si offre come babysitter per lavoro continuativo anche di 8-9 ore
+giornaliere. Disponibile 
+tutte le mattine e i pomeriggi dalle ore 7.30 alle ore 15.30, ore
+serali e per i fine settimana; 
+disponibile ad accompagnare i bambini alle loro attività sportive ,
+ricreative e aiuto compiti;esperta 
+in attività di espressività artistica. Per bambini di ogni fascia
+d’età a partire da un mese .
+ Automunita.. Referenziata, con esperienza.
+** 3468212799
+Italiana referenziata,35 anni con molta esperienza cerca 
+lavoro per pulizie,stiro o baby sitter zona Padova e limitrofe.Massima serietà
+** Annalisa 3455866897 Inserito 10/04/2011
+Salve,ho 24 anni e sono diplomata con Educatrice alla prima infanzia. 
+Ho esperienza sia in asili nido che come baby sitter a bambini dai 9
+mesi ai 10 anni. 
+Cerco lavoro tutti i giorni sia per la mattina che per il pomeriggio 
+(tranne il lunedì dopo le 16.00). Invio Cv e referenze su richiesta. Automunita!
 * Marie Curie Fellowship & Other
 ** List of eligible calls
 - [ ] Marie Curie Intra-European Fellowships for Career Development

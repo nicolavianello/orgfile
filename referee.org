@@ -72,3 +72,52 @@ publications although before final acceptance the authors must add/clarify the f
    the scope of the article, if they could include some comments in
    the answer to the referee.
 
+* PPCF/383344/PAP
+The paper reports detailed analysis of edge properties comparing
+discharges with type-II ELMs with discharges obtained in type-I ELMs or
+in Nitrogen mitigated regimes. The article is basically well written
+and interesting, in terms of experimental observation although not so
+clear in terms of explanation or interpretation (but maybe this is
+beyond the scope of the work). I think the article is worth of
+publishing once the authors have clarified the following points
+1) At page 6 in describing figure 3 the authors claim of transition
+   from type-II to N-mitigated type I ELMS and adfirm that detailed
+   analysis of magnetic pick-up coils have been carried out to
+   distinguish from possible type-III ELMs. They adfirm the existence
+   of 30 kHz oscillation without precursors. The existence of this 30
+   kHz oscillation returns afterwords in the text but I think that a
+   spectrogram of a magnetic pick-up coil could improve the
+   understanding (although it appears later in the text) also because
+   a very small variation in divertor current or power load can be
+   inferred from figure 3.
+2) In commenting fig. 6 (a) at page 8 the authors claims of an
+   increase of the power spectrum during type-I ELM in the range 0-150
+   kHz. Actually I think this figure is somehow misleading or prone to
+   misunderstanding. I  do not understand if the 10 ms time
+   window cited is composed joining different time slices including 1 single
+   ELM event or if it is just a single time window including a single
+   type-I ELM. In any case as type I exhibits a bursty behavior on
+   magnetics (with duration less than 10 ms), a power spectrum
+   will spread up in frequency causing the increase on all the
+   range. I suggest the authors to cut this also as it does not
+   include any further information in the comprehension. If other
+   explanation can be done, far from what I've understood please clarify
+3) Concerning figure 5 when type-I ELM appears? It is not so clear
+   from the figure. Also I personally
+   suggest to cut the part below 10 kHz (it's something different from
+   what you want to highlight) as the color-code otherwise does not
+   highlight sufficiently the component you are referring to
+4) From Fig. 13 I can barely see the claimed increase of Ti in
+   N-mitigated discharge in all the profile. Maybe a change of the
+   y-scale for Ti measurement could help. I actually can't see any
+   variation of the toroidal profile which can be inferred beyond the
+   error bars. I suggest the authors to mitigate further any
+   conclusion drawn from toroidal flow profile
+5) In the conclusion, when the authors comment on fig. 9 the authors
+   use the term structures but this is not the case as the figures are
+   obtained with a time integration. So this is just the pattern of
+   the fluctuations but can't be thought in terms of structures (nor
+   in terms of propagation but this is clarified in the text)
+6) Finally if possible I suggest he authors to include an error bars
+   in the figure with the time evolution of the gradients of density
+   temperature and pressure (at least an estimate)

@@ -54,7 +54,6 @@
   Vedi [[file:~/LN/rhome/Fisica/HPC-FF%20Project2010-CuFieT3D/Application_nivi.doc][applicazione]] fatta per utilizzare risorse HPC
   
 * STARTED Torpex Cluster Probe					    :PROJECT:
-
 :PROPERTIES:
 :CATEGORY: Projects
 :ID: FDAE6771-A922-4382-B3DC-E3B0C1867262
@@ -310,6 +309,17 @@
    - Agreed for a new meeting on <2010-10-26 Tue> at 14.30
    - Agreed for a mail to Volker Naulin on j_sat and j_parallel on JET[fn:6] 
 *** Skype Conference call
+*** Risposa ai referee per lettera
+Vedi mail di Ivo [[message://4DB00051.9090607@epfl.ch][reply to referees]]
+**** Skype call con Ivo
+:PROPERTIES:
+:on: <2011-04-27 Wed 11:49>
+:at: MyOffice
+:with: Monica Ivo
+:END:
+- Agreed to send modification to response to referee on :
+  + Average current
+  + ...
 ** Corrispondenza nomi sonde componenti
    | Nome | Componente |
    | B11  | B1y        |
@@ -354,100 +364,6 @@
 :PROPERTIES:
 :ID: 27E47E80-1289-4CAF-B370-B0DB1E96A0BD
 :END:
-* DONE Elm Filaments Article                                        :PROJECT:
-CLOSED: [2011-02-25 Fri 10:12] 
-- State "DONE"       from "STARTED"    [2011-02-25 Fri 10:13]
-:PROPERTIES:
-:CATEGORY: Projects
-:ID: 59897993-4DEB-4D29-A27D-D5247CFEB691
-:END:
-** DONE Answer to Referee Comments			:MAIL:ANALYSIS:WRITE:
-   CLOSED: [2010-01-14 Thu 11:19]
-   - State "DONE"       from "STARTED"    [2010-01-14 Thu 11:19]
-   See file [[file:~/Documents/RFX/Fisica/Asdex/Letter/Resubmission/responseToRefereeA.pdf][Response]]
-   Introduciamo anche le [[file:~/Documents/RFX/Fisica/Asdex/Letter/Resubmission/responseToRefereeA_vona.pdf][modifiche]] di Volker <2010-01-07 Thu 11:24>
-   
-** CANCELLED Eventualmente pensa ad un test Chi2 per fit mono/dipolar :ANALYSIS:
-   CLOSED: [2010-02-19 Fri 14:15]
-** DONE [#A] Comincia revisione testo PRL
-   SCHEDULED: <2010-01-10 Sun> CLOSED: [2010-01-14 Thu 11:19]
-   - State "DONE"       from "STARTED"    [2010-01-14 Thu 11:19]
-** DONE Time-frequency correlation br-Isat		      :WORK:ANALYSIS:
-   SCHEDULED: <2010-01-08 Fri> CLOSED: [2010-01-14 Thu 11:19]
-   - State "DONE"       from "STARTED"    [2010-01-14 Thu 11:19]
-   Completa la routine [[file:~/LN/linuxHome/LN/fb/nicolalib/signalprocessing/spectra.pro][spectra]] per il calcolo della coerenza in
-   funzione dello spazio e del tempo in maniera analoga a quanto fa
-   spectrogram tenendo conto della Hanning window (senza sottrazione lineare)
-** DONE Analisi in frequenza senza spettrogramma unendo gli intervalli :WORK:ANALYSIS:
-   CLOSED: [2010-01-14 Thu 11:19]
-   | type  |      tmin |      tmax | nslices/nsmoot |
-   |-------+-----------+-----------+----------------|
-   | ELM   | 4.1999993 | 4.2028031 | 4/3            |
-   | NOELM | 4.1697192 | 4.1760740 | 7/3            |
- 
-** DONE Includi commenti Roman and Codrina			       :WORK:
-   CLOSED: [2010-01-27 Wed 17:26]
-   - State "DONE"       from "STARTED"    [2010-01-27 Wed 17:26]
-** DONE Sottomissione articolo rivisto				       :WORK:
-   CLOSED: [2010-02-19 Fri 14:16]
-** DONE [1/1] Rispondi ad ulteriori commenti referee		       :WORK:
-   CLOSED: [2010-08-27 Fri 08:53]
-   - [X] Rivedi figura 6 con le barre di incertezza sulla posizione e sulla corrente in base alla larghezza a meta altezza della distribuzione di vr dell'articolo di Andrea Schmidt
-   - [X] Aggiungi anche la statistica degli angoli di rotazione rispetto alla direzione radiale sempre alla figura 6
-   - [X] Aggiungi anche il fit con la funzione 1/sqrt(x^2 + y^2) per far vedere la differenza
-   - [X] Aggiungi una stima delle velocita dalla cross-correlazione sovracampionando i segnali ad una frequenza maggiore
-   - [X] Rispondi al commento di Volker and Jens sulla propagazione toroidale
-   - [X] Aggiungi propagazione da velocita ExB
-   - [ ] Calculate the poloidal rotation of the filaments from Bwall mounted probe
-   - [X] Ricalcolare corrente riconsiderando la velocita totale come somma quadratica fra velocita radiale e poloidale
-   - [X] L'angolo di rotazione deve essere ricalcolato tenendo conto che noi identifichiamo solo la direzione e non il verso e quindi si deve calcolare l'arcotangente della componente che presenta il massimo all'istante zero
-   - [X] Includi considerazioni sulla velocita totale di propagazione nel lavoro
-   - [ ] Calcola propagazione toroidale e poloidale da wall-mounted probe. Chiedi ad Hans Werner
-
-*** Figura 6
-   Per la figura 6 includiamo i due fit. 
-   - Fit A = (\alpha/\sqrt{(t-\beta)^2+gamma^2} - delta)*exp(-zeta*(t-\beta)). Funzione squarerootexp della libreria di IDL con valori iniziali
-     [5.9670774e-07       4.2369099   6.1362281e-05    0.0039248963       2082.4248]
-   - Fit B = (\alpha/((t-\beta)^2+\gamma^2) - \delta) * exp(-zeta*(t\beta)) con valori iniziali. Funzione Lorentzian della libreria di IDL
-     [-403.502    0.0259806  4.23357e-06      4.23690  0.000365301      2125.53]
-*** Verifica validita odogrammi Alessandro
-  | Shot | tmin | tmax |
-  |      |      |      |
-
-** DONE Figure nuove per Volker per contributo PSI		       :WORK:
-   DEADLINE: <2010-05-07 Fri> Lista figure CLOSED: [2010-05-06 Thu 15:53]
-    - [X] Figura 3 PRL con 0 line 
-    - [X] Figura 4 PRL rotated in the other way around
-    - [X] Combine figure 3 and figure 4
-** DONE Includi i commenti per il lavoro [2/2]
-CLOSED: [2011-02-25 Fri 10:12]
-   - [X] Commenti Jens [[message://CA703655D571CF49A2E6DAED3FF5A4930CE93F@EXCHG-VS1.risoe.dk][RE: PRL]]
-   - [X] Commenti Volker [[message://CA703655D571CF49A2E6DAED3FF5A49303D983ED@EXCHG-VS1.risoe.dk][RE: PRL]]
-
-** Fourth revision
-*** Answer to referee (vd mail [[message://657547300.1282586211952.JavaMail.www@eop-batch.ridge.aps.org][Your_manuscript LK11993 Vianello]]) [4/4]
-    - [X] Ricalcolo velocita radiale e poloidale con metodo WTD [fn:5]
-    - [X] Spedisci dati a Marc per calcolo con sonde esterne della velocita poloidale
-    - [X] Marc ti fornira una velocita angolare in rad/s. A quel punto ti calcoli allo R,Z del manipolatore la velocita in m/s
-    - [X] Calcola la velocita toroidale e poloidale con la cross-correlazione senza rimappare tenendo conto dello shift per tutta la scarica e salva i dati
-*** Per la velocita con la cross-correlazione dalle wavelet 
-|  Shot | tstart | tend |
-| 23158 |   2.18 | 2.28 |
-| 23158 |   4.18 | 4.28 |
-| 23159 |   2.18 | 2.28 |
-| 26159 |   4.18 | 4.28 |
-| 26160 |   1.49 | 1.59 |
-| 26160 |   2.96 | 3.08 |
-| 26160 |   3.99 | 4.09 |
-| 26161 |   1.49 | 1.59 |
-| 26161 |   2.96 | 3.08 |
-| 26161 |   3.99 | 4.09 |
-| 26163 |   1.49 | 1.59 |
-| 26163 |   2.96 | 3.08 |
-| 26163 |   3.99 | 4.09 |
-
-*** DONE Riscrivi testo con velocita poloidale
-    CLOSED: [2010-12-28 Tue 16:04]
 * STARTED High Frequency Timing board for edge measurements 	    :PROJECT:
 :PROPERTIES:
 :ID: B48CBDA1-0174-44E3-AC5A-60E68D1DD6D9
@@ -918,6 +834,28 @@ CLOSED: [2011-02-25 Fri 10:12]
      + probe head ready for the beginning of December
      + Late january 2011 installation
      + Campaign: february 2011
+** Meeting @ Madrid
+:PROPERTIES:
+:on: <2011-04-15 Fri 09:56>
+:at: Ciemat, Madrid
+:with: Monica Daniel MariaAngeles ArturoAlonso
+:END:
+- Probe can be installed whenever we want on Friday, depending on the
+  use of the probe installed right now
+- Acquisition thought to have sampling at 600
+  kHz. Eventually it can be upgraded up to 1 MHz
+- Possible scan in magnetic well.
+- Possible measurement of the maxwell stress
+- Pre-amplifier with a stage of amplification of 5.
+- Amplification up to 20 or something like that
+- Change of collisionality in dependence ECRH or NBI plasma. Not
+  possible a pure change of beta
+- Possible experiment in the formation of islands (Pfirsh-Schluter current)
+- Routinely using Lithium wall which make easier L-H transition.
+  1. Different ECRH scenario in order to have different densities
+  2. Different configuration with different rational surface
+  3. Most likely commissioning of the probe should be done before
+
 * WAITING EAST-HT7 Electromagnetic measurements			    :PROJECT:
   - State "SOMEDAY"    from "STARTED"    [2010-10-18 Mon 12:59]
 :PROPERTIES:
@@ -960,205 +898,6 @@ CLOSED: [2011-02-25 Fri 10:12]
     + Multifractal analysis. Comparison between L-mode/inter-ELM
     + Coherent structure: comparison between L-mode/inter-ELM
 *** Conclusion
-* STARTED IAEA2010 						    :PROJECT:
-  - State "STARTED"    from "DONE"       [2010-10-27 Wed 14:45]
-  - State "DONE"       from "STARTED"    [2010-10-18 Mon 12:59]
-:PROPERTIES:
-:ID: DEDD25D9-00FF-4E80-AD34-74793B8D8E0D
-:END:
-** IAEA2010 RFX-Edge
-*** Kick-Off Meeting
-    :PROPERTIES:
-    :on:       <2010-03-18 Thu 17:08>
-    :at:       Aula Riunioni II Piano
-    :with:     PaoloS GianlucaS MatteoA Me
-    :END:
-    + Analisi Potenziale Flottante vs time con shift b(m=1,n=7) e con B_r (m=1,n=7)
-    + Analisi della Temperatura della sonda tripla con Tempo e shift b(m=1,n=7)
-    + Analisi Floating potential poloidale
-    + Determinare ampio database in funzione di corrente,n/n_g,f etc.
-*** CANCELLED Analisi temporale Te TP per Shot # 27362,27829,27833,26303
-    CLOSED: [2010-05-18 Tue 09:52]
-    - State "CANCELLED"  from "STARTED"    [2010-05-18 Tue 09:52]
-*** DONE Analisi P vs time per shot # 26557 26558 28004 28200 
-    DEADLINE: <2010-05-12 Wed> CLOSED: [2010-05-26 Wed 11:12]
-    - State "DONE"       from "STARTED"    [2010-05-26 Wed 11:12]
-    - State "TODO"       from "STARTED"    [2010-05-13 Thu 11:40]
-    - State "STARTED"    from "DONE"       [2010-05-12 Wed 17:20]
-
-    - Sonda tripla Fissa: \theta=312 \phi=82.5
-    - Aggiungiamo il confronto anche della Vf ISIS piu vicina: che e' a \theta= 340.7 ES178
-    - Aggiungiamo anche il confronto con Vf ISIS a \phi=173.9 con due valori di theta
-      1. ES355 \phi=173.9 \theta=-173.57
-      2. ES357 \phi=173.9 \theta=-83.57
-    - Creiamo per ogni shot i seguenti grafici: P & \delta_m0, P & \delta_m1
-    - Dar rifare calcolando lo shift br all'angolo theta corrispondente --> talk @ D. Terranova. Si verifica che lo shift deve essere modifcato se \theta e l'angolo della misura ed \alfa l'arcotangente fra shift verticale ed orizzontale allora il nuovo shift e' $\sqrt(\Delta V^{2} + \Delta H^{2}) * cos(\theta+\alfa)$ con entrambi gli angolo fra 0 e 360
-    - Mha .....
-    - Da rifare ricalcolando lo shift totalte contando l'm=0 ed anche lo shift totale m=1 con i secondari
-
-*** DONE [#A] Scaling globale te da sonda tripla in condizione QSH da database di Matteo
-    CLOSED: [2010-06-04 Fri 18:09]
-    - State "DONE"       from "STARTED"    [2010-06-04 Fri 18:09]
-    - State "SOMEDAY"    from "DONE"       [2010-05-28 Fri 17:38]
-    - State "DELEGATED"  from "DONE"       [2010-05-28 Fri 17:38]
-    - State "SOMEDAY"    from "STARTED"    [2010-05-28 Fri 17:38]
-
-*** Meeting
-    :PROPERTIES:
-    :on:       <2010-07-02 Fri 13:20>
-    :with:     Paolo Gianluca MatteoA MatteoZ Monica
-    :at:       Aula II Piano
-    :END: 
-**** Analisi identificate [4/9]
-     CLOCK: [2010-08-31 Tue 13:42]
-    - [X] Variazione di momento toroidale durante i crash 
-    - [ ] Variazione di velocita con b_m0, e con b_m1 sec e con shift br1
-    - [X] Velocita poloidale / elicoidale da ISIS e confronto con Gundestrup
-    - [X] Analisi posizione toroidale comparsa crash, angolo toroidale locking e confronto con posizione X/O del dominante
-    - [ ] High frequency fluctuations con ISIS magnetic e confronto con shift locale
-    - [ ] Creare routine shift m=0,m=1 con dipendenza poloidale e toroidale
-    - [X] Creare Database Crash
-    - [ ] Mappa toroidale del campo di dynamo totale [fn:4]
-    - [ ] Calcolo della dynamo nel punto della sonda tripla e determinazione della variazione di flusso. In particolare si usano  
-*** Outline
-**** Introduction
-     - Generale descrizione esperimento e regimi MH/QSH
-       + Attuale conoscenza: QSH inducono una PWI elicoidale
-       + QSH decadono nel tempo con crash
-       + Regime operazionale limitato in densita
-       + Unknown role del flow di edge anche nella generazione del sistema: evidenze di flow elicoidale
-     - Outline del documento
-**** Magnetic boundary
-     - Isole m=0
-     - Ruolo delle isole divertor/limiter condition
-     - Ruolo delle isole nella determinazione del Er ambipolare 
-     - Ruolo dello shift del dominante nella modulazione del profilo di pressione
-     - Ruolo dello shift del dominante nella modulazione del potenziale flottante (phi/tempo + phi a tempo fissato)
-     - Modulazione del flow elicoidale Gundestrup/ISIS
-     - Ripple flow toroidale
-**** QSH crashes
-     - Statistica rispetto a \partial \Delta b_r{1,7} 
-     - Analoga statistica per particle influx
-     - Analoga statistica per la velocita
-     - Si riesce a fare la variazione di momento al crash in funzione della corrente [??]
-**** Blobs [????]
-*** Poster [3/3]
-    Figure da fare
-    - [X] Figura doppia con \partial\delta/\partial\phi vs \Delta con scala graduata in colore con la PDF
-    - [X] Figura con lo spettro della velocita? e l'imaging?
-    - [X] Figura in funzione dell'angolo \zeta = atan(n\Delta/\partial\Delta/\partial\phi) [0,360]
-*** Nuclear Fusion article:
-   - [X] scatter plot \delta V_f vs \partial\Delta/\partial\Phi with colors with \Delta
-   - [X] # crashes/ms as a function of n/n_g
-   - [X] Vf vs theta e tempo per shot 24937
-   - [X] PdF dei crash con il delta massimo poloidalmente
-   - [X] T_e sonda tripla vs n/ng
-   - [X] PdF \Delta vs Theta (\Delta Max)
-   - [X] 2D PdF Te vs \delta & d\Delta/d\Phi
-   - [X] Calcolo \delta* = \delta_i/\delta_{SP}
-   - [X] Scaling #crashes/ms binnando i dati (box&whiskers) e con q(a)
-
-**** Appunti sulla riconnessione
-** IAEA2010 RFX-Barrier
-*** Edge Barrier from A. Scaggion
-    Ha cominciato un lavoro trovando impossibile distinguere ad occhio barriere da non barriere
-    Prova uno scaling dei gradienti con chirikov isole m=0. Suggerito distinzione fra touching/not touching
-*** Lista di Impulsi da A.Scaggion. Sono impulsi con T_e(0) > 800 eV e con profilo piatto fino a 380 mam
-    |  Shot | Instant | Commenti                                                                                         |
-    | 26524 |   104.8 | Filtrato a 20 kHz --> propagazione. Sembra vagamente accellerata intorno all'impulso del Thomson |
-    | 26524 |   179.6 |                                                                                                  |
-    | 26562 |   43.68 | Non si vede benissimo                                                                            |
-    | 27619 |   196.3 | E' in uno stato QSH in cui la rotazione con ISIS non si vede bene                                |
-    | 27829 |   39.98 | Non si vede quasi nulla                                                                          |
-    | 27829 |      65 | Una propagazione probabilmente si vede ma e' mascherata dal colore. Siamo in QSH                 |
-    | 27829 |      90 | Siamo in blanda QSH. Si vede bene la propagazione con una accellerazione (?)                     |
-    | 27829 |     140 | 22.5 keV/m L_te = 2 cm. Propagazione evidente!                                                   |
-    | 23825 |   44.98 | Siamo in QSH. Propagazione non evidente                                                          |
-    | 23940 |   69.98 |                                                                                                  |
-    | 24121 |   98.98 | Non si vede nulla.                                                                               |
-    | 24233 |   73.98 |                                                                                                  |
-    | 24522 |   98.98 | E' mascherato da una forte interazion a phi=200. Forse propaga                                   |
-    | 24526 |   73.98 | tutto mascherato dalla perturbazione attorno ai 180 gradi. Siamo in QSH                          |
-    | 24256 |     199 | Non si vede nulla ma il profilo del Thomson mostra piedistallo piu barriera interna              |
-    | 24539 |  123.98 |                                                                                                  |
-    | 24638 |  148.98 |                                                                                                  |
-    | 25216 |    52.7 | si intravede qualcosa. bel gradiente (600 eV in 4 cm)                                            |
-    | 25216 |   75.75 | Bello si vede abbastanza bene ruotare e non siamo in QSH. Da fare Poincare                       |
-    | 25216 |  152.68 |                                                                                                  |
-    | 25419 |   127.5 | Gradiente non ripidissimo ma ottimo esempio di acellerazione                                     |
-    | 25419 |   77.48 |                                                                                                  |
-    | 25597 |   98.98 |                                                                                                  |
-    | 25669 |   48.98 |                                                                                                  |
-    |       |         |                                                                                                  |
-    Su questi prova ad applicare la routine di Emilio per stabilire se stiamo o meno intercettando isole e confrontati con Bt locale di ISIS. Aspettare un database piu ampio contando cosa si determina sulla pressione
-*** DONE Analisi temperatura di Bordo in spari con barriera
-CLOSED: [2011-03-01 Tue 13:21]
-- State "DONE"       from "STARTED"    [2011-03-01 Tue 13:21]
-:PROPERTIES:
-:ID: FDDBF55F-944F-42AB-805E-17462DBAE2A3
-:END:
-*** DONE Leggere ITPA results
-CLOSED: [2011-03-01 Tue 13:21]
-:PROPERTIES:
-:ID: 1FE15295-F1CF-4A76-A81E-17116367055B
-:END:
-    Vedi mail [[message://auto-000004913952@igi.cnr.it][ITPA/Transort  Culham Session on ITB's march 22-25 2010 ]]
- 
-*** DONE Analisi poincare
-    CLOSED: [2010-07-20 Tue 17:48]
-    Per gli esempi individuati da Alessandro provo ad usare la routine di Emilio e creo i corrispondenti poincare semplificati 
-    solo per individuare se siamo nella region toroidale degli O-point o X-point.
-*** DONE Analisi velocita con WTD
-    CLOSED: [2010-06-28 Mon 18:18]
-    - State "DONE"       from "STARTED"    [2010-06-28 Mon 18:18]
-    <2010-06-17 Thu 14:23>
-    Implementata una analisi delle velocita locali da WTD technique con 3 sonde e corrispondente fit. Mandato in batch per 
-    verificare se si vede qualcosa di quantitativo.
-*** DELEGATED Idea for ITB
-    CLOSED: [2010-09-08 Wed 09:21]
-    Vtor & vpol vs \nabla_te da DSXC
-*** DONE Referaggio Lavoro Ester & Marco			  :WORK:READ:
-    CLOSED: [2010-09-17 Fri 12:06]
-    - State "DONE"       from "STARTED"    [2010-09-17 Fri 12:06]
-** IAEA2010 Long-range correlation
-*** DONE [#A] [3/3] 
-    CLOSED: [2010-08-31 Tue 14:09]
-    Le analisi sono da fare utilizzando la definizione fornita in Pedrosa PRL vol 100 pag 215003 (2008).
-    Bisogna sottolineare che le sonde sono ragionevolmente non sulla stessa linea di campo visto l'alto grado di stocasticita in MH
-    riscontrato e la correlazione va fatta con pin a diverse inserzioni. Si puo' provare a fare una stima della lunghezza parallela con il
-    q esistente e con F e Theta?
-    - [X] Talk w/ Emilio-Monica-Gianluca su risultati esistenti
-    - [X] Analisi cross-correlation Vf su F-step experiments through wavelet cross-spectrum
-    - [X] Analisi cross-correlation Vf su esperimenti con Edge stocastico
-*** Shot list per le analisi della cross-correlazione
-|  Shot | tmin [ms] | tmax |
-| 24835 |        40 |   80 |
-| 24845 |        50 |  110 |
-| 24848 |        30 |   70 |
-| 24860 |        50 |   80 |
-| 24862 |        70 |  100 |
-| 24873 |        50 |  100 |
-| 24878 |        40 |   80 |
-| 24896 |        50 |  110 |
-| 26416 |        40 |  140 |
-| 26417 |        30 |  150 |
-| 26419 |        40 |  160 |
-| 26420 |        50 |  140 |
-| 26422 |        50 |  140 |
-| 26423 |        50 |  140 |
-|       |           |      |
-*** Risultati e figure
-    - [X] Si inserisce una figura con la correlazione vs time/lag per shot 26414 80,150 ms
-    - [X] Osservazioni: cross-correlazione fra due sonde a distanza lungo L dell'ordine > 4 mt. Bassa correlazione
-    - [X] Si aggiunge l'osservazione che eventuali burst sono da riferirsci a reconnecting events e quindi a transient pasage of current sheets
-*** DONE Versione due						       :READ:
-    CLOSED: [2010-09-20 Mon 15:39]
-    Vedi mail [[message://4C90F98F.6010509@fz-juelich.de][revised version of the IAEA paper (8 pages)]]. 
-*** DONE Talk 
-    DEADLINE: <2010-10-08 Fri> CLOSED: [2010-10-18 Mon 22:36]
-    Commenti 
-    - Pag 3 e seguenti RFX-mode
-    - 
 * STARTED Stoccolma 2010					    :PROJECT:
 :PROPERTIES:
 :ID: BD2D6A04-0385-4484-866B-1B12AF1F8A2D
@@ -1214,10 +953,15 @@ CLOSED: [2011-03-01 Tue 13:21]
 ** U-Probe for TCV
 *** Fixed Probe da movimentare inter-shot
    - Ask @ M.Valisa
-   - 
-     
+   -      
 *** Long-term: reciprocating
-* STARTED Lundquist scaling					    :PROJECT:
+* JET
+** Jet 2011 Manning Call. Expertise required
+- Edge Pedestal, ELM and H-mode spectialist CODE EPS
+- Transport analysis and modelling specialist CODE TAMS
+- Diagnostic: PROBES + QUARTZ MP Code PQMB
+- Diagnostic: Turbulence analysis specialist TRB
+* STARTED Dynamo & Lundquist scaling                                :PROJECT:
 :PROPERTIES:
 :ID: A1DD2982-779B-4FE8-8E65-BF337046609C
 :END:
@@ -1229,7 +973,18 @@ CLOSED: [2011-03-01 Tue 13:21]
   - [ ] Analisi modale del campo di velocita e determinazione di lundquist negli intervalli QSH
   - [ ] Analisi modale e calcolo del campo elettrico di dynamo con il Br e calcolo negli intervalli QSH
   - [ ] Analisi dei secondari sia del campo di velocita che del campo di dynamo dove si considera secondari di velocita fra 8 e 16 ipotizzando che si accoppino con m=1
-  - [ ] Tentare il calcolo della mappa toroidale di dynamo con le ondine di campo
+  - [ ] Tentare il calcolo della mappa toroidale di dynamo con le
+    ondine di campo
+
+** Impulsi utili per il calcolo del campo di dynamo dalla velocita di ISIS
+|  Shot | Done | tmin | tmax |
+| 28837 |    1 |      |      |
+| 28676 |    1 |      |      |
+| 28160 |    1 |      |      |
+| 28168 |    1 |      |      |
+| 24937 |    0 |      |      |
+| 28820 |    0 |      |      |
+|       |      |      |      |
 * Footnotes
 
 [fn:1] Verificato che per problemi di configurazioni remote di mdsplus e' quasi impossibile creare il pulse file. Si decide per trasportare i dati ascii e lanciare qui la routine per creare il pulse file

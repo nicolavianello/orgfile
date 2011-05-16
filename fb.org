@@ -53,6 +53,12 @@
 DEADLINE: <2010-09-23 Thu> CLOSED: [2010-10-18 Mon 12:58]
    - [X] Talk @ Andrea 
    - [X] Determina giorni per smontaggio
+* ISIS
+** TODO Numero di FE installati fra manipolatori ed ISIS con distinzione fra FE-S e FE-M 
+DEADLINE: <2011-04-21 Thu>
+:PROPERTIES:
+:ID: D5231B4E-6FDF-421C-9150-F70F82368179
+:END:
 * Call for proposal Tokamaks
 ** DONE TCV
    DEADLINE: <2010-09-15 Wed> CLOSED: [2010-09-15 Wed 16:59]
@@ -84,8 +90,41 @@ CLOSED: [2011-02-25 Fri 10:18]
    CLOSED: [2010-11-29 Mon 14:23]
 
 ** Vedi Mail [[message://auto-000005565640@igi.cnr.it][Fwd: Studente triennale interessato ad una tesi proposta]] per laurea triennale su distribuzione toroidale di velocita e limite di densita
-*** DONE mail @ alberto.mazzi					       :MAIL:
+*** DONE mail @ alberto.mazzi  :MAIL:
 CLOSED: [2011-01-20 Thu 14:01]
+
+** Tesi Alberto Mazzi
+*** Outline
+1. Introduction Chapter:
+   1. Fusione termonucleare controllata
+   2. Confinamento magnetico del plasma & configurazione RFP
+   3. Esperimento RFX-mod
+2. Il problema fisico del limite di densita
+   1. Nei tokamak
+   2. Negli RFP con accenni al limite operativo per la QSH
+3. Diagnostica e tecnica di analisi
+   1. Potenziale Flottante
+   2. ISIS
+   3. Fluttuazione di velocita da wavelet time delay
+4. Analisi dei dati:
+   1. Velocita da S(k,f) vs n/n_g con le sondine triple
+   2. Inversione della velocita con pellet
+   3. Inversione della velocita con scariche ad alta densita
+   4. Scaling dell'ampiezza del modo dominante di velocita con n/ng
+   5. Eventualmente scaling in Lundquist con sottoinsieme di impulsi
+   6. Eventualmente Stima del campo di dynamo corrispondente
+
+*** Lista degli impulsi da analizzare
+|  Shot | Caratteristiche         |
+| 26506 | Pellet                  |
+| 26364 | Iniezione di Neon       |
+| 26317 | Impulso ad alta densita |
+| 26309 |                         |
+| 26310 |                         |
+| 26312 |                         |
+| 26314 |                         |
+| 19955 |                         |
+| 26303 |                         |
 
 * DONE Call for proposals 2011 & Workshop di programma
 DEADLINE: <2011-02-01 Tue> CLOSED: [2011-02-25 Fri 10:18]
@@ -205,3 +244,47 @@ CLOSED: [2011-02-04 Fri 14:50]
 10. Comparison with theory: pure MHD (with no pressure and zero-velocity
     at the edge) consistent in the core but not at the edge
 11. 
+
+* EFDA TTG Meeting
+:PROPERTIES:
+:on: <2011-05-11 Wed 13:34>
+:at: Remote meeting
+:with: All Efda
+:END:
+ - V. Naulin  : Description of 2012-2013 EFDA activities and time frame
+ - N. Vianello: beta/parallel electron legth & normalized collisional frequency
+ - M. Spolaore: RFX-mod proposal: TJ-II, Comparison between
+   AUG/Compass/RFX-mod-tokamak, RFX-mod as RFP
+ - A. Kirk: 6 coils in the upper row and 12 coils in the lower
+   row. Measurements RP & BES, flows, Er, T_i (from RFEA) and
+   magnetics, Resistive/linear vacuum code. Two RFEA for ion energy distribution
+ - XU: GPI installed for blobs studies in DED up to 500 kHz looking at
+   LCFS EDGE-SOL transition
+ - Willensdorfer: Li-Beam on AUG feasibility studies of Zeeman effect
+   for current measurements
+ - Kramer-Flechen: Correlation reflectometer in Textor. Perpendicular
+   velocity, decorrelation time, density fluctuation level and
+   correlation lenght in all the three dimension. Use of RMP. RMP
+   combined with probes, BES. Scan on I_ded. Poloidal resolution (0,
+   and > 90 degree). Compare with ATTEMPT code. Experiments partly performed.
+ - D. Carralero:
+ - I. Furno: Feasibility studies of a 3D configuration in
+   Torpex. Levitron
+ - J. Adamek:
+ - Zoletnik: ITG scale turbulence at the edge of Textor with
+   Li-Beam. In principle all the three components of velocity. Typical
+   edge turbulence disappears with DED. Edge GAMs disappear as well
+   whereas at r/a=0.85 increase in amplitude.
+ - Kendl: E. Kendl et al PoP vol 17, 072302 (2010)
+ - V. Naulin: Riso contribution
+ - Key parameter:
+   * size
+   * radial velocity
+   * generation rate
+   * Temperature inside the blob
+   * Shearing rate
+   * paacking fraction
+   * vorticity/current
+   * 2D maps
+ - define measurebles and methodology to be shared
+ - RMP on type of turbulence on the EDGE
