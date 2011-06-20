@@ -588,6 +588,9 @@ CLOSED: [2011-03-01 Tue 13:21]
 - E' possibile creare uno script per l'accesso l'esecuzione di un
   comando IDL il trasferimento dei dati e la successiva cancellazione
 ** Loogbook
+- *There are some doubts on radial-toroidal exchange of the probes as the radial component does not exhibit any oscillation whereas the toroidal one yes*
+- xtip = (2181 + (1726-X probe)+L_posi+100.)
+
 Signal name 
 | Name     | Type       |
 | Ufl_m06  | Floating   |
@@ -602,6 +605,23 @@ Signal name
 | 26999 | @4.1s     | Conditioning. Doubts on coils connection as toroidal component too high |
 | 26700 | @4.1s     | Now Lpos signal work                                                    |
 | 26701 | @4.1s     |                                                                         |
+
+*** 26-27 May 2011
+|  Shot | X Probe | Comment                                                                  |
+| 27015 |    1785 | L-mode discharge                                                         |
+| 27016 |    1788 | L-mode discharge                                                         |
+| 27617 |    1795 | L-mode discharge                                                         |
+| 27618 |    1793 | L-mode discharge                                                         |
+| 27032 |         | H-Mode discharge. Probes without filtering to get rid of components      |
+| 27033 |    1766 | H-mode discharge. Probes now again with the high-pass filtering at 1 kHz |
+| 27034 |    1780 | Aborted                                                                  |
+| 27035 |    1780 | Disruption at 0.9s                                                       |
+| 27036 |    1780 | Useful only the first stroke due to a disruption                         |
+| 27037 | 1780(?) | Changed to Edge Snakes program to obtain better discharges. Not useful   |
+| 27038 |    1780 | Aborted                                                                  |
+| 27039 |    1780 | Non innesca                                                              |
+| 27040 |    1780 |                                                                          |
+
 
 ** Workshop & AUG
 1. E. Wolfrum:
@@ -700,8 +720,11 @@ Signal name
 
 * APS 2011                                                          :PROJECT:
 **  Tentative scheduled work for possible invited talk
-*** RFX-Mod 
-
+*** TODO [0/4] RFX-Mod 
+- [ ] Scaling vorticita e corrente insieme
+- [ ] Profilo radiale della massima perturbazione di corrente
+- [ ] Differenza in k_{\parallel} a seconda del parametro F
+- [ ] Eventualmente due run di RFP-tyr per far vedere le differenze drift-interchange
 * Footnotes
 
 [fn:1] Verificato che per problemi di configurazioni remote di mdsplus e' quasi impossibile creare il pulse file. Si decide per trasportare i dati ascii e lanciare qui la routine per creare il pulse file

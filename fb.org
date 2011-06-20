@@ -126,6 +126,10 @@ CLOSED: [2011-01-20 Thu 14:01]
 | 19955 |                         |
 | 26303 |                         |
 
+
+*** TODO Ancora da fare 
+    -[ ] calcolo dell'ampiezza del massimo di velocita. Ancora meglio
+    definire masssimo come media fra i due zeri
 * DONE Call for proposals 2011 & Workshop di programma
 DEADLINE: <2011-02-01 Tue> CLOSED: [2011-02-25 Fri 10:18]
 :PROPERTIES:
