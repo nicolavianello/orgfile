@@ -6,7 +6,9 @@
 #+COLUMNS: %38ITEM(Details) %TAGS(Context) %7TODO(To Do) %5Effort(Time){:} %6CLOCKSUM{Total}
 #+PROPERTY: Effort_ALL 0 0:10 0:20 0:30 1:00 2:00 3:00 4:00 8:00
 
-* STARTED Torpex Cluster Probe					    :PROJECT:
+* DONE Torpex Cluster Probe                                         :PROJECT:
+CLOSED: [2011-08-29 Mon 15:51]
+- State "DONE"       from "STARTED"    [2011-08-29 Mon 15:51]
 :PROPERTIES:
 :CATEGORY: Projects
 :ID: FDAE6771-A922-4382-B3DC-E3B0C1867262
@@ -489,28 +491,22 @@ Vedi mail di Ivo [[message://4DB00051.9090607@epfl.ch][reply to referees]]
   2. Different configuration with different rational surface
   3. Most likely commissioning of the probe should be done before
 
-* WAITING EAST-HT7 Electromagnetic measurements			    :PROJECT:
-  - State "SOMEDAY"    from "STARTED"    [2010-10-18 Mon 12:59]
-:PROPERTIES:
-:ID: ABA6E48C-A0F0-4A7D-9D95-800BAD7B85CF
-:END:
-** Guo Sheng presentazione
-   Vedi Mail [[message://20100302025529.16830.qmail@ms.hfcas.ac.cn][EAST, Guosheng Xu]]. Commenti su risposta
-   + With the present arrangment you are unable to estimate directly the current. Any plan to upgrade with 3 different coils?
-   + The BN case is surrounded by graphite. Is it necessary from the power load or what? 
-   + If the cylindrical case can be incresead a bit it would be possible to put the other coil on the other side to measure the current
-   + Did you have an idea of the bandwidth? Any information on the connection or differential acquisition?
-   + Is it inserted only in the SOL or even in the confined region?
-   + How many cables your manipulator can hold? We can skip part of the magnetic field in order to have the current
-   + I would appreciate very much the possibility to look at the data if possible
-** DONE Contattare yanning@ipp.ac.cn				       :MAIL:
-   CLOSED: [2010-03-23 Tue 16:08]
-
-** STARTED Download of data from HT7
-:PROPERTIES:
-:ID: C7AA92A9-18C2-4B6D-A3FE-6A5ECECAEEF5
-:END:
-   Vedi mail [[message://20100323143106.24181.qmail@ms.hfcas.ac.cn][Re: Re: current filaments in HT7 and East Tomaka]] per come fare
+** TODO Crea pulse file
+** List of questions for Daniel Carralero
+1. E' possibile avere il segnale del campo toroidale applicato per confrontarlo con il segnale integrato e rendere conto della eccessiva variazione
+2. Angolo di rotazione rispetto a che asse? Manipolatore? Si assumono 30 gradi fra asse manipolatore ed asse sonda?
+3. CA con densita o Isat?
+4. Su 28394 la media condizionata con differenti angoli e fatta con modo alfenico assente. Ci pare di notare una qualche struttura di densita di corrent
+5. Discharges start at 1060 ms?
+6. It is possible to compare density profiles (global) from ECH and NBI?
+7. Che la densita abbia una scala circa meta della corrente non e' strano. Sembra molto stretta invece la struttura di vorticita
+8. Confronto vorticita in segno ed in valore con lo shear medio
+ 
+*** Videoconference <2011-09-23 Fri>
+- Spedire materiale su DOP a Daniel
+- Spedire bibliografia su bipolar current associated to blobs/DKA
+- GAIN factor to be checked on b
+- Reynolds and Maxwell stress during Alfven mode activity
 * STARTED Stoccolma 2010					    :PROJECT:
 :PROPERTIES:
 :ID: BD2D6A04-0385-4484-866B-1B12AF1F8A2D
@@ -607,21 +603,23 @@ Signal name
 | 26701 | @4.1s     |                                                                         |
 
 *** 26-27 May 2011
-|  Shot | X Probe | Comment                                                                  |
-| 27015 |    1785 | L-mode discharge                                                         |
-| 27016 |    1788 | L-mode discharge                                                         |
-| 27617 |    1795 | L-mode discharge                                                         |
-| 27618 |    1793 | L-mode discharge                                                         |
-| 27032 |         | H-Mode discharge. Probes without filtering to get rid of components      |
-| 27033 |    1766 | H-mode discharge. Probes now again with the high-pass filtering at 1 kHz |
-| 27034 |    1780 | Aborted                                                                  |
-| 27035 |    1780 | Disruption at 0.9s                                                       |
-| 27036 |    1780 | Useful only the first stroke due to a disruption                         |
-| 27037 | 1780(?) | Changed to Edge Snakes program to obtain better discharges. Not useful   |
-| 27038 |    1780 | Aborted                                                                  |
-| 27039 |    1780 | Non innesca                                                              |
-| 27040 |    1780 |                                                                          |
-
+|  Shot | X Probe | tmin | tmax |
+| 27015 |    1784 |    0 |    6 |
+| 27016 |    1788 |    0 |    7 |
+| 27017 |    1795 |    0 |    6 |
+| 27018 |    1793 |    0 |    6 |
+| 27032 |         |    0 |   10 |
+| 27033 |    1766 |    0 |    5 |
+| 27036 |    1780 |    0 |    4 |
+| 27035 |    1777 |      |      |
+| 27036 |    1777 |      |      |
+| 27041 |    1750 |    0 |   10 |
+| 27042 |    1777 |    0 |    5 |
+| 27043 |    1777 |    0 |    3 |
+| 27045 |    1770 |    0 |    7 |
+| 27046 |    1770 |    0 |    8 |
+| 27075 |         |    0 |    5 |
+| 27076 |         |    0 |   10 |
 
 ** Workshop & AUG
 1. E. Wolfrum:
@@ -673,7 +671,8 @@ Signal name
    + Energy transfer spectra (camargo, scott, biskamp PoP 1995)
 6. C. Angioni:
 
-** TODO Talk w/ Roberto Cavazzana per cabling                         :MAIL:
+** DONE Talk w/ Roberto Cavazzana per cabling                         :MAIL:
+CLOSED: [2011-11-17 Thu 14:40]
 * TCV								    :PROJECT:
 :PROPERTIES:
 :ID: 295CF240-32FE-48F0-9275-43D2DBA8CFBC
@@ -689,11 +688,91 @@ Signal name
 - Transport analysis and modelling specialist CODE TAMS
 - Diagnostic: PROBES + QUARTZ MP Code PQMB
 - Diagnostic: Turbulence analysis specialist TRB
-* STARTED Dynamo & Lundquist scaling                                :PROJECT:
+* U-Probe campaigns
+** NOTA GENERALE
+Dalle indicazioni di matteo BRA03 e BPA03 sono invertite. BPA02 non funziona!
+** TOKAMAK Campaign July 2011
+|  Shot | T.L. |  X |
+| 30459 | 1460 |  0 |
+| 30460 | 1460 |  0 |
+| 30461 | 1460 |  0 |
+| 30462 | 1460 |  0 |
+| 30463 | 1460 |  0 |
+| 30464 | 1460 |  0 |
+| 30465 | 1460 |  0 |
+| 30472 | 1460 |  0 |
+| 30473 | 1460 |  0 |
+| 30474 | 1460 |  0 |
+| 30475 | 1467 |  0 |
+| 30478 | 1460 |  0 |
+| 30479 | 1460 |  0 |
+| 30480 | 1467 |  7 |
+| 30481 | 1472 | 17 |
+| 30483 | 1477 | 17 |
+| 30484 | 1482 | 22 |
+| 30485 | 1482 | 22 |
+| 30486 | 1482 | 22 |
+| 30487 | 1487 | 27 |
+| 30488 | 1487 | 27 |
+| 30489 | 1492 | 32 |
+| 30490 | 1492 | 32 |
+| 30491 | 1492 | 32 |
+| 30491 | 1497 | 37 |
+| 30492 | 1497 | 37 |
+| 30493 | 1502 | 42 |
+| 30494 | 1502 | 42 |
+| 30495 | 1507 | 47 |
+
+*** Nota sulle analisi
+In realta i segnali presentano chiaramente un andamento con un modo definito (la cui frequenza varia) che puo essere un modo (2/1) che frena e rallenta per poi loccarsi alla parete. Questo rende l'analisi spuria, nel senso che non siamo ad una turbolenza completamente sviluppata visto che nemmeno i potenziali flottanti sembrano avere una struttura ben definita.
+** RFP Campaign July 2011
+|  SHot | T.L. |  X |
+| 30504 | 1460 |  0 |
+| 30505 | 1460 |  0 |
+| 30506 | 1480 | 20 |
+| 30510 | 1460 |  0 |
+| 30511 | 1495 | 35 |
+| 30512 | 1495 | 35 |
+| 30513 | 1495 | 35 |
+| 30514 | 1495 | 35 |
+| 30515 | 1505 | 45 |
+| 30516 | 1505 | 45 |
+| 30518 | 1505 | 45 |
+| 30519 | 1505 | 45 |
+| 30520 | 1505 | 45 |
+| 30521 | 1490 | 30 |
+| 30522 | 1490 | 30 |
+| 30525 | 1460 |  0 |
+| 30526 | 1460 |  0 |
+| 30527 | 1490 | 30 |
+| 30528 | 1490 | 30 |
+| 30529 | 1505 | 45 |
+| 30530 | 1505 | 45 |
+| 30531 | 1510 | 50 |
+| 30532 | 1510 | 50 |
+| 30533 | 1485 | 25 |
+| 30534 | 1485 | 25 |
+| 30535 | 1490 | 30 |
+| 30536 | 1490 | 30 |
+| 30537 | 1490 | 30 |
+| 30539 | 1460 |  0 |
+| 30540 | 1485 | 25 |
+| 30541 | 1485 | 25 |
+| 30542 | 1480 | 20 |
+| 30543 | 1480 | 20 |
+| 30545 | 1495 | 35 |
+| 30546 | 1495 | 35 |
+| 30547 | 1495 | 35 |
+| 30548 | 1495 | 35 |
+| 30549 | 1495 | 35 |
+| 30540 | 1495 | 35 |
+|       |      |    |
+* STARTED ISIS                                        :WORK:ANALYSIS:
 :PROPERTIES:
 :ID: A1DD2982-779B-4FE8-8E65-BF337046609C
 :END:
-** TODO [1/5] Analysis to be done
+** Lundquist scaling
+*** TODO [1/5] Analysis to be done
 :PROPERTIES:
 :ID: 10A6E7C1-528C-4A96-81AB-9690D335F2CB
 :END:
@@ -704,7 +783,7 @@ Signal name
   - [ ] Tentare il calcolo della mappa toroidale di dynamo con le
     ondine di campo
 
-** Impulsi utili per il calcolo del campo di dynamo dalla velocita di ISIS
+*** Impulsi utili per il calcolo del campo di dynamo dalla velocita di ISIS
 |  Shot | Done | tmin | tmax |
 | 28837 |    1 |      |      |
 | 28676 |    1 |      |      |
@@ -718,13 +797,137 @@ Signal name
 | 26317 |      |      |      |
 | 26364 |      |      |      |
 
-* APS 2011                                                          :PROJECT:
-**  Tentative scheduled work for possible invited talk
-*** TODO [0/4] RFX-Mod 
-- [ ] Scaling vorticita e corrente insieme
-- [ ] Profilo radiale della massima perturbazione di corrente
-- [ ] Differenza in k_{\parallel} a seconda del parametro F
-- [ ] Eventualmente due run di RFP-tyr per far vedere le differenze drift-interchange
+*** Nuovo set di impulsi decisi insieme a PaoloS, MatteoA, GianlucaS
+<2011-06-28 Tue>
+|  shot | inversione |
+| 29190 | 0          |
+| 29191 | 0          |
+| 28860 | 0          |
+| 28861 | 0          |
+| 28676 | 1          |
+| 26560 | 1          |
+| 26670 | 1          |
+| 26557 | 1          |
+
+** n=6 Non-null reference experiment
+*** Shot list
+|  Shot | (1/-6) Amp |      (1/-6) Time | freq | Notes                                                       |
+| 30923 |          9 |            0-120 |   20 | n/ng=0.07                                                   |
+| 30924 |          9 |            0-120 |   20 | density bursts                                              |
+| 30925 |          9 |            0-120 |   20 | n/nG=0.07                                                   |
+| 30926 |          9 |            0-120 |   20 | n/nG=0.07                                                   |
+| 30927 |          9 |            0-120 |   20 | n/nG=0.1                                                    |
+| 30928 |          9 |            0-120 |   20 | n/nG=0.1                                                    |
+| 30929 |          7 |            0-120 |   20 | n/nG=0.1, 1/-7 QSH appears                                  |
+| 30930 |      11->9 | 0-140 -> 140-200 |   20 | Density bursts. Applied also 1/-7 7mT 20 Hz, 200-300 ms     |
+| 30931 |          8 |            0-200 |   20 | n/nG=0.12 (1/-7) QSH appears, (1/-8), 4mT, 20 Hz, 200-300ms |
+| 30932 |          9 |            0-160 |   20 | n/nG=0.13, (1/-8), 4mT, 20 Hz,160-300 ms                    |
+* EFDA                                                      :PROJECT:
+** 2nd Efda General Planning Meeting 27-28/10/2011
+*** A1 Prediction of Material Migration and Mixed Material Formation (PWI-DIA)
+*** A3 Fuel Retention and Removal Marek Rubel
+- According to the prediction all metal machine fuel invetory will be reduced
+- 58 Proposals by 17 Association.
+- Majority of proposals on Tungsten (rather than Berillium) small amount on Carbon which is still considered for ITER Divertor or in general as important impurity species
+- Assessment of Fueld Removal Methhods and Dust Generation. -> Develop chemical and photonic non-destructive fueld removal methods
+- Dust experiment for precursors and relevant dynamics on dust
+
+*** A11 Operation with Metallic Plasma-Facing Components, including High Power ICR
+*** A10 Particle Transport Fuelling and Inner Fuel Cycle Model - V. Naulin
+- Project A10.1: Inner fueld cycle modelling:
+  + Fuelling is a matter of "kitchen receipt"
+  + Hope to develop a real knowledge base for design and operation plus result in a predictive modelling of the complete fuel cycle
+  + Creation of database for pumping system/ fueling system (including pellet fueling)/ and fuel cycle for all the machines
+- Fueling physics
+- Development of a SL turbulence code
+  + global gyrofluid code four boundary turbulence
+  + global gyrokinetic code
+  + neutral module for SOL turbulence
+  + dust module for SOL turbulence
+- *Problems of edge fueling and velocity pinch at the edge or convective term*
+*** A06 Pedestal Instabilities (ELMs), Mitigation and Heat loads - W. Fundamenski
+- A6.1: L-mode
+  + Build a predictive model for transport and heat load during L-mode
+  + Creation of a multi-machine database includin JET L-mode
+- A6.2: Steady state SOL transport: H-mode, the inter-ELM phase
+  + Develop a predictive model for natural ELM crash
+  + Indication from infrared on JET, AUG and DIII-D tha type I natural ELM could cause a lower heat load to the wall of ITER than expected.
+- A6.3: Transient SOL transport: H-mode, the ELM crash
+  + Reduction of ELM heat loads by magnetic perturbations
+  + Develop predicting model of the effect of RPM on divertor heat load
+  + Penetration of RMP is an open issue
+- Comments from A. Loarte: determination of the heat flux at the first wall (not at the divertor)
+
+*** A07 Disruptions Prediction Avoidance Mitigation and Consequences - Koslowski
+*** A2 Shaping and Controlling Performance limiting instabilities - P. Martin
+- Background: ITER needs. Resolution of issues during construction and thus we might provide resolution to the problems which might affect the design of permanent or upgradable component of ITER
+- Key H-mode: ELM Mitigation
+- Disruption
+- Topics:
+  + NTM
+  + Real time control through Coils
+  + Impact of error field and 3D perturbation
+  + Improvemenet predictive capabilities for full MHD simulation
+- 24 Proposal for Control & performance
+- 11 Proposal for feedback
+- 7 proposal for Innovative measurement capabilities
+- 3 Projects proposal
+  + NTM & sawtooth control
+    * Experiment on ST/NTM
+    * Modeling
+  + Shape and control the 3D electromagnetic boundary
+    * RWM
+    * Error fields
+  + Innovative technique towards MHD control
+    * Development on new control-oriented diagnostics
+    * Development of real time infrastructure
+- 
+** WP-TRA-05-01 Final Meeting
+*** Programme scheduled:
+| Contribution                              | Presenter               |        Time |       |
+| Introduction and Motivation               | N. Vianello & V. Naulin |   9.00-9.15 |       |
+| Contribution from RFX-mod                 | M. Spolaore             |   9.15-9.30 |       |
+| Contribution from CCFE                    | A. Kirk                 |   9.30-9.45 |       |
+| Contribution from Julich/ERM/KMS          | Y. Xu                   |  9.45-10.00 |       |
+| Contribution from CIEMAT                  | D. Carralero            | 10.00-10.15 |       |
+| Contribution from KFKI                    | S. Zoletnik             | 10.15-10.30 |       |
+| Contribution from IPP/CR                  | J. Adamek               | 10.30-10.45 |       |
+| Contribution from UIBK                    | Schrittwieser/A.Kendl   | 10.45-11.00 |       |
+| Contribution from University of Ljubljana | T. Gyergyek             | 11.00-11.15 |       |
+| Contribution from TORPEX                  | I. Furno                | 11.15-11.30 |       |
+| Contribution from RISO                    | V.Naulin/A.Nielsen      | 11.30-11.45 |       |
+| Discussion                                |                         | 11.45-12.30 | ***** |
+|                                           |                         |             |       |
+
+*** Meeting
+:PROPERTIES:
+:on: <2011-11-22 Tue 09:24>
+:at: Videomeeting
+:with: EFDA Colleagues in videomeeting
+:END:
+- Monica: Presentation on RFX-mod activities
+- Kirk:
+  + Different heat flux through IR during the application of RMPs
+  + Strike point splitting is observed accompanied by density pump out
+  + BES exhibits a rapid change in the poloidal velocity just inside the LCFS at the onset of density pump-out. Size of bracking larger than NTV. Slower spin-up after RMP switch off
+  + 2RFEA for Ti measurements built. One is bi-directional to sample upstream-downstream
+  + 2/1 ration of Ti/Te at the midplane
+  + Screening/non screening effects: Position of the lobes are not changed by the screening of the effects
+- Xu:
+  + GPI measurements on 3/1 DED
+  + Variation of the blobs radial/poloidal velocities and of the Reynolds stress with DED application
+  + Variation of Connectin Length with DED should change Blobs dynamics
+- Daniel from TJ-II
+- Ivo from Torpex:
+- Gyeryek:
+  + Fully kinetic PIC-MCC BIT1 code to simulate medium size tokamak (AUG,COMPASS-D)
+  + Te=10 eV, Ti=20 eV, density 2 10^19 with ionization, CX excitation, elastic recombination
+- Kendl:
+  + Inclusion of RMP on GEMR but still problems of numerical instabilities
+  + Implementation of synthetic diagnostic in GEMR: Emissive probe/RFA
+  + Zonal flow from new easier code TOEFL.
+  
+  
 * Footnotes
 
 [fn:1] Verificato che per problemi di configurazioni remote di mdsplus e' quasi impossibile creare il pulse file. Si decide per trasportare i dati ascii e lanciare qui la routine per creare il pulse file

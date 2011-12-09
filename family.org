@@ -120,6 +120,34 @@ CLOSED: [2011-02-25 Fri 10:18]
    - [X] Prenota incontro BNL
    - [X] Prenota incontro UNICredit
    - [X] Prenota incontro BancaIntesa/Cassa di Risparmio del Veneto
+*** Considerazioni mutui
+- Se prima casa le tasse sono come segue
+  + imposta di registro del 3%
+  + imposta ipotecaria fissa del 168 euro
+  + imposta catastale fissa di 168 ero
+- Se seconda casa
+  + Imposta di registro del 7%
+  + imposta ipotecaria del 2%
+  + imposta catastale dell 1%
+- Quindi ipotizzando che il valore catastale sia di 120000 le tasse
+  sono come segue
+  + 3936 Euro come prima casa piu compenso Notaio (~2000)
+  + 12000 Euro come seconda casa (altrimenti se 50% sara 6000+2000 =
+    8000 +compenso notaio ~ 2000 = 10000)
+- Richiedendo un mutuo di 80000 la rata si aggira attorno ai 450-500
+  euro mensili a seconda del tipo di mutuo
+  
+** Varie Case
+*** soluzione via Isonzo bifamiliare
+- Agenzia Soluzioni Immobiliari. Soluzione totale sui 550
+  kEuro. Parte superiore 290 parte inferiore 260
+*** Soluzione del 700 in fondo a via SS. Fabiano e Sebastiano
+- 475 kEuro soluzione piu piccola al grezzo/trattabile 650 Finita
+*** Soluzione di via dei Giacinti
+- 348 kEuro
+- Da considerare Impianto Eletrico/Idraulico/Termico ~ 20 kEuro
+- Solaio ~ 150 euro/mq
+- 45 + 85 + 50
 * Film
 ** Da scaricare [2/6]
    - [ ] L'uomo che verra' di G. Diritti

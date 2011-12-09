@@ -86,50 +86,7 @@ CLOSED: [2011-02-25 Fri 10:18]
   - [ ] Statistica
 ** Pargrafo 6.7 Arcless
 * Tesi
-** DONE Mail @ eugenio.calabrese@yahoo.it			       :MAIL:
-   CLOSED: [2010-11-29 Mon 14:23]
 
-** Vedi Mail [[message://auto-000005565640@igi.cnr.it][Fwd: Studente triennale interessato ad una tesi proposta]] per laurea triennale su distribuzione toroidale di velocita e limite di densita
-*** DONE mail @ alberto.mazzi  :MAIL:
-CLOSED: [2011-01-20 Thu 14:01]
-
-** Tesi Alberto Mazzi
-*** Outline
-1. Introduction Chapter:
-   1. Fusione termonucleare controllata
-   2. Confinamento magnetico del plasma & configurazione RFP
-   3. Esperimento RFX-mod
-2. Il problema fisico del limite di densita
-   1. Nei tokamak
-   2. Negli RFP con accenni al limite operativo per la QSH
-3. Diagnostica e tecnica di analisi
-   1. Potenziale Flottante
-   2. ISIS
-   3. Fluttuazione di velocita da wavelet time delay
-4. Analisi dei dati:
-   1. Velocita da S(k,f) vs n/n_g con le sondine triple
-   2. Inversione della velocita con pellet
-   3. Inversione della velocita con scariche ad alta densita
-   4. Scaling dell'ampiezza del modo dominante di velocita con n/ng
-   5. Eventualmente scaling in Lundquist con sottoinsieme di impulsi
-   6. Eventualmente Stima del campo di dynamo corrispondente
-
-*** Lista degli impulsi da analizzare
-|  Shot | Caratteristiche         |
-| 26506 | Pellet                  |
-| 26364 | Iniezione di Neon       |
-| 26317 | Impulso ad alta densita |
-| 26309 |                         |
-| 26310 |                         |
-| 26312 |                         |
-| 26314 |                         |
-| 19955 |                         |
-| 26303 |                         |
-
-
-*** TODO Ancora da fare 
-    -[ ] calcolo dell'ampiezza del massimo di velocita. Ancora meglio
-    definire masssimo come media fra i due zeri
 * DONE Call for proposals 2011 & Workshop di programma
 DEADLINE: <2011-02-01 Tue> CLOSED: [2011-02-25 Fri 10:18]
 :PROPERTIES:
