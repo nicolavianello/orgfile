@@ -6,289 +6,6 @@
 #+COLUMNS: %38ITEM(Details) %TAGS(Context) %7TODO(To Do) %5Effort(Time){:} %6CLOCKSUM{Total}
 #+PROPERTY: Effort_ALL 0 0:10 0:20 0:30 1:00 2:00 3:00 4:00 8:00
 
-* DONE Torpex Cluster Probe                                         :PROJECT:
-CLOSED: [2011-08-29 Mon 15:51]
-- State "DONE"       from "STARTED"    [2011-08-29 Mon 15:51]
-:PROPERTIES:
-:CATEGORY: Projects
-:ID: FDAE6771-A922-4382-B3DC-E3B0C1867262
-:END:  
-** CANCELLED Realizzazione I-Probe
-   DEADLINE: <2010-01-28 Thu> CLOSED: [2010-09-24 Fri 14:52]
-   Realizzazione di una nuova sonda ad I con due sonde triassiali da
-   montare sul manipolatore 2D e fare una mappa completa da cui poi
-   ricostruire la corrente. La stima di corrente rimane sempre 10 A/m^2
-
-** DONE Analisi dati raccolti da Ivo		       :MAIL:ANALYSIS:OFFICE:
-   CLOSED: [2010-02-09 Tue 22:45]
-** Skype Conference with Ivo Furno
-   Presenti: Monica Spolaore, Ivo Furno, Paolo Ricci and Nicola Vianello
-  <2010-01-18 Mon 17:08>
-   + Sperimentalmente e' banale porsi nella condizione al di la/di qua
-     del limiter
-   + Scan radiale della sonda (r=0 e' il centro della camera)
-     -12<r<+18 (nb a = 20 cm)
-   + Ok per ruotare la sonda cercando di fare \grad_perp J_\perp
-   + Fissata per 1-5 Febbraio 2010
- 
-** DONE Richiesta di missione e di mobility			  :WORK:MAIL:
-   DEADLINE: <2010-01-25 Mon> CLOSED: [2010-01-22 Fri 12:40]
-** DONE Prenota Radio Taxi
-   DEADLINE: <2010-01-29 Fri> CLOSED: [2010-01-29 Fri 10:12]
-** Meeting at Torpex						    :MEETING:
-   :PROPERTIES:
-   :on:       <2010-02-02 Tue 14:14>
-   :at:       Torpex Lausanne
-   :with:     Ivo Davud Monica
-   :END: 
-   + Workshop on basic plasma device
-   + Work on intensifier
-
-** Campagna Sperimentale su TORPEX
-   :PROPERTIES:
-   :on:       <2010-02-02 Tue 16:00>
-   :at:       Torpex Lausanne
-   :with:     Ivo Monica Nicola
-   :END:
-    | Probe | Coil | Name | color  | Channel | Polarity | Area [x10-3 m^2] |
-    |     1 | y    | B_1y | red    | 2       |       +1 |            2.341 |
-    |     1 | z    | B_1z | yellow | 3       |       +1 |            1.774 |
-    |     1 | x    | B_1x | green  | 4       |       -1 |            1.286 |
-    |     2 | y    | B_2y | black  | 5       |       -1 |            2.382 |
-    |     2 | z    | B_2z | violet | 7       |       +1 |            1.987 |
-    |     2 | x    | B_2x | gray   | 10      |       +1 |            1.303 |
-    |     3 | y    | B_3y | brown  | 22      |       +1 |            2.303 |
-    |     3 | z    | B_3z | orange | 31      |       +1 |            1.817 |
-    |     3 | x    | B_3x | blue   | 32      |       +1 |            1.248 |
-
-
-   + Reference shot 44500 (Mariotron)
-   + I_z 75 A
-   + Bdot array on movable system 3
-   + Gas Hydrogen
-   + 1 Limiter inside (usual position see Christian Telier)
-   + La misura segnata e' il centro della sonda numero 2
-   | Shot # |    r | theta | SLP | SLP Angle | Comments                                                                                    |
-   |  44778 |    0 |     0 |   8 |         0 | Failed                                                                                      |
-   |  44779 |    0 |     0 |   8 |         0 | Mancavano dati corretti S-Tip. Campo verticale troppo basso 72 G                            |
-   |  44780 |    0 |     0 |   8 |         0 | B_z e' cresiuto a 75                                                                        |
-   |  44781 |   18 |     0 |   8 |         0 |                                                                                             |
-   |  44782 |   18 |     0 |   8 |         0 |                                                                                             |
-   |  44783 |   18 |     0 |   8 |         0 |                                                                                             |
-   |  44784 |   18 |     0 |   8 |         0 | Pumped out and refilled                                                                     |
-   |  44785 |   13 |     0 |  10 |         0 |                                                                                             |
-   |  44786 |   11 |     0 |  10 |         0 |                                                                                             |
-   |  44787 |    8 |     0 |   9 |         0 |                                                                                             |
-   |  44788 |    7 |     0 |   7 |         0 |                                                                                             |
-   |  44789 |    5 |     0 |   5 |         0 |                                                                                             |
-   |  44790 |    3 |     0 |   3 |         0 |                                                                                             |
-   |  44791 |    1 |     0 |   1 |         0 | C'era un problema di contatto fra terminazioni per la sonda 12 e quindi sono inutilizzabili |
-   |  44792 |    3 |     0 |   3 |         0 |                                                                                             |
-   |  44793 |    3 |     0 |   3 |         0 |                                                                                             |
-   |  44794 |    3 |     0 |   3 |         0 | Inizio scan                                                                                 |
-   |  44795 |    5 |     0 |   5 |         0 |                                                                                             |
-   |  44796 |    7 |     0 |   7 |         0 |                                                                                             |
-   |  44797 |    9 |     0 |   9 |         0 |                                                                                             |
-   |  44798 |   11 |     0 |   9 |         0 |                                                                                             |
-   |  44799 |   13 |     0 |   9 |         0 |                                                                                             |
-   |  44800 |      |       |     |         0 |                                                                                             |
-   |  44801 |    7 |     0 |   7 |       180 | Ruoata SLP verso il basso  per usarla come trigger                                          |
-   |  44802 |  8.7 |     0 |   7 |       180 |                                                                                             |
-   |  44803 |  9.7 |     0 |   7 |       180 |                                                                                             |
-   |  44804 | 10.7 |     0 |   7 |       180 |                                                                                             |
-   |  44805 | 11.7 |     0 |   7 |       180 |                                                                                             |
-   |  44806 | 12.7 |     0 |   7 |       180 |                                                                                             |
-   |  44807 | 13.7 |     0 |   7 |       180 |                                                                                             |
-   |  44808 |  7.7 |     0 |   7 |       180 |                                                                                             |
-   |  44809 |  6.7 |     0 |   7 |       180 |                                                                                             |
-   |  44810 |  5.7 |     0 |   7 |       180 |                                                                                             |
-   |  44811 |  4.7 |     0 |   7 |       180 |                                                                                             |
-   |  44812 |    5 |     0 |  10 |       180 |                                                                                             |
-   |  44813 |    6 |     0 |  10 |       180 |                                                                                             |
-   |  44814 |    7 |     0 |  10 |       180 |                                                                                             |
-   |  44815 |    8 |     0 |  10 |       180 |                                                                                             |
-   |  44816 |    9 |     0 |  10 |       180 |                                                                                             |
-   |  44817 |   10 |     0 |  10 |       180 |                                                                                             |
-   |  44818 |   11 |     0 |  10 |       180 |                                                                                             |
-   |  44819 |   12 |     0 |  10 |       180 |                                                                                             |
-   |  44820 |   13 |     0 |  10 |       180 |                                                                                             |
-   |  44821 |   14 |     0 |  10 |       180 |                                                                                             |
-   |  44822 |   15 |     0 |  10 |       180 |                                                                                             |
-   |  44823 |  4.5 |     0 |   7 |         0 | Ruotata nuovamente SLP per evitare di prendere il FLR (field Line Return) Blob              |
-   |  44824 |    5 |     0 |   7 |         0 |                                                                                             |
-   |  44825 |    6 |     0 |   7 |         0 |                                                                                             |
-   |  44826 |    7 |     0 |   7 |         0 |                                                                                             |
-   |  44827 |    8 |     0 |   7 |         0 |                                                                                             |
-   |  44828 |    9 |     0 |   7 |         0 |                                                                                             |
-   |  44829 |   10 |     0 |   7 |         0 |                                                                                             |
-   |  44830 |   11 |     0 |   7 |         0 |                                                                                             |
-   |  44831 |   12 |     0 |   7 |         0 |                                                                                             |
-   |  44832 |   13 |     0 |   7 |         0 |                                                                                             |
-   |  44833 |   14 |     0 |   7 |         0 |                                                                                             |
-   |  44834 |   15 |     0 |   7 |         0 |                                                                                             |
-   |  44835 |   16 |     0 |   7 |         0 |                                                                                             |
-   |  44836 |   17 |     0 |   7 |         0 |                                                                                             |
-   |  44837 |   18 |     0 |   7 |         0 |                                                                                             |
-   |  44838 |   19 |     0 |   7 |         0 |                                                                                             |
-   |  44839 |    4 |     0 |   7 |         0 |                                                                                             |
-   |  44840 |    3 |     0 |   7 |         0 |                                                                                             |
-   |  44841 |    2 |     0 |   7 |         0 |                                                                                             |
-   |  44842 |    1 |     0 |   7 |         0 |                                                                                             |
-   |  44843 |    0 |     0 |   7 |         0 |                                                                                             |
-   |  44844 |    0 |     0 |   7 |       180 |                                                                                             |
-   |  44845 |    1 |     0 |   7 |       180 |                                                                                             |
-   |  44846 |    2 |     0 |   7 |       180 |                                                                                             |
-   |  44847 |    3 |     0 |   7 |       180 |                                                                                             |
-   |  44848 |    4 |     0 |   7 |       180 |                                                                                             |
-   |  44849 |   15 |     0 |   7 |       180 |                                                                                             |
-   |  44850 |   16 |     0 |   7 |       180 |                                                                                             |
-   |  44851 |   17 |     0 |   7 |       180 |                                                                                             |
-   |  44852 |   18 |     0 |   7 |       180 |                                                                                             |
-   |  44853 |   19 |     0 |   7 |       180 |                                                                                             |
-   |  44854 |      |       |  -3 |       180 |                                                                                             |
-   |  44855 |      |       |  -3 |       180 |                                                                                             |
-   |  44856 |    0 |    90 |   7 |         0 |                                                                                             |
-   |  44857 |    1 |    90 |   7 |         0 |                                                                                             |
-   |  44858 |    2 |    90 |   7 |         0 |                                                                                             |
-   |  44859 |    7 |    90 |   7 |         0 |                                                                                             |
-   |  44860 |    4 |    90 |   7 |         0 |                                                                                             |
-   |  44861 |    5 |    90 |   7 |         0 |                                                                                             |
-   |  44862 |    6 |    90 |   7 |         0 |                                                                                             |
-   |  44863 |    7 |    90 |   7 |         0 |                                                                                             |
-   |  44864 |    8 |    90 |   7 |         0 |                                                                                             |
-   |  44865 |    9 |    90 |   7 |         0 |                                                                                             |
-   |  44866 |   10 |    90 |   7 |         0 |                                                                                             |
-   |  44867 |   11 |    90 |   7 |         0 |                                                                                             |
-   |  44868 |   12 |    90 |   7 |         0 |                                                                                             |
-   |  44869 |   13 |    90 |   7 |         0 |                                                                                             |
-   |  44870 |   14 |    90 |   7 |         0 |                                                                                             |
-   |  44871 |   15 |    90 |   7 |         0 |                                                                                             |
-   |  44872 |   16 |    90 |   7 |         0 |                                                                                             |
-   |  44873 |   17 |    90 |   7 |         0 |                                                                                             |
-   |  44874 |   18 |    90 |   7 |         0 |                                                                                             |
-   |  44875 |   19 |    90 |   7 |         0 |                                                                                             |
-   |  44876 |   19 |    90 |   7 |       180 |                                                                                             |
-   |  44877 |   18 |    90 |   7 |       180 |                                                                                             |
-   |  44878 |   17 |    90 |   7 |       180 |                                                                                             |
-   |  44879 |   16 |    90 |   7 |       180 |                                                                                             |
-   |  44880 |   15 |    90 |   7 |       180 |                                                                                             |
-   |  44881 |   14 |    90 |   7 |       180 |                                                                                             |
-   |  44882 |   13 |    90 |   7 |       180 |                                                                                             |
-   |  44883 |   12 |    90 |   7 |       180 |                                                                                             |
-   |  44884 |   11 |    90 |   7 |       180 |                                                                                             |
-   |  44885 |   10 |    90 |   7 |       180 |                                                                                             |
-   |  44886 |    9 |    90 |   7 |       180 |                                                                                             |
-   |  44887 |    8 |    90 |   7 |       180 |                                                                                             |
-   |  44888 |    7 |    90 |   7 |       180 |                                                                                             |
-   |  44889 |    6 |    90 |   7 |       180 |                                                                                             |
-   |  44890 |    5 |    90 |   7 |       180 |                                                                                             |
-   |  44891 |    4 |    90 |   7 |       180 |                                                                                             |
-   |  44892 |    3 |    90 |   7 |       180 |                                                                                             |
-   |  44893 |    2 |    90 |   7 |       180 |                                                                                             |
-   |  44894 |    1 |    90 |   7 |       180 |                                                                                             |
-   |  44895 |    0 |    90 |   7 |       180 |                                                                                             |
-  
-** Skype Conference with Ivo				       :MEETING:
-   :PROPERTIES:
-   :on:       <2010-02-26 Fri 09:19>
-   :at:       Ufficio Nicola 
-   :with:     Monica Ivo Nicola Christian
-   :END:
-   + Calcolo Corrente da circuitazione formula corretta 
-   + Campagne sperimentali condotte logbook
-   + Accesso dati
-   + Eventualmente TTF Cordoba (da includere in un globale sui filamenti?)
-   + Si decide per una campagna sperimentale con SLP a 180 gradi
-     rispetto a Bdot probe e con due posizioni di Bdot ai due lati del
-     limiter per calcolare direttamente la divergenza di J_parallel e
-     confrontarla con la misura di n,Vp,Te a meta della linea di
-     campo. 
-   + Monica suggerisce anche di porre bdot a meta della linea di campo
-     per verificare che effettivamente non si vede nulla
-   + Confidenti che si misuri la corrente e della grandezza giusta
-** DONE Trasferimento dati [6/6]			      :WORK:ANALYSIS:
-   CLOSED: [2010-06-03 Thu 17:34]
-   - State "DONE"       from "STARTED"    [2010-06-03 Thu 17:34]
-   - [X] Creare il pulse file
-   - [X] Creare la routine matlab per creare il pulse file
-   - [X] Debug della routine[fn:1]
-   - [X] Creare la routine IDL per leggere i file txt e creare il pulse file
-   - [X] Scrivere lo script bash che esegua
-         1. Legga il database 
-         2. Si colleghi via ssh
-         3. lanci matlab per la creazione del pulse file per ogni impulso del database. A questo proposito da bash si lancia cosi ./matlab -nodisplay -nodesktop "myscript('$cfg')"[fn:2]
-         4. copi in locale il tree creato
-         5. cancelli in remoto il file creato
-   - [X] mandatre in batch con pbs questo script[fn:3]
-
-** TTF 2010
-   - [X] Spedire foto
-   - [X] Leggere presentazione Ivo
-   - [X] Schema articolo
-
-** Lavoro su misura di corrente 
-  - Misura 2D di corrente
-  - Current filaments --> velocity propagation
-  - Current filaments --> balance of polarization current
-  - Confronto con espressione linearizzata
-  - Target --> Lettera
-*** Dati Asdex
-    Verifica l'esistenza di dati del tipo n,vf,te per il calcolo durante gli ELM del contributo non lineare
-    alla densita di corrente. Per verificare se lo sbilanciamento esistente e' dovuta alle linee di campo aperte
-    Dati di rms(vf) ed rms(isat) sono disponibili. Posso prendere i dati dall rms(Te) ed rms(ne) da IAEA 2010 possiamo avere un ne 1-2 e19,
-    Te 30-40 eV ed un Vf ~ 20-40 eV.
-    | \tilde{n_e} | \tilde{T_e} | \tilde{v_f} |
-    |             |             |             |
-    |             |             |             |
-*** DONE Ask IVO pulses with flat-probe and transfer it		       :MAIL:
-    CLOSED: [2010-11-14 Sun 11:11]
-*** Considerazioni su ELM Current
-   - Valutazione sulla possibilita di simulare filamenti di corrente (vd. Huysman & Jorek)
-   - Valutazione sull'entita delle correnti in gioco con riferimento ad Asdex e TCV (vd. punto precedente) Dallo IAEA si ricava per ELM n_e ~ 1e19, T_e ~ 25 eV, VF ~30 V
-   - Impatto di correnti maggiori di quanto previsto sulla stabilita' e teorie esistenti
-**** Articoli correlati [2/7]
-   - [ ] Wingen et al. Phys. Rev. Lett. (2010) vol. 104 (17) pp. 175001
-   - [ ] Sugiyama and Strauss. Magnetic X-points, edge localized modes, and stochasticity. Phys. Plasmas (2010) vol. 17 (6) pp. 062505
-   - [X] Huysmans et al. Non-linear MHD simulations of edge localized modes (ELMs). Plasma Phys. Control. Fusion (2009) vol. 51 pp. 124012
-   - [ ] Eich et al. Journal of Nuclear Materials (2007) vol. 363-365 pp. 989-993
-   - [X] Testa and Bigi. Plasma Physics and Controlled Fusion (2005) vol. 47 pp. 733: Current up to 150 A/MA detected in regions far away from the strike point
-   - [ ] Takahashi et al. Phys. Rev. Lett. (2008) vol. 100 (20) pp. 205001
-   - [ ] Silva et al. Reciprocating probe measurements of ELM filaments on JET. Plasma Phys. Control. Fusion (2009) vol. 51 pp. 105001
-*** Skype conference call
-   :PROPERTIES:
-    :on:       <2010-10-19 Tue 15:40>
-    :at:       MyOffice
-    :with:     Ivo Monica
-    :END:
-   - Agreed for a better verification on data collected from Asdex and Jet on ELM's. Mandatory measurements of n_e, v_f, t_e and j_{\parallel}
-   - Agreed for a new meeting on <2010-10-26 Tue> at 14.30
-   - Agreed for a mail to Volker Naulin on j_sat and j_parallel on JET[fn:6] 
-*** Skype Conference call
-*** Risposa ai referee per lettera
-Vedi mail di Ivo [[message://4DB00051.9090607@epfl.ch][reply to referees]]
-**** Skype call con Ivo
-:PROPERTIES:
-:on: <2011-04-27 Wed 11:49>
-:at: MyOffice
-:with: Monica Ivo
-:END:
-- Agreed to send modification to response to referee on :
-  + Average current
-  + ...
-** Corrispondenza nomi sonde componenti
-   | Nome | Componente |
-   | B11  | B1y        |
-   | B12  | B1z        |
-   | B13  | B1x        |
-   |------+------------|
-   | B21  | B2y        |
-   | B22  | B2z        |
-   | B23  | B2x        |
-   |------+------------|
-   | B31  | B3y        |
-   | B32  | B3z        |
-   | B33  | B3x        |
-    
 * STARTED Arcless Power Supply					    :PROJECT:
   DEADLINE: <2011-03-01 Tue>
 :PROPERTIES:    
@@ -492,6 +209,9 @@ Vedi mail di Ivo [[message://4DB00051.9090607@epfl.ch][reply to referees]]
   3. Most likely commissioning of the probe should be done before
 
 ** TODO Crea pulse file
+:PROPERTIES:
+:ID: ECF9F2DF-C415-4033-94BB-97E40EDEA69A
+:END:
 ** List of questions for Daniel Carralero
 1. E' possibile avere il segnale del campo toroidale applicato per confrontarlo con il segnale integrato e rendere conto della eccessiva variazione
 2. Angolo di rotazione rispetto a che asse? Manipolatore? Si assumono 30 gradi fra asse manipolatore ed asse sonda?
@@ -507,55 +227,25 @@ Vedi mail di Ivo [[message://4DB00051.9090607@epfl.ch][reply to referees]]
 - Spedire bibliografia su bipolar current associated to blobs/DKA
 - GAIN factor to be checked on b
 - Reynolds and Maxwell stress during Alfven mode activity
-* STARTED Stoccolma 2010					    :PROJECT:
+** Meeting for Campaign Decembre 2011
 :PROPERTIES:
-:ID: BD2D6A04-0385-4484-866B-1B12AF1F8A2D
+:on: <2011-12-14 Wed 15:24>
+:at: CIEMAT Madrid
+:with: MonicaS, DanielC, ArturoA, CarlosH
 :END:
-** DONE Materiale Esistente
-CLOSED: [2011-03-01 Tue 13:21]
-  1. Sonda di Alfven con 16 pin elettrostatici e 2 sonde magnetiche triassiali
-  2. Manipolatore con comando a manovella terminato con 2 connettori a D da 25 e da 15
-  3. Cavo di uscita con RG174 lunghezza ~ 2 mt terminato con BNC
-
-** DONE Materiale da spedire. Segnato quello che non richede ulteriore lavoro
-CLOSED: [2011-03-01 Tue 13:21]
-  - [ ] Sistema di acquisizione: 2 yokogawa (16 canali, 8 canali) esistente in casa uno yokogawa 16 canali (R51P) 
-  - [ ] PC con MDSPLUS per controllare gli yokogawa e controllo via GPIB. Verificare la necessita di due schede di rete ed eventualmente installarla
-  - [ ] 16 Fibre ottiche
-  - [X] 16 Trasmettitori ottici teseo con relativi alimentatori
-  - [ ] 2 moduli Teseo ricevitori ottici
-  - [ ] 6 Cavi lunghezza approssimativa 40 mt RX58 + 6 terminazioni 50 Ohm per entrare negli yokogawa
-  - [ ] Partitori di tensione da verificare rapporto di partizione e massa
-  - [ ] Sistema per alimentazione sonde Isat (HVPS + LVD + HVT + CR5+ Cavetteria)
-  - [ ] Scatola in metallo
-  - [ ] Tester
-  - [ ] Cavo in uscita dal manipolatore. Schema recuperato
-
-** Lista materiale
-*** Cassa di legno. Prezzo Stimato 55 kEuro
-- Computer + cavo alimentazione
-- 3 Cavi di rete
-- 2 Cavi GPIB
-- 2 Ricevitori Teseo
-- 16 trasmettitori Teseo
-- 16 Caricabatterie Teseo
-- 2 Basi Metalliche per caricabatterie
-- Fascette
-- 16 Fibre Teseo
-- Cavi Alimentazioni teseo
-- 1 Alimentatori HVPS
-- 1 Alimentatore HVT
-- 1 Alimentatore LVD
-- 1 Scatola CR5
-- Cavi di alimentazione per misura Isat e di controllo
-- 16 Cavi BNC-BNC nominati come i teseo
-- 6 Cavi lunghezza 25 mt RX58 BNC-BNC
-- 1 Cavo DIN 25 poli + 1 Cavo DIN 15 poli RG174
-- Cavi Lemo BNC
-- Connettori LEMO 0S da cavo N. 4
-- Tester 
-*** 2 Casse Yokogawa (16 kEuro ciascuno)
+- Just NBI number 1 whereas the other one is not operating
+- Just lithium conditioning
+- Low density transition
+- Continuous changing of the magnetic configurations. According to Carlos this experiment is easier in ECH plasma rather than NBI
+- Trying to explore the SOL beside the edge region.
+** Experimental campaign
+<2011-12-15 Thu>
+| shot | probe Position | Comments |
+|      |                |          |
 * STARTED Asdex Upgrade 2011                                        :PROJECT:
+:PROPERTIES:
+:ID: F9D9DEFC-6C19-4E99-AF8C-35994F0928E2
+:END:
 ** Experiments on Thursday and Friday 26-27 2011
 :PROPERTIES:
 :on: <2011-05-23 Mon 12:37>
@@ -580,6 +270,9 @@ CLOSED: [2011-03-01 Tue 13:21]
   two densities as it has been recognized also a threshold on
   capability of controlling with the RMP.
 ** TODO Experiment model for RFX analysis
+:PROPERTIES:
+:ID: 1A516715-1C9B-4444-83EF-36FE1CF818B7
+:END:
 - Includi balloning coils & separatrix position.
 - E' possibile creare uno script per l'accesso l'esecuzione di un
   comando IDL il trasferimento dei dati e la successiva cancellazione
@@ -688,6 +381,50 @@ CLOSED: [2011-11-17 Thu 14:40]
 - Transport analysis and modelling specialist CODE TAMS
 - Diagnostic: PROBES + QUARTZ MP Code PQMB
 - Diagnostic: Turbulence analysis specialist TRB
+** E1/E2 Meeting
+:PROPERTIES:
+:on: <2012-02-07 Tue 17:19>
+:at: K1/0-85 Meeting room
+:with: Various
+:END: 
+1. M. Beurskens:
+   - Relative good agreement between thermal stored energy from kinetic
+   volume integrals and W_MHD
+   - Effects of radiation on confinement not seen withouth impurity peaking
+   - Generally ILW operates at higher n/nG fraction limit (there
+     exhists evidence of change of rotation?)
+2. Geoff Maddison
+   - ILW divertor fluctuations are smaller with respect to CW and out
+     of phase outboard/inboard
+   - Remember that the D_{\alpha} signals to look at are AD35/AD36
+     respectively for outboard/inboard
+   - Antiphase observed also in between ELMs evident also on BII line
+     (according to E. Solano)
+   - N seeding shift the distribution of ELMs and modifies it. If
+     additional fueling is provided also foundamental elm frequency is
+     shifted. Why not try to scale the asimmetry of the distribution
+     rather than the variance? the skewness??
+   - Probes are used during Ni-mitigated. Which ones? ask
+3. E. Solano
+   - In C wall EFCC causes an increase of ELM frequency and a
+     reduction of their size. Similar behavior for EFCC also in KIKS experiments
+   - ILW EFCC requires higher current with respect to C
+   - Look at C. Glimbett peeling model which could account for q
+     sensitivity with respect to EFCCs
+
+** Meeting with M. Groth
+- Possible work on probes to be decided with C. Silva. Mathias will
+  send an email to Carlos
+- Other possibility could be collaboration with F. Militello on ESEL
+  and comparison probe/code
+
+** Brainstorming
+- Comparison of pedestal rotation C/ILW. Changes on rotation
+  ELM/inter-ELM and recovery phase (if any) if it is possible to
+  infer a collisional effects? or how momentum is recovered after ELM
+  crashes and does the change of first wall affects this recovery?
+- Quantify a distribution of delay of kiks in dependence of amplitude/collisionality?
+
 * U-Probe campaigns
 ** NOTA GENERALE
 Dalle indicazioni di matteo BRA03 e BPA03 sono invertite. BPA02 non funziona!
@@ -726,47 +463,94 @@ Dalle indicazioni di matteo BRA03 e BPA03 sono invertite. BPA02 non funziona!
 *** Nota sulle analisi
 In realta i segnali presentano chiaramente un andamento con un modo definito (la cui frequenza varia) che puo essere un modo (2/1) che frena e rallenta per poi loccarsi alla parete. Questo rende l'analisi spuria, nel senso che non siamo ad una turbolenza completamente sviluppata visto che nemmeno i potenziali flottanti sembrano avere una struttura ben definita.
 ** RFP Campaign July 2011
-|  SHot | T.L. |  X |
-| 30504 | 1460 |  0 |
-| 30505 | 1460 |  0 |
-| 30506 | 1480 | 20 |
-| 30510 | 1460 |  0 |
-| 30511 | 1495 | 35 |
-| 30512 | 1495 | 35 |
-| 30513 | 1495 | 35 |
-| 30514 | 1495 | 35 |
-| 30515 | 1505 | 45 |
-| 30516 | 1505 | 45 |
-| 30518 | 1505 | 45 |
-| 30519 | 1505 | 45 |
-| 30520 | 1505 | 45 |
-| 30521 | 1490 | 30 |
-| 30522 | 1490 | 30 |
-| 30525 | 1460 |  0 |
-| 30526 | 1460 |  0 |
-| 30527 | 1490 | 30 |
-| 30528 | 1490 | 30 |
-| 30529 | 1505 | 45 |
-| 30530 | 1505 | 45 |
-| 30531 | 1510 | 50 |
-| 30532 | 1510 | 50 |
-| 30533 | 1485 | 25 |
-| 30534 | 1485 | 25 |
-| 30535 | 1490 | 30 |
-| 30536 | 1490 | 30 |
-| 30537 | 1490 | 30 |
-| 30539 | 1460 |  0 |
-| 30540 | 1485 | 25 |
-| 30541 | 1485 | 25 |
-| 30542 | 1480 | 20 |
-| 30543 | 1480 | 20 |
-| 30545 | 1495 | 35 |
-| 30546 | 1495 | 35 |
-| 30547 | 1495 | 35 |
-| 30548 | 1495 | 35 |
-| 30549 | 1495 | 35 |
-| 30540 | 1495 | 35 |
-|       |      |    |
+|  SHot | T.L. |  X |     |
+| 30504 | 1460 |  0 |     |
+| 30505 | 1460 |  0 |     |
+| 30506 | 1480 | 20 |     |
+| 30510 | 1460 |  0 |     |
+| 30511 | 1495 | 35 |     |
+| 30512 | 1495 | 35 |     |
+| 30513 | 1495 | 35 |     |
+| 30514 | 1495 | 35 |     |
+| 30515 | 1505 | 45 |     |
+| 30516 | 1505 | 45 |     |
+| 30518 | 1505 | 45 |     |
+| 30519 | 1505 | 45 |     |
+| 30520 | 1505 | 45 |     |
+| 30521 | 1490 | 30 |     |
+| 30522 | 1490 | 30 |     |
+| 30525 | 1460 |  0 |     |
+| 30526 | 1460 |  0 |     |
+| 30527 | 1490 | 30 |     |
+| 30528 | 1490 | 30 |     |
+| 30529 | 1505 | 45 |     |
+| 30530 | 1505 | 45 |     |
+| 30531 | 1510 | 50 |     |
+| 30532 | 1510 | 50 |     |
+| 30533 | 1485 | 25 |     |
+| 30534 | 1485 | 25 |     |
+| 30535 | 1490 | 30 |     |
+| 30536 | 1490 | 30 |     |
+| 30537 | 1490 | 30 |     |
+| 30539 | 1460 |  0 |     |
+| 30540 | 1485 | 25 |     |
+| 30541 | 1485 | 25 |     |
+| 30542 | 1480 | 20 |     |
+| 30543 | 1480 | 20 |     |
+| 30545 | 1495 | 35 |     |
+| 30546 | 1495 | 35 |     |
+| 30547 | 1495 | 35 |     |
+| 30548 | 1495 | 35 |     |
+| 30549 | 1495 | 35 |     |
+| 30540 | 1495 | 35 |     |
+|       |      |    | *** |
+|       |      |    |     |
+
+** RFP Campaign Dicembre 2011
+|  Shot |  X | Note                                                                                                |
+| 31237 |  0 | A vuoto                                                                                             |
+| 31238 |  0 | NR solo Vf                                                                                          |
+| 31239 |  0 | NR solo VF                                                                                          |
+| 31239 |  0 | NR solo VF                                                                                          |
+| 31240 |  0 | OK solo VF                                                                                          |
+| 31241 | 20 | OK solo vf                                                                                          |
+| 31242 | 20 | OK accesa alimentazione ma teseo TOGGLE OFF                                                         |
+| 31243 | 35 | OK accesa alimentazione ma TESEO TOGGLE OFF. Sbuffo di densita a 100 ms                             |
+| 31244 | 35 | Brutte misure di corrente                                                                           |
+| 31245 | 35 | Prova ad F=0     Bene ESB23. Male le altre correnti ma uno degli spinotti era mal collegato         |
+| 31246 | 20 | Ancora brutte correnti                                                                              |
+| 31247 | 20 | Funzionano solo IS_A13,IS_B23 . In realta IS_AS13 non funziona bene. F molto shallow poi F positivo |
+| 31248 | 20 | NR                                                                                                  |
+| 31249 | 20 | ok                                                                                                  |
+| 31250 | 50 | NR                                                                                                  |
+| 31251 | 50 | ok                                                                                                  |
+| 31252 | 50 | ok                                                                                                  |
+| 31253 | 20 | no                                                                                                  |
+| 31254 | 20 | Deep F OK                                                                                           |
+| 31255 | 20 | F=0                                                                                                 |
+| 31258 |  0 | Primo con plasma. No correnti per problemi Teseo    NR                                              |
+| 31259 |  0 | NR                                                                                                  |
+| 31260 |  0 | ok. No corrente                                                                                     |
+| 31261 | 35 | ok. Dubbi su un arco. Forse perso isolamento anche su ESB23                                         |
+| 31262 | 50 | (1,-7) a .9mT fra 50-180 ms  . NR                                                                   |
+| 31263 | 50 | (1,-7) a .9mT                                                                                       |
+| 31264 | 50 | (1,-7) a .9 mT                                                                                      |
+| 31265 | 50 | (1,-7)                                                                                              |
+| 31266 | 35 | (1,-7)                                                                                              |
+| 31267 | 35 | F = -0.15 (1,-7)                                                                                    |
+| 31268 | 35 | (1,-7) a .9 mT + (0,-7) a 0.7 mT \Delta phi = 60 F =-.15                                            |
+| 31269 | 35 | (1,-7) a 1.2 mT F = -0.15                                                                           |
+| 31270 | 35 | (1,-7) @1.2 mT e (0,7) @ 0.9mT F = +/- 15 Hz                                                        |
+| 31271 | 35 | F = -.15 ma senza riferimento                                                                       |
+| 31272 | 35 | F=0 (1,-7) 0.9 mT. Corta                                                                            |
+| 31273 | 35 | F=0 senza riferimento. Abortito Si reimposta 31272                                                  |
+| 31274 | 35 | F=0 Ok                                                                                              |
+| 31275 | 20 | F=0 ST prima dell'impulso                                                                           |
+| 31276 | 20 | F=0                                                                                                 |
+| 31277 | 20 | F=0 con (1,-7) 0.9 mT Abortito                                                                      |
+| 31278 | 20 | F=0 (1,-7) 0.9 mT OK                                                                                |
+| 31279 | 20 | F=-0.02 Soft Termination prima dell'impulso                                                         |
+| 31280 | 20 | F=-0.02            Corto                                                                            |
 * STARTED ISIS                                        :WORK:ANALYSIS:
 :PROPERTIES:
 :ID: A1DD2982-779B-4FE8-8E65-BF337046609C
@@ -811,29 +595,33 @@ In realta i segnali presentano chiaramente un andamento con un modo definito (la
 
 ** n=6 Non-null reference experiment
 *** Shot list
-|  Shot | (1/-6) Amp |      (1/-6) Time | freq | Notes                                                       |
-| 30923 |          9 |            0-120 |   20 | n/ng=0.07                                                   |
-| 30924 |          9 |            0-120 |   20 | density bursts                                              |
-| 30925 |          9 |            0-120 |   20 | n/nG=0.07                                                   |
-| 30926 |          9 |            0-120 |   20 | n/nG=0.07                                                   |
-| 30927 |          9 |            0-120 |   20 | n/nG=0.1                                                    |
-| 30928 |          9 |            0-120 |   20 | n/nG=0.1                                                    |
-| 30929 |          7 |            0-120 |   20 | n/nG=0.1, 1/-7 QSH appears                                  |
-| 30930 |      11->9 | 0-140 -> 140-200 |   20 | Density bursts. Applied also 1/-7 7mT 20 Hz, 200-300 ms     |
-| 30931 |          8 |            0-200 |   20 | n/nG=0.12 (1/-7) QSH appears, (1/-8), 4mT, 20 Hz, 200-300ms |
-| 30932 |          9 |            0-160 |   20 | n/nG=0.13, (1/-8), 4mT, 20 Hz,160-300 ms                    |
+|  Shot | (1/-6) Amp |      (1/-6) Time | freq | Notes                                                                        |
+| 30923 |          9 |            0-120 |   20 | n/ng=0.07                                                                    |
+| 30924 |          9 |            0-120 |   20 | density bursts                                                               |
+| 30925 |          9 |            0-120 |   20 | n/nG=0.07                                                                    |
+| 30926 |          9 |            0-120 |   20 | n/nG=0.07                                                                    |
+| 30927 |          9 |            0-120 |   20 | n/nG=0.1                                                                     |
+| 30928 |          9 |            0-120 |   20 | n/nG=0.1 . Confronto \deltav_{\phi} vs angolo toroidale fra t[600] e t[1579] |
+| 30929 |          7 |            0-120 |   20 | n/nG=0.1, 1/-7 QSH appears                                                   |
+| 30930 |      11->9 | 0-140 -> 140-200 |   20 | Density bursts. Applied also 1/-7 7mT 20 Hz, 200-300 ms                      |
+| 30931 |          8 |            0-200 |   20 | n/nG=0.12 (1/-7) QSH appears, (1/-8), 4mT, 20 Hz, 200-300ms                  |
+| 30932 |          9 |            0-160 |   20 | n/nG=0.13, (1/-8), 4mT, 20 Hz,160-300 ms                                     |
 * EFDA                                                      :PROJECT:
-** 2nd Efda General Planning Meeting 27-28/10/2011
-*** A1 Prediction of Material Migration and Mixed Material Formation (PWI-DIA)
-*** A3 Fuel Retention and Removal Marek Rubel
+:PROPERTIES:
+:ID: 408DA63B-6B88-4FCD-AE31-664299107028
+:END:
+** 2011
+*** 2nd Efda General Planning Meeting 27-28/10/2011
+**** A1 Prediction of Material Migration and Mixed Material Formation (PWI-DIA)
+**** A3 Fuel Retention and Removal Marek Rubel
 - According to the prediction all metal machine fuel invetory will be reduced
 - 58 Proposals by 17 Association.
 - Majority of proposals on Tungsten (rather than Berillium) small amount on Carbon which is still considered for ITER Divertor or in general as important impurity species
 - Assessment of Fueld Removal Methhods and Dust Generation. -> Develop chemical and photonic non-destructive fueld removal methods
 - Dust experiment for precursors and relevant dynamics on dust
 
-*** A11 Operation with Metallic Plasma-Facing Components, including High Power ICR
-*** A10 Particle Transport Fuelling and Inner Fuel Cycle Model - V. Naulin
+**** A11 Operation with Metallic Plasma-Facing Components, including High Power ICR
+**** A10 Particle Transport Fuelling and Inner Fuel Cycle Model - V. Naulin
 - Project A10.1: Inner fueld cycle modelling:
   + Fuelling is a matter of "kitchen receipt"
   + Hope to develop a real knowledge base for design and operation plus result in a predictive modelling of the complete fuel cycle
@@ -845,7 +633,7 @@ In realta i segnali presentano chiaramente un andamento con un modo definito (la
   + neutral module for SOL turbulence
   + dust module for SOL turbulence
 - *Problems of edge fueling and velocity pinch at the edge or convective term*
-*** A06 Pedestal Instabilities (ELMs), Mitigation and Heat loads - W. Fundamenski
+**** A06 Pedestal Instabilities (ELMs), Mitigation and Heat loads - W. Fundamenski
 - A6.1: L-mode
   + Build a predictive model for transport and heat load during L-mode
   + Creation of a multi-machine database includin JET L-mode
@@ -858,8 +646,8 @@ In realta i segnali presentano chiaramente un andamento con un modo definito (la
   + Penetration of RMP is an open issue
 - Comments from A. Loarte: determination of the heat flux at the first wall (not at the divertor)
 
-*** A07 Disruptions Prediction Avoidance Mitigation and Consequences - Koslowski
-*** A2 Shaping and Controlling Performance limiting instabilities - P. Martin
+**** A07 Disruptions Prediction Avoidance Mitigation and Consequences - Koslowski
+**** A2 Shaping and Controlling Performance limiting instabilities - P. Martin
 - Background: ITER needs. Resolution of issues during construction and thus we might provide resolution to the problems which might affect the design of permanent or upgradable component of ITER
 - Key H-mode: ELM Mitigation
 - Disruption
@@ -882,7 +670,7 @@ In realta i segnali presentano chiaramente un andamento con un modo definito (la
     * Development on new control-oriented diagnostics
     * Development of real time infrastructure
 - 
-** WP-TRA-05-01 Final Meeting
+*** WP-TRA-05-01 Final Meeting
 *** Programme scheduled:
 | Contribution                              | Presenter               |        Time |       |
 | Introduction and Motivation               | N. Vianello & V. Naulin |   9.00-9.15 |       |
@@ -927,7 +715,132 @@ In realta i segnali presentano chiaramente un andamento con un modo definito (la
   + Implementation of synthetic diagnostic in GEMR: Emissive probe/RFA
   + Zonal flow from new easier code TOEFL.
   
+*** EU-US TTF & TTG Meeting Padova
+*** Lista di possibili inviti per sessione su  Edge - SOL turbulence and transport
+- G.S.Yun Yun, G.S. et al. Two-Dimensional Visualization of Growth and Burst of the Edge-Localized Filaments in KSTAR H-Mode Plasmas. Phys. Rev. Lett. 107, 045004 (2011). Gia avuto una post-deadline invito all'ultimo APS
+- O. Schmitz TEXTOR-DIID effetti degli RMP nella modifica del bordo, campo elettrico, modulazione te/ne effetti di diversa frequenza
+- Liang ELM control?
   
+*** WP-TRA-05 Final Report
+*** WP-TRA-05-02. RMP on AUG and RFX-mod [6/6]
+- [X] Figura time traces not in RMP
+- [X] Figura time traces with RMP
+- [X] Odogramma in AUG
+- [X] Figura impulso tipico RFX-mod tokamak
+- [X] Figura spettrogramma corrente parallela
+- [X] Figura struttura corrente e potenziale flottante
+*** WP-TRA-05-03 3D effects on RFX [5/5]
+- [X] Fluttuazioni di velocita in (t,\phi) per un caso tipico RFX-mod QSH
+- [X] Dipendenza poloidale della velocita in (t,\theta) come 
+- [X] Fluttuazioni di velocita in (t,\phi) con N=6 non risonante
+- [X] Pitch dell'angolo M_par/M_per vs B
+- [X] Dipendenza poloidale del minimo di potenziale flottante (?)
+
+*** WP-TRA-05 STAC Report
+*** Priority Support
+**** BELGIUM_ERM_KMS: 
+- Obtained measruements in TEXTOR DED with m/n=3.1 with Langmuir
+  probes and newly installed GPI. Limited in operation (excitation of
+  tearing modes which makes turbulent field behavior less clear) and m/n=6/2 is
+  foreseen for next year
+- Shortcomings: Poloidal speed reduced with application of DED
+  together with a reduction of Reynolds contribution (more flat profile)
+- Intermittency is also reduced as seen by reduction of Skewness and Flatness
+**** FZJ:
+- Doppler reflectometer experiments in DED m/n=3/1 modes.
+- Different effects in dependende on the portion of the spectrum:
+  + Broad quasi coherent mode: amplitude and frequency decrease with
+    DED application. Changes more remarkable in dc operation
+  + Low frequency turbulence (F\le 40 kHz) affected by DED in
+    particular during ac operation with reduction of the amplitude of
+    these oscillations
+  + GAM reduction is much more presente for current greater than 0.5
+    kA.Shape of the GAM (FHWM ) from 5 to 3 kHz for 0.5 k with
+    reduction greater in the low frequency part of the GAM Hihger
+    eigenmodes visible. reasonbly because of increase of temperature
+    slight increase of frequency position
+  + GAM disappears at increasing DED strength: theory explains it
+    because of additional damping
+  + GAM disappears are still observed at 5 kHz but disappear for -5kHz
+  + t_{dc} and L_{r} decreases with application of dc DED
+  + Observed change in \gamma(r) most likely due to a change of
+    inclination if eddies with respect to flux surface or change in
+    the radial propagation
+  + Change in the Long Range Correlation because of modification of
+    GAMS and also of background turbulence
+**** CIEMAT
+- Purpose was the improvement of optical diagnostic for the
+  characterization of intermittent transport.
+- Obtained with Fast Camera using Helium I line ratio method which
+  demonstrate that n_e fluctuations show somehow different sizes of
+  blobs with respect to simple emission spectroscopy due to the
+  dependence on neutral influx profiles. Density and temperature seems
+  to be in antiphase
+**** RFX_ENEA
+- New probe designed constructed and mounted as a Join collaboration
+  between RFX and Ciemat has been mounted on a fixed manipulator has
+  been succesfully used obtaining Jparallel and Vorticity
+  measuremenets in differente plasmas (ECH,NBI,high density and
+  configuration scan) obtaining information also on Reynolds and
+  Maxwell stress. Data evaluation is in progress
+- Evaluation of the effects of RMP on ELM filaments project only
+  partially fulfilled on ASDEX-Upgrade. Just very preliminary
+  observation during an ELM mitigated phase, with reduction of the
+  amplitude in particular on B_r and no evidence of phase shift
+  hinting to current filaments on b field
+- Preliminary observation of current associated to blobs in RFX-mod
+  ohmic tokamak discharges. Possibility to explore q(a)=2 regimes
+  which are dominated by parallel current associated to 2/1 modes.
+**** IPP
+- Installed the new optical head with toroidal viewing geometry for
+  fluctuations measurements of poloidal flow and density fluctuations
+  with the Li-Beam
+- Data acquisition installed and tested
+- ready for measurements in early 2012
+**** IST
+- RFA measurements tested in ISTTOK SOL plasma seems reliable and
+  gives fluctuations of the order of 30 %
+- Designed of multiple RFA for correlation measurements done
+**** RISOE
+- Extension of the ESEL code to include finite ion effects and thus
+  taking into account Hot Ion. HESEL to be benchmarked against ion
+  temperature fluctuations from AUG and COMPASS with ball pen probe
+**** OAW:
+- Measurements of density profile near and accross the shear layer region
+- Evaluation of ion temperature profile from ball pen probe. Not a
+  definite answer on the reliability of the measurement
+*** Baseline support
+**** Belgium ERM: 
+- Already included in PS as are GPI measurements
+**** CCFE:
+- RMP studies with evidences of density pump out accompained by a
+  rapid variation of poloidal velocity
+- Ion temperature measurements from RFEA with T_i > T_e in the SOL and
+  inside the LCFS
+**** Swiss: 
+- Feasibility studies  of closed field line configuration by means of
+  poloidal field on TORPEX for the studies of SOL relevant physics and
+  works on topological transition
+**** 
+** 2012
+*** Proposal activity:
+- BS support 0.4 ppy WP12-IPH-A08-2-06/BS-01/ENEA_RFX
+- PS support 0.1 ppy WP12-IPH-A06-1-1-05/PS-01/ENEA_RFX
+- PS support 0.1 ppyt 
+* EPS 2012
+** 
+* STARTED IAEA 2012                                            :WORK:PROJECT:
+** Brainstorming for IAEA Synopsis
+*** List of authors
+N. Vianello, M. Agostini, R. Cavazzana, G. De Masi, E. Martines, B. Momo, A. Scaggion, P. Scarin, M. Spolaore, G. Spizzo, M. Zuin
+*** Traccia ed argomenti: titolo possibile "3D effects on RFX-mod helical boundary region"
+1. Introduzione con enfasi su confronto con RMP & DED
+2. Descrizione della topologia magnetica con digressione sull'angolo elicoidale u_{1,7}
+3. Richiamo alle osservazioni su P_e & V_f & PWI. Mi raccomando confronto con Textor
+4. Osservazioni sulla velocita e sulla interpretazione in termini di campo elettrico ambipolare
+5. Osservazioni sulla dipendenza della velocita dalla collisionalita. Richiamo a differenti effetti RMP con collisionalita
+6. Trasporto di particelle e turbolenza. Ruolo delle isole m=0/m=1 e legami con L_p. Eventuali effetti elicoidali
+7. 
 * Footnotes
 
 [fn:1] Verificato che per problemi di configurazioni remote di mdsplus e' quasi impossibile creare il pulse file. Si decide per trasportare i dati ascii e lanciare qui la routine per creare il pulse file

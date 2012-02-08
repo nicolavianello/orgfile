@@ -121,3 +121,58 @@ publishing once the authors have clarified the following points
 6) Finally if possible I suggest he authors to include an error bars
    in the figure with the time evolution of the gradients of density
    temperature and pressure (at least an estimate)
+* NF/414827/SPE
+The article proposes analysis coming from a database of momentum
+transport as collected by five different tokamaks, trying to establish
+parametric dependence on adimensional parameter, highlightning
+differences and similarities. The objective of this paper is
+remarkable in this sense but in my opinion the paper proposes a list of
+analysis without merging them in a comprehensive framework (although
+this could be beyond the scope of the paper) but just as a
+mere list. I think that, considering the importance of
+this type of intermachine comparison, the paper should be published but
+I suggest the authors to review it in order to merge all the analysis
+in a more unitary overview. 
+In particular I would like to point out the following points:
+1) All the momentum studies have been done in the limit of
+   Diffusive-Convective terms, and the authors correctly state on page
+   4 that
+   terms of the type of residual stress are neglected. I think it
+   should be better to add a comment on the limit of this assumption
+   and eventually what one would expect if considering a more complete
+   form of the momentum flux
+2) In the case of NSTX, if I understand correctly, you have included
+   data where effects of Neoclassical toroidal viscosity should be
+   evident. These data are not treated differently with respect to NBI
+   blibs or other. Could you comment on this? Do you think there could
+   be some differences in the two methods of perturbative momentum variation?
+3) In commenting figure 3 I think the authors should mention that only
+   NSTX exhibit a sufficient wide variation of Chi_i to observe a
+   scaling, and that the claimed scaling can be derived only on a
+   multi-machine comparison. I would like to point out the attention
+   that the increase of \Chi_{\phi} with \Chi_i is exhibit an almost
+   exponential behavior than a power law. Any comment on this?
+4) In commenting figure 4 the authors claim differences in the ration
+   \Chi_{\phi}/\Chi_i between the different machine with \Chi_{\phi}
+   sometimes greater, sometimes smaller than \Chi_i. Any comment or
+   possible interpretation is given on this fact. Could you provide
+   some explanation?
+5) I would suggest the authors to clarify why the observed decreasing
+   of \Chi_{\phi}/\Chi_i with \rho_{pol}^{*} does not hold for low
+   T_e/T_i in JT-60U. It is not clear to me.
+6) Just a small point. In section 6 I would refer to Hamm's and
+   Peeters's theory citing again the corresponding papers in line 5
+   from the top. I makes the reading much more clear
+7) Considering figure (14), if I interpet it correctly, as the two
+   theories provide suitable interpolation for lower value of pinch
+   velocity that the role played by the normalized density gradient is
+   marginal. Could you comment on that? By the way, in particular in
+   this case, I would appreciate that the data would appear with the
+   corresponding error bars.
+8) Again any comment is given to the inconsistency with the scaling
+   with q_{95}.
+
+Concluding I think that the subject of the paper and the data
+available deserve the publication, but I think the authors should try
+to make the paper somehow more fluent than the present form. I think
+the suggestion given will help in this.

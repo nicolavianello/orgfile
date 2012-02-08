@@ -148,6 +148,25 @@ CLOSED: [2011-02-25 Fri 10:18]
 - Da considerare Impianto Eletrico/Idraulico/Termico ~ 20 kEuro
 - Solaio ~ 150 euro/mq
 - 45 + 85 + 50
+** Osservatorio andamenti mutui
+*** Si cerca un mutuo a tasso fisso da 140000 a 30 anni
+  * <2012-01-19 Thu>
+    + WeBank 816 euro di rata IRS30A+3.2%
+    + Friuladria IRS30A + 3.4 %
+    + BNL 6.05% tasso finito
+  * <2012-01-30 Mon> 
+    + WeBank IRS30A+3.2% 816 euro
+    + Friuladria IRS30A + 3.40%
+    + BNL
+     
+*** Si cerca un mutuo a tasso variabile con cap da 135 kE a 30 anni
+- <2012-01-19 Thu>
+  * We Bank. Euribor a 3M + 3.2 % Cap Massimo a 6.50 %. rata attuale a
+    677 eur
+  * Friuladria. Euribor 3M + 3.25% con cap massimo a 5.80
+    %. Attualmente a 680 Euro
+- <2012-01-30 Mon> 
+  * Analogo al 19/01/2012  
 * Film
 ** Da scaricare [2/6]
    - [ ] L'uomo che verra' di G. Diritti
@@ -280,3 +299,57 @@ Cerco lavoro tutti i giorni sia per la mattina che per il pomeriggio
 - Dal Bianco, Barbara (2001) Il vetro e il mare : fenomeni di degrado
   in vetri romani sommersi. Polo di Scienze > Dip. di Scienze
   Chimiche - Biblioteca TESI.3198
+* XMAS 2011 [52%]
+- [-] Filippo [4/6]
+  - [X] Macchina Telcomandata
+  - [X] Tenda indiani
+  - [X] Copricapo Indiani
+  - [X] Aereo-Shuttle Lego
+  - [ ] Libro astronomia
+  - [ ] Mini PC
+- [-] Eugenio [2/4]
+  - [X] Garage
+  - [X] macchina cars gialla
+  - [ ] magnetini frigo
+  - [ ] cubetti puzzle
+- [-] Erica [1/2]
+  - [ ] Orologio
+  - [X] Cellulare
+- [X] Nicoletta [1/1]
+  - [X] Cordless
+- [ ] Paolo V
+- [ ] Paolo G & Edy [0/2]
+  - [ ] Moka
+  - [ ] 
+- [ ] Mamma Elisa [0/1]
+  - [ ] Ciclette
+- [X] Bruno & Stefy [2/2]
+  - [X] Vasi portasale e zucchero
+  - [X] Foto
+- [ ] Anna M [0/2]
+  - [ ] Mascara Pupa
+  - [ ] Cofanetto
+- [X] Leonardo M [1/1]
+  - [X] Sciarpa
+- [ ] Giampaolo [0/1]
+  - [ ] Cluedo
+- [X] Massimo [1/1]
+  - [X] Libro "La bambina della sesta luna"
+- [X] Emma [1/1]
+  - [X] Libro
+- [X] Vittoria [1/1]
+  - [X]
+- [ ] Anna U [0/1]
+  - [ ] Orecchini etnici
+- [X] Leonardo U [1/1]
+  - [X] Cappello lungo che cade dietro
+- [ ] Francesco U [0/1]
+  - [ ] Pallone da basket
+- [X] Lorenzo Z [1/1]
+  - [X]
+- [X] Riccardo Z [1/1]
+  - [X]
+- [X] Viky [1/1]
+  - [X] Profumo
+- [X] Matteo [1/1]
+  - [X] Libro
