@@ -417,14 +417,32 @@ CLOSED: [2011-11-17 Thu 14:40]
   send an email to Carlos
 - Other possibility could be collaboration with F. Militello on ESEL
   and comparison probe/code
-
+  
 ** Brainstorming
 - Comparison of pedestal rotation C/ILW. Changes on rotation
   ELM/inter-ELM and recovery phase (if any) if it is possible to
   infer a collisional effects? or how momentum is recovered after ELM
   crashes and does the change of first wall affects this recovery?
 - Quantify a distribution of delay of kiks in dependence of amplitude/collisionality?
+- There exhists a scaling of pedestal/SOL poloidal flow with collisionality?
+  
+** Readings
+*** Liang NF vol 51 pag 073001
+- JET experiments with scan in q_{95} suggests the exhistence of a
+  global effect, i.e. a small reduction of ELM frequency independent
+  from q_{95}, and a
+  multi-resonance effect which strongly depend on it.
+- Experiments performed in low triangularity, low electron
+  collisionality, NBI power and scan in q_{95} obtained by variating
+  the current only
+- Reports on two experiments with similar setup apart from q_{95}
+  changed from 4.5 to 4.8. ELM frequency increased by a factor of 4.5
+  in q_{95}=4.8 and a factor of about 2 in q_{95}=4.5.
+- Reduction of amplitute \Delta W_{ELM}/W is from ~ 7% to 3.5% in
+  q_{95}=4.5 and from 8.5% to 2% in the case of q_{95}=4.8
+- 
 
+** 
 * U-Probe campaigns
 ** NOTA GENERALE
 Dalle indicazioni di matteo BRA03 e BPA03 sono invertite. BPA02 non funziona!
